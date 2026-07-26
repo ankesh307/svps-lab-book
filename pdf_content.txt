@@ -1,0 +1,375 @@
+
+=== PAGE 1 ===
+🌐 CONNECT SHIKSHA: STEM MASTER CURRICULUM
+🟡 TIER 1: THE JUNIOR MAKERS (Class 2 & 3)
+📗 Class 2: Fun with Electronics & Mechanics (No Screens)
+📘 Class 3: 3D Pen Art & Scratch Coding
+🔵 TIER 2: THE SMART CODERS (Class 4 & 5)
+📙 Class 4: Breadboards, Arduino Basics & Sensors (Block Coding)
+📕 Class 5: Text Coding, Smart Home & Intro to AI (C++ Coding)
+🟣 TIER 3: THE TECH PROS (Class 6 & 7)
+📓 Class 6: Wi-Fi Bots, Python & 3D Fabrication
+📔 Class 7: Cloud Data, AI, Drones & Smart Ecosystems
+🌐
+CONNECT SHIKSHA: STEM MASTER
+CURRICULUM
+Simple & Easy Blueprint | Grades 2 to 7 (30 Classes Per Year)
+🟡
+TIER 1: THE JUNIOR MAKERS
+(Class 2 & 3)
+Goal: Play with batteries, lights, and motors without a computer. Learn 3D Pen basics
+and simple Scratch games.
+📦 TIER 1 KIT COMPONENTS:
+9V Battery & Snap Connector
+1 Gear Motor + 2 Rubber Wheels
+1 Normal Toy Motor + Propeller (Fan)
+Multicolor LEDs & Active Buzzer
+Vibration Coin Motor
+Rocker Switches & Push Buttons
+3D Pen + PLA Plastic Filaments
+Cardboard & Craft Mounts
+
+=== PAGE 2 ===
+📗
+Class 2: Fun with Electronics & Mechanics
+(No Screens)
+1. Battery Magic: Connect a 9V battery to wires and turn on your first LED.
+2. The Circuit Path: Learn how a broken wire turns the light off (Open/Close circuit).
+3. Switch Control: Add a Rocker Switch to turn the light ON and OFF easily.
+4. Doorbell Alarm: Connect a Push Button and a Buzzer to make a doorbell.
+5. Conductor Test: Test wood, plastic, and metal to see which one lets electricity
+pass.
+6. Series Lights: Connect 2 LEDs in one line (like Diwali lights).
+7. Parallel Lights: Connect 2 LEDs on different paths (like house wiring).
+8. Mini Table Fan: Attach a propeller to the normal toy motor to make a fan.
+9. Reverse Air: Swap the motor wires to make the fan blow air backwards.
+10. Gear Motor Intro: Attach wheels to your heavy gear motor. See how strong it is!
+11. Power Test: Compare the fast toy motor vs. the strong, slow gear motor.
+12. Vibration Magic: Turn on the coin motor to feel it vibrate like a mobile phone.
+13. Bristlebot (Part 1): Stick the vibration motor on a brush to make a moving bug.
+14. Bristlebot (Part 2): Add weight to the bug to make it turn left or right.
+15. Traffic Lights: Use 3 switches to manually control Red, Yellow, and Green LEDs.
+16. Magic Wand: Connect 5 colorful LEDs together to make a glowing wand.
+17. Wire Maze Game: Build a game where touching a bent wire sounds a buzzer
+alarm.
+18. Scrap Switch: Make your own working switch using cardboard and a paperclip.
+19. Security Box: Make a box that rings an alarm buzzer as soon as you open it.
+20. Air Thrust Car: Build a car that moves forward using the wind from your fan
+motor.
+21. Forward/Reverse Car: Use special switch wiring to make your 1-Motor car go
+forward and backward.
+22. Smart Home Craft 1: Build a 2-room house using cardboard and craft sticks.
+23. Smart Home Craft 2: Put real LED lights and hidden wires inside your cardboard
+house.
+24. Smart Home Craft 3: Add a roof exhaust fan and a front doorbell to the house.
+25. Wire Resistance: Use a very long wire and watch the LED light become dim.
+26. Water Power Test: Put wires in water and add salt to see the electricity flow.
+27. AND Logic Game: Wire it so the buzzer only rings if you press two buttons at
+once.
+
+=== PAGE 3 ===
+28. OR Logic Game: Wire two switches so either switch can turn on the same room
+light.
+29. Presentation Skills: Practice explaining how your circuit works to your friends.
+30. Mega Show: Show your Smart Home and Cars to your parents and teachers!
+📘
+Class 3: 3D Pen Art & Scratch Coding
+1. Scratch Intro: Open the Scratch software and learn about the X and Y screen.
+2. Move the Cat: Use blocks to make the character walk across the screen.
+3. Forever Loop: Make the character run non-stop without clicking again.
+4. Sound Effects: Make the computer play a "Meow" sound when you press
+Spacebar.
+5. Keyboard Driving: Use Arrow keys (⬅⬆) to drive a car character on the
+screen.
+6. Falling Apple: Make an apple fall from a random place in the sky.
+7. Score Game: Add +1 to your score every time you catch the falling apple.
+8. Hide & Seek: Use 'Broadcast' to make one character hide when another speaks.
+9. Maze Game 1: Draw a maze background and walls in Scratch.
+10. Maze Game 2: Add code so hitting the wall sends you back to the start.
+11. 3D Pen Safety: Turn on the 3D pen, load plastic, and learn not to touch the hot
+tip.
+12. 2D Tracing: Trace over paper to draw flat stars and squares with the 3D pen.
+13. 3D Cube Box: Draw flat walls and weld them together with hot plastic to make a
+box.
+14. Cool Glasses: Draw a pair of funky glasses that actually fit your face.
+15. Motor Bracket: Use the 3D pen to make a strong stand to hold your normal toy
+motor.
+16. Custom Propeller: Draw your own fan blades and attach them to the normal
+motor.
+17. Strong Bridge: Draw a bridge using triangle shapes and test if it can hold a
+battery.
+18. Moving Joints: Connect two plastic sticks with a pin so they move like scissors.
+19. Glowing Box: Build a hollow 3D box and put an LED inside so it glows in the
+dark.
+20. Car Body: Draw a custom roof and bumper for your gear-motor car.
+21. Sound Megaphone: Draw a cone shape and put a buzzer inside to make it
+louder.
+
+=== PAGE 4 ===
+22. Battery Pocket: Draw a perfect pocket on your car to hold the 9V battery safely.
+23. Hardware to Code: Draw a flowchart on paper to plan your next Scratch game.
+24. Ghost Effect: Write Scratch code to make a character slowly fade away like a
+ghost.
+25. Star Shower: Use the 'Clone' block to make 50 stars fall on the screen at once.
+26. Vertical 3D Towers: Pull the 3D pen straight up into the air to build a tall tower.
+27. Motor Spinner: Draw a spinning top (Lattu) right on the normal motor shaft.
+28. Theme Park 1: Build a big Merry-go-round swing using the 3D pen.
+29. Theme Park 2: Attach the Gear Motor to make the Merry-go-round spin slowly
+and safely.
+30. Final Carnival: Play your Scratch games and show off your 3D Theme Park!
+🔵
+TIER 2: THE SMART CODERS (Class
+4 & 5)
+Goal: Build circuits on a Breadboard (no soldering), write C++ code, and automate
+your home.
+📦 TIER 2 KIT COMPONENTS:
+Arduino Uno Board + USB Cable
+Solderless Breadboard & Jumper Wires
+10K Potentiometer (Dial) & Push Buttons
+Bluetooth Module (HC-05) & Laser Module
+Sensors: IR Sensor, Rain, LDR (Light), Soil Moisture, IR Receiver
+4x4 Membrane Keypad & LCD1602 Display Screen
+5V Relay Module & 5V Submersible Water Pump
+Standard LEDs, Buzzer, SG90 Servo Motor
+Normal Motor + Propeller
+📙
+Class 4: Breadboards, Arduino Basics &
+Sensors (Block Coding)
+1. Breadboard Intro: Learn how to plug LEDs and wires into a breadboard without
+tape.
+
+=== PAGE 5 ===
+2. Wire Jumping: Pass electricity from one row to another using jumper wires.
+3. Meet Arduino: Connect the Arduino brain to the laptop and learn the pin
+numbers.
+4. First Blink Code: Use block coding to make the Arduino's built-in light blink.
+5. Speed Control: Change the 'Delay' code to make the light blink super fast.
+6. Traffic Light Board: Put Red, Yellow, and Green LEDs safely on the breadboard.
+7. Auto Traffic Light: Code the Arduino to run the traffic lights automatically.
+8. Digital Button: Press a button and see the computer screen show '1' or '0'.
+9. Button Light: Write an If-Else block: IF button is pressed, THEN turn on light.
+10. Potentiometer Dial: Turn the round dial and watch the numbers change on
+screen.
+11. Dimming Light: Use the dial to smoothly make an LED brighter or dimmer.
+12. Laser Setup: Connect the red Laser module and turn it on with code.
+13. LDR Light Sensor: Put your hand over the sensor and watch the light value drop.
+14. Auto Street Light: Code the light to turn on automatically when the room gets
+dark.
+15. Buzzer Music: Use code to make the buzzer play high and low pitched sounds.
+16. IR Sensor Intro: Use the IR sensor to detect if an object is black or white.
+17. Touchless Alarm: Make the buzzer ring if someone brings their hand near the
+sensor.
+18. Servo Motor Intro: Code the Servo motor arm to sweep from 0 to 180 degrees.
+19. Smart Crane: Turn the dial (Potentiometer) to control the Servo motor by hand.
+20. Motor Theory: Learn why we can't connect big motors directly to the Arduino
+pins.
+21. Rain Sensor: Put a drop of water on the sensor and watch the screen alert you.
+22. Auto Umbrella: Code the Servo motor to open a roof when the rain sensor gets
+wet.
+23. Soil Moisture Sensor: Put the sensor in dry and wet dirt to see the difference.
+24. I2C Protocol Intro: Learn how the LCD screen talks to the Arduino using only 4
+wires.
+25. LCD Hello World: Write code to show your name and "Hello World" on the
+screen.
+26. 3D Arduino Case: Use a 3D pen to make a protective bumper box for your
+Arduino.
+27. 3D Sensor Stand: Make a stand with the 3D pen to hold your sensors up high.
+28. Keypad Wiring: Connect the 8 wires of the ATM-style keypad to the Arduino.
+29. Type on Screen: Press a number on the keypad and make it appear on the LCD
+screen.
+
+=== PAGE 6 ===
+30. Troubleshooting: The teacher will break your circuit; you have to find the bug
+and fix it!
+📕
+Class 5: Text Coding, Smart Home & Intro
+to AI (C++ Coding)
+1. C++ Coding Intro: Stop using blocks! Learn to type setup() and loop().
+2. Fix the Spelling: Learn how a missing semicolon (;) breaks your whole code.
+3. Variables: Learn to save data in the computer's memory using int.
+4. If-Else in C++: Type conditional code to turn on a light using a push button.
+5. Serial Monitor: Send live sensor numbers from the Arduino to your laptop screen.
+6. PWM Fading: Write a for loop to make a light slowly fade on and off.
+7. Relay Switch: Learn how a Relay uses safe 5V power to switch on heavy
+machines.
+8. Water Pump Test: Connect the 5V water pump to a battery using the Relay
+switch.
+9. Auto Plant Watering: Write code to turn on the pump automatically when the soil
+is dry.
+10. Weather Screen: Show Rain and Soil values at the same time on the LCD
+display.
+11. Password Array: Set a secret password like '1234' inside your C++ code.
+12. Smart Door Lock: Open the Servo motor lock ONLY if the correct password is
+typed.
+13. TV Remote Decoder: Use the IR Receiver to catch the secret HEX code from a
+TV remote.
+14. Remote Control Fan: Use the TV remote to turn your Normal Motor (Fan) ON
+and OFF.
+15. Laser Tripwire: Aim the laser at the LDR. If a thief breaks the beam, sound the
+alarm!
+16. Bluetooth Intro: Connect the HC-05 Bluetooth chip and link it to an Android
+phone.
+17. Phone App Lights: Use a phone app to send text messages to turn on the
+Arduino LED.
+18. Bluetooth Smart Fan: Connect the Normal Motor to the Relay and turn it on from
+your phone.
+19. IR Visitor Counter: Use the IR sensor at a door to count people and show it on
+the LCD.
+
+=== PAGE 7 ===
+20. Smart Toll Gate: Code the Servo motor to open a barrier automatically when a
+car approaches.
+21. Bluetooth Voice Control: Use your phone's mic to say "Light ON" and make the
+Arduino listen.
+22. Smart Home Assembly: Build a cardboard house and attach your LCD, Servo
+Lock, and Water Pump.
+23. AI Webcam Intro: Use Google Teachable Machine to teach the laptop to
+recognize a pen.
+24. AI Hand Gestures: Raise your hand at the camera to make the Arduino turn on a
+light.
+25. AI Voice Pump: Say "START PUMP" to the laptop microphone to turn on the real
+water pump.
+26. AI Object Sorter: Show a buzzer to the camera = buzzer rings. Show a motor =
+motor spins.
+27. Battery Safety: Learn the safe way to connect batteries to heavy loads like
+pumps.
+28. Custom Functions: Make your code cleaner by writing custom words like
+openGate().
+29. Library Downloads: Download .zip files from the internet to make coding
+displays easier.
+30. Mega Smart Home Show: Show off your AI Voice Controlled Smart Home and
+Auto-Irrigation system!
+🟣
+TIER 3: THE TECH PROS (Class 6 &
+7)
+Goal: Connect to Wi-Fi, create Web Servers, Python coding, 3D Slicing, and build
+Autonomous Robots.
+📦 TIER 3 KIT COMPONENTS:
+ESP8266 (Wi-Fi Board) & Jumper Wires
+Sensors: Ultrasonic, DHT11 (Temp/Humidity), MPU6050 (Gyroscope)
+RFID RC522 Reader Set (Cards & Tags)
+L298N High-Power Motor Driver Module
+Robot Car Chassis Kit (With 2 BO Motors & Wheels)
+
+=== PAGE 8 ===
+Standard LEDs, Buzzer, & SG90 Servo Motor
+Laptop Software: Python IDE, Bambu Studio Slicer
+📓
+Class 6: Wi-Fi Bots, Python & 3D
+Fabrication
+1. Meet ESP8266: Learn about the Wi-Fi board and its 3.3V power limit.
+2. Install Board Software: Add the ESP8266 support files into the Arduino IDE.
+3. Connect to Wi-Fi: Write code with your network password to connect the board
+to Wi-Fi.
+4. Find IP Address: Ping the network to find the secret IP address of your board.
+5. Local Web Server: Write HTML code inside your C++ script to make a mini-
+website.
+6. Web Switch: Open the website on your phone and tap a button to turn on the lab
+lights.
+7. Python Basics: Open Python on the PC and run simple print and math
+commands.
+8. Python Loops: Use While True and If-Else loops inside Python.
+9. Python + Arduino: Read the live sensor data from the board directly into the
+Python screen.
+10. Measure for 3D: Use a digital caliper ruler to measure a sensor for a custom 3D
+case.
+11. Bambu Slicer Software: Put a 3D model into Bambu Studio to prepare it for
+printing.
+12. Slicing Settings: Set the "Infill" to Gyroid so the part prints strong but lightweight.
+13. Print a 3D Part: Load the plastic filament and watch the Bambu Lab printer make
+your part.
+14. L298N Motor Driver: Learn how this big red board handles high power for the
+Car motors.
+15. Battery Split Wiring: Safely share the battery power between the L298N and the
+Wi-Fi board.
+16. C++ Car Code: Write functions to make the L298N drive the car forward,
+backward, left, right.
+17. Ultrasonic Radar: Learn how the sensor uses bat-like sound echoes to measure
+distance.
+18. Distance Math: Write the math formula to turn sound time into Centimeters.
+
+=== PAGE 9 ===
+19. Obstacle Avoider Car: Code the car to automatically brake and turn if a wall is
+20cm away.
+20. DHT11 Temp Sensor: Connect the sensor to read the real room temperature and
+humidity.
+21. Weather Webpage: Send the live temperature data to your phone's web browser.
+22. SPI Wiring Intro: Connect the 4 high-speed data wires of the RFID scanner.
+23. RFID Card Scanner: Tap an office ID card on the scanner and read its secret
+HEX code.
+24. Smart ID Gate: Code the Servo motor to open ONLY when your specific ID card
+is tapped.
+25. MPU6050 Gyro: Connect the Gyroscope to read the X, Y, and Z motion data.
+26. Angle Math: Turn the raw Gyro data into actual tilt degrees (0 to 90 degrees).
+27. 3D Print a Bracket: Print a custom plastic bracket to hold the Ultrasonic sensor
+perfectly.
+28. Add Sensors to Car: Use screws to mount the new bracket and sensors onto
+your robot car.
+29. Python Live Graph: Use Python to draw a live moving graph of your temperature
+data.
+30. Wi-Fi Car Test: Drive your robot car from your phone browser while dodging
+obstacles.
+📔
+Class 7: Cloud Data, AI, Drones & Smart
+Ecosystems
+1. Python Lists: Learn to store multiple sensor values inside Python Lists and
+Dictionaries.
+2. Cloud API Keys: Create an account on a global Cloud server and get a secret
+API password.
+3. ThingSpeak Setup: Create a beautiful dashboard on the ThingSpeak or Blynk
+platform.
+4. Send Temp to Cloud: Code the Wi-Fi board to send the temperature to the
+internet every 15 sec.
+5. Email Alerts: Use Webhooks so the internet automatically emails you if the room
+gets too hot.
+6. RFID Online Attendance: Tapping an ID card sends the student's name directly
+to a Google Sheet.
+
+=== PAGE 10 ===
+7. 3D Moving Parts: Design two 3D parts with a 0.5mm gap so they can move like a
+hinge.
+8. Multi-color 3D Print: Tell the Bambu printer to use two different colors on the
+same model.
+9. Drone Lift & Weight: Learn the 4 forces of flight: Lift, Weight, Thrust, and Drag.
+10. Drone Motor Rotation: Learn why 2 drone motors spin Clockwise and 2 spin
+Counter-Clockwise.
+11. Airfoil Test: Use a strong fan to test how curved wings create upward Lift.
+12. Drone Balancing Gyro: Understand how the Gyroscope keeps the drone flat in
+the air.
+13. PID Math Intro: Learn how P.I.D. math stops a robot or drone from shaking and
+jittering.
+14. Gyro Stabilizer: Code a Servo motor to twist exactly opposite to how you tilt your
+hand.
+15. Camera Gimbal: Build a 3D-printed stand that keeps a phone perfectly flat even if
+you shake it.
+16. Board-to-Board Wi-Fi: Make two Wi-Fi boards talk directly to each other without
+a router.
+17. Password Protect Webpage: Add a security password to your local HTML robot
+website.
+18. Warehouse RFID Bot: A robot that reads RFID cards on the floor to know where
+to deliver packages.
+19. Save Cloud Data: Code the board to only send data to the internet if the
+temperature changes.
+20. Magic Glove Car (Team Project): Combine 2 kits! Wear the Gyroscope on your
+hand (Kit 1), tilt it to drive the robot car (Kit 2) wirelessly!
+21. Python Computer Buttons: Build a custom app on your laptop screen with
+buttons to control the robot.
+22. Wireless Coding (OTA): Send new code to the robot through Wi-Fi while it is
+driving (no USB cable).
+23. Deep Sleep Battery Saving: Code the board to go to "sleep" and wake up every
+hour to save battery.
+24. Wi-Fi Mesh Network: Connect 4 boards together so they pass messages across
+a huge building.
+25. Multimeter Fault Finding: Use a Multimeter tool to find broken wires and voltage
+drops.
+26. 3D Print Drone Guards: Slice and print lightweight plastic bumpers to protect
+drone propellers.
+
+=== PAGE 11 ===
+27. AI Camera Color Tracking: Write a Python script so the webcam finds and
+follows a Red ball.
+28. AI Tracking Robot: The laptop tells the robot car to follow you if it sees your face!
+29. Product Cost Planning: Calculate exactly how much money it costs to build your
+final smart project.
+30. Final Grand Gala: Invite the School Principal to see your Cloud, AI, and
+Autonomous robots in action!
