@@ -10,6 +10,25 @@ def get_base64_image(image_filename):
             return f"data:image/png;base64,{encoded_string}"
     return ""
 
+# Reusable SVG Pointing Hand (Human Touch)
+def get_hand_svg(x, y, label="Press/Connect"):
+    return f"""
+  <g transform="translate({x}, {y})">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;20" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">{label}</text>
+  </g>
+"""
+
 def get_custom_session(num):
     s1 = get_base64_image("kit_overview.jpg")
     
@@ -39,7 +58,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <defs>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" stroke-width="1"/>
@@ -56,27 +75,38 @@ Tier Curriculum | Connect Shiksha
     <circle cx="55" cy="5" r="5" fill="#64748b"/>
     <text x="40" y="65" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">9V</text>
     <text x="40" y="85" font-size="11" fill="#94a3b8" text-anchor="middle">BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <!-- Terminal Labels with polarity signs -->
+    <circle cx="25" cy="40" r="8" fill="#ef4444"/>
+    <text x="25" y="44" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <text x="25" y="60" font-size="8" fill="#ef4444" text-anchor="middle">Positive</text>
+    <circle cx="55" cy="40" r="8" fill="#3b82f6"/>
+    <text x="55" y="44" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
+    <text x="55" y="60" font-size="8" fill="#3b82f6" text-anchor="middle">Negative</text>
   </g>
 
   <!-- LED -->
   <g transform="translate(300, 50)">
-    <line x1="25" y1="90" x2="25" y2="150" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="55" y1="90" x2="55" y2="135" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <!-- Legs -->
+    <line x1="25" y1="90" x2="25" y2="150" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="90" x2="55" y2="135" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
     <rect x="15" y="80" width="50" height="10" rx="2" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
     <path d="M 20 80 Q 20 20 40 20 Q 60 20 60 80 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <circle cx="40" cy="50" r="30" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4,4"/>
     <text x="40" y="115" font-size="12" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
-    <text x="20" y="165" font-size="10" fill="#64748b" text-anchor="middle">Long Leg (+)</text>
-    <text x="65" y="165" font-size="10" fill="#64748b" text-anchor="middle">Short Leg (-)</text>
+    <!-- Leg polarities -->
+    <circle cx="25" cy="155" r="7" fill="#ef4444"/>
+    <text x="25" y="159" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="55" cy="140" r="7" fill="#3b82f6"/>
+    <text x="55" y="144" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
-  <!-- Wires -->
+  <!-- Wires with flow markers -->
   <path d="M 65 55 L 65 30 L 325 30 L 325 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="190" y="22" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 RED WIRE (POSITIVE +)</text>
+  <text x="190" y="22" font-size="10" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 Red Wire (+ Positive Flow)</text>
   <path d="M 95 55 L 95 180 L 355 180 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="220" y="195" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (NEGATIVE -)</text>
+  <text x="220" y="195" font-size="10" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ Black Wire (- Return Loop)</text>
+  
+  {get_hand_svg(325, 90, "Connect +")}
 </svg>
 
 ---
@@ -121,44 +151,48 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
-    <text x="35" y="70" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Rocker Switch -->
-  <g transform="translate(170, 50)">
+  <g transform="translate(160, 50)">
     <rect x="0" y="20" width="90" height="60" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="3"/>
     <text x="45" y="55" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">SWITCH</text>
-    <!-- Switch pins -->
-    <rect x="15" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
-    <rect x="65" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
-    <text x="20" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 1</text>
-    <text x="70" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 2</text>
+    <rect x="15" y="80" width="10" height="15" fill="#cbd5e1"/>
+    <rect x="65" y="80" width="10" height="15" fill="#cbd5e1"/>
+    <text x="20" y="110" font-size="9" fill="#64748b" text-anchor="middle">In</text>
+    <text x="70" y="110" font-size="9" fill="#64748b" text-anchor="middle">Out</text>
   </g>
 
   <!-- LED -->
   <g transform="translate(340, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4" stroke-linecap="round"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle">LED</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <text x="20" y="139" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
+    <text x="40" y="124" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Connections -->
-  <!-- Battery (+) to Switch Pin 1 -->
-  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Switch Pin 2 to LED (+) -->
-  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="295" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
-  <!-- LED (-) to Battery (-) -->
+  <path d="M 45 50 L 45 25 L 175 25 L 175 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 225 50 L 225 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="295" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 Yellow Wire (+)</text>
   <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  {get_hand_svg(205, 10, "Press Switch")}
 </svg>
 
 ---
@@ -204,43 +238,52 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- LED 1 -->
   <g transform="translate(190, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <text x="20" y="139" font-size="9" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
+    <text x="40" y="124" font-size="9" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- LED 2 -->
   <g transform="translate(320, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <text x="20" y="139" font-size="9" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
+    <text x="40" y="124" font-size="9" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Connections -->
-  <!-- Battery (+) to LED 1 (+) -->
-  <path d="M 45 50 L 45 25 L 210 25 L 210 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 210 25 L 210 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linejoin="round"/>
   
-  <!-- LED 1 (-) to LED 2 (+) -->
-  <path d="M 230 50 L 230 150 L 340 150 L 340 50" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="285" y="165" font-size="10" font-weight="bold" fill="#3b82f6" text-anchor="middle">🔵 BLUE WIRE</text>
+  <path d="M 230 50 L 230 150 L 340 150 L 340 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+  <text x="285" y="165" font-size="10" font-weight="bold" fill="#3b82f6" text-anchor="middle">🔵 Blue Wire (Series Joint)</text>
   
-  <!-- LED 2 (-) to Battery (-) -->
-  <path d="M 65 50 L 65 180 L 360 180 L 360 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 65 50 L 65 180 L 360 180 L 360 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(285, 90, "Wire here")}
 </svg>
 
 ---
@@ -284,54 +327,57 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Junction Red -->
   <circle cx="170" cy="25" r="6" fill="#ef4444"/>
-  <text x="170" y="15" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">Joint A</text>
+  <text x="170" y="15" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">Joint A (+)</text>
 
   <!-- Junction Black -->
   <circle cx="170" cy="150" r="6" fill="#1e293b"/>
-  <text x="170" y="165" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">Joint B</text>
+  <text x="170" y="165" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">Joint B (-)</text>
 
   <!-- LED 1 -->
   <g transform="translate(230, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+    <circle cx="20" cy="135" r="6" fill="#ef4444"/>
+    <circle cx="40" cy="120" r="6" fill="#3b82f6"/>
   </g>
 
   <!-- LED 2 -->
   <g transform="translate(340, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+    <circle cx="20" cy="135" r="6" fill="#ef4444"/>
+    <circle cx="40" cy="120" r="6" fill="#3b82f6"/>
   </g>
 
   <!-- Connections -->
-  <!-- Battery (+) to Junction A -->
-  <path d="M 45 50 L 45 25 L 170 25" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Junction A to LED 1 (+) and LED 2 (+) -->
-  <path d="M 170 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 250 25 L 360 25 L 360 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 170 25" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 170 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 250 25 L 360 25 L 360 50" fill="none" stroke="#ef4444" stroke-width="4"/>
 
-  <!-- LED 1 (-) to Junction B -->
-  <path d="M 270 50 L 270 150 L 170 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- LED 2 (-) to Junction B -->
-  <path d="M 380 50 L 380 150 L 270 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Junction B to Battery (-) -->
-  <path d="M 170 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 270 50 L 270 150 L 170 150" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 380 50 L 380 150 L 270 150" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 170 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(170, 75, "Splitting Node")}
 </svg>
 
 ---
@@ -373,44 +419,45 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Push Button -->
   <g transform="translate(180, 50)">
     <rect x="0" y="20" width="80" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
-    <!-- Red button inside -->
     <circle cx="40" cy="50" r="16" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
-    <text x="40" y="100" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">PUSH BUTTON</text>
-    <!-- Pins -->
+    <text x="40" y="100" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">PUSH SWITCH</text>
     <line x1="15" y1="80" x2="15" y2="95" stroke="#475569" stroke-width="3"/>
     <line x1="65" y1="80" x2="65" y2="95" stroke="#475569" stroke-width="3"/>
   </g>
 
   <!-- LED -->
   <g transform="translate(340, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
   </g>
 
   <!-- Connections -->
-  <!-- Battery (+) to Button Pin 1 -->
-  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Button Pin 2 to LED (+) -->
-  <path d="M 245 50 L 245 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
-  <!-- LED (-) to Battery (-) -->
-  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 245 50 L 245 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4"/>
+  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 Yellow Wire (+)</text>
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(220, 30, "Press Switch")}
 </svg>
 
 ---
@@ -454,21 +501,22 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Slide Switch -->
   <g transform="translate(170, 50)">
     <rect x="0" y="20" width="90" height="50" rx="6" fill="#475569" stroke="#334155" stroke-width="3"/>
-    <!-- slider handle -->
     <rect x="35" y="10" width="20" height="12" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
     <text x="45" y="52" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">SLIDE SWITCH</text>
     <rect x="15" y="70" width="8" height="15" fill="#cbd5e1"/>
@@ -477,17 +525,21 @@ Tier Curriculum | Connect Shiksha
 
   <!-- Torch LED -->
   <g transform="translate(340, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="3"/>
     <circle cx="30" cy="45" r="25" fill="#eab308" fill-opacity="0.2" stroke="#eab308" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="2,2"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#ca8a04" text-anchor="middle">TORCH LED</text>
+    <circle cx="20" cy="135" r="6" fill="#ef4444"/>
+    <circle cx="40" cy="120" r="6" fill="#3b82f6"/>
   </g>
 
   <!-- Connections -->
-  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4"/>
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(215, 20, "Slide ON")}
 </svg>
 
 ---
@@ -530,25 +582,30 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(40, 50)">
     <rect x="0" y="20" width="80" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="40" y="65" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="55" cy="45" r="7" fill="#3b82f6"/>
+    <text x="55" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Active Buzzer -->
   <g transform="translate(300, 50)">
     <circle cx="40" cy="50" r="30" fill="#000000" stroke="#334155" stroke-width="3"/>
     <circle cx="40" cy="50" r="10" fill="#1e293b"/>
-    <!-- Terminals -->
-    <line x1="25" y1="80" x2="25" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="55" y1="80" x2="55" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="25" y1="80" x2="25" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="55" y1="80" x2="55" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <text x="40" y="15" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">BUZZER</text>
+    <circle cx="25" cy="135" r="6" fill="#ef4444"/>
+    <text x="25" y="139" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="55" cy="120" r="6" fill="#3b82f6"/>
+    <text x="55" y="124" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Connections -->
@@ -557,6 +614,8 @@ Tier Curriculum | Connect Shiksha
   
   <path d="M 95 55 L 95 160 L 355 160 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <text x="220" y="175" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (-)</text>
+  
+  {get_hand_svg(325, 80, "Buzzer +")}
 </svg>
 
 ---
@@ -598,15 +657,17 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Push Button -->
@@ -619,16 +680,20 @@ Tier Curriculum | Connect Shiksha
   <!-- Buzzer -->
   <g transform="translate(330, 50)">
     <circle cx="40" cy="50" r="25" fill="#000000" stroke="#334155" stroke-width="3"/>
-    <line x1="25" y1="75" x2="25" y2="120" stroke="#94a3b8" stroke-width="4"/>
-    <line x1="55" y1="75" x2="55" y2="110" stroke="#64748b" stroke-width="4"/>
+    <line x1="25" y1="75" x2="25" y2="120" stroke="#ef4444" stroke-width="4"/>
+    <line x1="55" y1="75" x2="55" y2="110" stroke="#3b82f6" stroke-width="4"/>
     <text x="40" y="15" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">BUZZER</text>
+    <circle cx="25" cy="125" r="6" fill="#ef4444"/>
+    <circle cx="55" cy="115" r="6" fill="#3b82f6"/>
   </g>
 
   <!-- Connections -->
-  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 245 50 L 245 25 L 355 25 L 355 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
-  <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 245 50 L 245 25 L 355 25 L 355 50" fill="none" stroke="#eab308" stroke-width="4"/>
+  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 Yellow Wire (+)</text>
+  <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(220, 30, "Press Bell")}
 </svg>
 
 ---
@@ -671,31 +736,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Battery -->
   <g transform="translate(30, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- DC Motor -->
   <g transform="translate(280, 50)">
     <circle cx="50" cy="50" r="35" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
-    <!-- shaft -->
     <circle cx="50" cy="50" r="8" fill="#94a3b8"/>
     <!-- Terminals -->
-    <rect x="10" y="45" width="8" height="10" fill="#f59e0b"/>
-    <rect x="82" y="45" width="8" height="10" fill="#f59e0b"/>
+    <rect x="10" y="45" width="8" height="10" fill="#ef4444"/>
+    <rect x="82" y="45" width="8" height="10" fill="#3b82f6"/>
+    <text x="14" y="40" font-size="8" font-weight="bold" fill="#ef4444" text-anchor="middle">(+)</text>
+    <text x="86" y="40" font-size="8" font-weight="bold" fill="#3b82f6" text-anchor="middle">(-)</text>
     <text x="50" y="105" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle">DC MOTOR</text>
   </g>
 
   <!-- Connections -->
   <path d="M 55 50 L 55 25 L 290 25 L 290 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 75 50 L 75 150 L 362 150 L 362 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  {get_hand_svg(290, 80, "Connect Motor")}
 </svg>
 
 ---
@@ -737,15 +807,17 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Battery -->
   <g transform="translate(30, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="75" y="50" font-size="12" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- DC Motor with propeller -->
@@ -762,6 +834,8 @@ Tier Curriculum | Connect Shiksha
   <!-- Connections -->
   <path d="M 55 50 L 55 25 L 270 25 L 270 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M 75 50 L 75 160 L 350 160 L 350 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  {get_hand_svg(270, 70, "Mount Propeller")}
 </svg>
 
 ---
@@ -769,7 +843,7 @@ Tier Curriculum | Connect Shiksha
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * ⚙️ **Step 1:** Ek plastic propeller fan ko DC motor ke spindle shaft par gently push karke mount karein.
 * 🔴 **Step 2:** Snap ke **Red Wire (+)** aur **Black Wire (-)** ko motor pins par connect karein.
-* 💨 **Airflow Direction Check:** Fan ko switch on karke check karein ki hawa front side aa rahi hai ya nahi. Agar hawa piche ja rahi hai, toh motor ke dono wires aapas mein swap karein.
+* 💨 **Airflow Direction Check:** Fan ko switch on karke check karein ki hawa front side aa rahi hai ya nahi.
 
 ---
 
@@ -803,7 +877,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Generator Motor -->
@@ -811,27 +885,28 @@ Tier Curriculum | Connect Shiksha
     <circle cx="50" cy="50" r="30" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
     <path d="M 50 20 Q 20 0 10 30 Q 30 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
     <path d="M 50 80 Q 80 100 90 70 Q 70 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
-    <!-- Wind Lines -->
-    <path d="M -40 30 L -10 30" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
-    <path d="M -45 50 L -15 50" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
     <text x="50" y="100" font-size="10" font-weight="bold" fill="#0284c7" text-anchor="middle">WIND GENERATOR</text>
   </g>
 
   <!-- Output LED -->
   <g transform="translate(300, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <circle cx="30" cy="45" r="20" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3,3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">GLOWING LED</text>
+    <circle cx="20" cy="135" r="6" fill="#ef4444"/>
+    <circle cx="40" cy="120" r="6" fill="#3b82f6"/>
   </g>
 
   <!-- Connections -->
   <path d="M 110 75 L 320 75" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
-  <text x="215" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 POSITIVE WIRE</text>
+  <text x="215" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 POSITIVE WIRE (+)</text>
   
   <path d="M 110 95 L 340 95" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
-  <text x="215" y="110" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ NEGATIVE WIRE</text>
+  <text x="215" y="110" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ NEGATIVE WIRE (-)</text>
+  
+  {get_hand_svg(60, 10, "Blow Wind")}
 </svg>
 
 ---
@@ -840,7 +915,7 @@ Tier Curriculum | Connect Shiksha
 * 🌀 **Step 1:** Motor ke shaft par propeller lagakar use generator setup mein switch karein.
 * 💡 **Step 2:** Motor ke output wires ko directly **LED legs** se connect karein.
 * 💨 **Step 3:** Propeller par tez hawa (fan/blow) dalein aur check karein ki generator logic se LED jalti hai ya nahi.
-* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage check karein.
+* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness check karein.
 
 ---
 
@@ -874,26 +949,35 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Battery -->
   <g transform="translate(30, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- BO Gear Motor -->
   <g transform="translate(240, 50)">
     <rect x="0" y="20" width="120" height="60" rx="6" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
     <circle cx="95" cy="50" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
-    <rect x="90" y="45" width="10" height="10" fill="#94a3b8"/> <!-- axle -->
+    <rect x="90" y="45" width="10" height="10" fill="#94a3b8"/>
+    <!-- Polarities -->
+    <rect x="5" y="45" width="8" height="10" fill="#ef4444"/>
+    <rect x="5" y="65" width="8" height="10" fill="#3b82f6"/>
     <text x="60" y="100" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">BO GEAR MOTOR</text>
   </g>
 
   <!-- Connections -->
-  <path d="M 55 50 L 55 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 75 50 L 75 160 L 300 160 L 300 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 55 50 L 55 25 L 245 25 L 245 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75 50 L 75 160 L 280 160 L 280 100 L 245 100 L 245 75" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  {get_hand_svg(335, 10, "Test Shaft Torque")}
 </svg>
 
 ---
@@ -935,7 +1019,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- BO Gear Motor -->
@@ -948,20 +1032,19 @@ Tier Curriculum | Connect Shiksha
   <!-- Rubber Wheel -->
   <g transform="translate(240, 40)">
     <circle cx="60" cy="60" r="45" fill="#1e293b" stroke="#475569" stroke-width="4"/>
-    <!-- Tread marks -->
     <path d="M 60 15 L 60 25" stroke="#ffffff" stroke-width="3"/>
     <path d="M 60 95 L 60 105" stroke="#ffffff" stroke-width="3"/>
     <path d="M 15 60 L 25 60" stroke="#ffffff" stroke-width="3"/>
     <path d="M 95 60 L 105 60" stroke="#ffffff" stroke-width="3"/>
     <circle cx="60" cy="60" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
-    <!-- axle D slot -->
     <rect x="56" y="56" width="8" height="8" fill="#475569"/>
     <text x="60" y="125" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">RUBBER WHEEL</text>
   </g>
 
   <!-- Coupling line -->
   <path d="M 135 100 L 240 100" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,4"/>
-  <text x="187" y="90" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">GENTLY PRESS-FIT</text>
+  
+  {get_hand_svg(180, 50, "Press-fit Axle")}
 </svg>
 
 ---
@@ -1003,7 +1086,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Left Motor -->
@@ -1032,6 +1115,8 @@ Tier Curriculum | Connect Shiksha
   
   <path d="M 285 60 L 285 190 L 110 190 L 110 160" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
   <path d="M 285 190 L 110 190 L 110 60" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+  
+  {get_hand_svg(285, 20, "Verify Wiring")}
 </svg>
 
 ---
@@ -1073,7 +1158,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Path Line -->
@@ -1101,6 +1186,8 @@ Tier Curriculum | Connect Shiksha
 
   <!-- Distance text -->
   <text x="220" y="150" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">EXACTLY 1 METER (100 CM)</text>
+  
+  {get_hand_svg(360, 20, "Time Stops")}
 </svg>
 
 ---
@@ -1142,7 +1229,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Low Voltage Side -->
@@ -1150,8 +1237,7 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="20" width="50" height="80" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
     <text x="25" y="65" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">3V CELL</text>
     <circle cx="120" cy="60" r="20" fill="#cbd5e1"/>
-    <!-- slow rotation arrows -->
-    <path d="M 120 30 A 30 30 0 0 1 150 60" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M 120 30 A 30 30 0 0 1 150 60" fill="none" stroke="#475569" stroke-width="2"/>
     <text x="120" y="105" font-size="9" fill="#475569" text-anchor="middle">SLOW SPIN</text>
   </g>
 
@@ -1160,10 +1246,11 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="20" width="50" height="80" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2"/>
     <text x="25" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
     <circle cx="120" cy="60" r="20" fill="#f59e0b"/>
-    <!-- fast rotation arrows -->
     <path d="M 120 30 A 30 30 0 1 1 150 60" fill="none" stroke="#f59e0b" stroke-width="3"/>
     <text x="120" y="105" font-size="9" font-weight="bold" fill="#b45309" text-anchor="middle">FAST SPIN ⚡</text>
   </g>
+  
+  {get_hand_svg(250, 10, "Connect 9V")}
 </svg>
 
 ---
@@ -1205,23 +1292,23 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 3V Battery -->
   <g transform="translate(40, 50)">
     <rect x="0" y="20" width="80" height="90" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
     <text x="40" y="65" font-size="12" font-weight="bold" fill="#475569" text-anchor="middle">3V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="55" cy="45" r="7" fill="#3b82f6"/>
+    <text x="55" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Vibration Coin Motor -->
   <g transform="translate(280, 50)">
     <circle cx="50" cy="50" r="30" fill="#64748b" stroke="#475569" stroke-width="3"/>
-    <!-- Unbalanced inner weight -->
     <path d="M 50 50 L 70 30 A 25 25 0 0 1 70 70 Z" fill="#ef4444" opacity="0.8"/>
-    <!-- Vibration waves -->
     <path d="M 90 40 Q 95 50 90 60" fill="none" stroke="#ef4444" stroke-width="2"/>
     <path d="M 10 40 Q 5 50 10 60" fill="none" stroke="#ef4444" stroke-width="2"/>
     <text x="50" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">COIN MOTOR</text>
@@ -1230,6 +1317,8 @@ Tier Curriculum | Connect Shiksha
   <!-- Connections -->
   <path d="M 65 50 L 65 30 L 310 30 L 310 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 95 50 L 95 160 L 350 160 L 350 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+  
+  {get_hand_svg(280, 30, "Feel Vibration")}
 </svg>
 
 ---
@@ -1271,26 +1360,24 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Vibrobot Chassis -->
   <g transform="translate(150, 40)">
-    <!-- Cardboard cup body -->
     <polygon points="40,20 110,20 130,100 20,100" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
-    <!-- Toothbrush bristles/Legs -->
     <line x1="30" y1="100" x2="20" y2="130" stroke="#475569" stroke-width="4"/>
     <line x1="60" y1="100" x2="50" y2="130" stroke="#475569" stroke-width="4"/>
     <line x1="90" y1="100" x2="80" y2="130" stroke="#475569" stroke-width="4"/>
     <line x1="120" y1="100" x2="110" y2="130" stroke="#475569" stroke-width="4"/>
     
-    <!-- Coin Vibration Motor on top -->
     <rect x="55" y="5" width="40" height="15" rx="3" fill="#1e293b"/>
-    <!-- Vibration waves -->
     <path d="M 50 12 Q 45 12 50 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
     <path d="M 100 12 Q 105 12 100 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
     <text x="75" y="60" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TOY BODY</text>
   </g>
+  
+  {get_hand_svg(230, 20, "Place Motor")}
 </svg>
 
 ---
@@ -1332,7 +1419,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
@@ -1344,35 +1431,35 @@ Tier Curriculum | Connect Shiksha
   <!-- Parallel Grid of 3 LEDs -->
   <!-- LED 1 -->
   <g transform="translate(160, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="2"/>
   </g>
 
   <!-- LED 2 -->
   <g transform="translate(250, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="2"/>
   </g>
 
   <!-- LED 3 -->
   <g transform="translate(340, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="2"/>
   </g>
 
   <!-- Rails -->
-  <!-- Positive red rail -->
   <path d="M 45 50 L 45 25 L 365 25 L 365 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 275 25 L 275 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   
-  <!-- Negative black rail -->
   <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4"/>
   <path d="M 295 150 L 295 50" fill="none" stroke="#1e293b" stroke-width="4"/>
   <path d="M 205 150 L 205 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  {get_hand_svg(275, 10, "Connect Parallel")}
 </svg>
 
 ---
@@ -1415,7 +1502,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Red Switch & LED -->
@@ -1457,6 +1544,8 @@ Tier Curriculum | Connect Shiksha
   <path d="M 165 45 L 335 45 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
   <path d="M 165 100 L 335 100 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
   <path d="M 165 155 L 335 155 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  
+  {get_hand_svg(65, 85, "Switch ON")}
 </svg>
 
 ---
@@ -1498,7 +1587,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
@@ -1527,15 +1616,14 @@ Tier Curriculum | Connect Shiksha
   </g>
 
   <!-- Connections -->
-  <!-- Batt (+) to switch -->
   <path d="M 45 50 L 45 25 L 165 25 L 165 50" fill="none" stroke="#ef4444" stroke-width="3"/>
-  <!-- Switch output splitting to LED (+) and Buzzer (+) -->
   <path d="M 210 50 L 210 25 L 290 25 L 290 40" fill="none" stroke="#eab308" stroke-width="3"/>
   <path d="M 290 25 L 380 25 L 380 40" fill="none" stroke="#eab308" stroke-width="3"/>
   
-  <!-- LED (-) and Buzzer (-) to Batt (-) -->
   <path d="M 290 52 L 290 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="3"/>
   <path d="M 380 55 L 380 150 L 290 150" fill="none" stroke="#1e293b" stroke-width="3"/>
+  
+  {get_hand_svg(185, 30, "Trigger Siren")}
 </svg>
 
 ---
@@ -1577,7 +1665,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Battery -->
@@ -1595,7 +1683,6 @@ Tier Curriculum | Connect Shiksha
   <!-- Tower Motor -->
   <g transform="translate(310, 50)">
     <rect x="0" y="20" width="60" height="40" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
-    <!-- Blades -->
     <path d="M 30 0 L 30 80" stroke="#0ea5e9" stroke-width="4"/>
     <path d="M -10 40 L 70 40" stroke="#0ea5e9" stroke-width="4"/>
     <text x="30" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">WINDMILL MOTOR</text>
@@ -1605,6 +1692,8 @@ Tier Curriculum | Connect Shiksha
   <path d="M 55 50 L 55 25 L 160 25 L 160 60" fill="none" stroke="#ef4444" stroke-width="3"/>
   <path d="M 200 60 L 200 25 L 320 25 L 320 50" fill="none" stroke="#ef4444" stroke-width="3"/>
   <path d="M 75 50 L 75 160 L 350 160 L 350 90" fill="none" stroke="#1e293b" stroke-width="3"/>
+  
+  {get_hand_svg(180, 45, "Switch ON")}
 </svg>
 
 ---
@@ -1646,7 +1735,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Car Base -->
@@ -1671,6 +1760,8 @@ Tier Curriculum | Connect Shiksha
   <text x="175" y="92" font-size="8" fill="#ffffff" text-anchor="middle">SW</text>
   
   <text x="190" y="190" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">TOP-DOWN CHASSIS WIRING VIEW</text>
+  
+  {get_hand_svg(175, 55, "Slide Switch")}
 </svg>
 
 ---
@@ -1712,7 +1803,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Car Chassis -->
@@ -1729,9 +1820,9 @@ Tier Curriculum | Connect Shiksha
   <g transform="translate(280, 70)">
     <rect x="0" y="0" width="80" height="70" fill="#d97706" stroke="#b45309" stroke-width="2"/>
     <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">OBSTACLE</text>
-    <!-- Push Force Arrow -->
-    <path d="M -40 35 L -10 35" fill="none" stroke="#ef4444" stroke-width="3" marker-end="url(#arrow)"/>
   </g>
+  
+  {get_hand_svg(225, 40, "Push Bumper")}
 </svg>
 
 ---
@@ -1773,7 +1864,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- Flow nodes -->
@@ -1793,6 +1884,8 @@ Tier Curriculum | Connect Shiksha
   <!-- Connective Arrows -->
   <path d="M 110 105 L 150 105" stroke="#475569" stroke-width="3"/>
   <path d="M 250 105 L 290 105" stroke="#475569" stroke-width="3"/>
+  
+  {get_hand_svg(350, 40, "Create!")}
 </svg>
 
 ---
@@ -1834,7 +1927,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <rect x="30" y="30" width="390" height="40" fill="#ef4444" rx="4"/>
@@ -1853,6 +1946,8 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
     <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 3: Broken Wire</text>
   </g>
+  
+  {get_hand_svg(225, 120, "Fix Faults")}
 </svg>
 
 ---
@@ -1894,7 +1989,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <g transform="translate(40, 50)">
@@ -1909,6 +2004,8 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="0" width="90" height="80" rx="6" fill="#f43f5e" stroke="#e11d48" stroke-width="2"/>
     <text x="45" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3. TEST</text>
   </g>
+  
+  {get_hand_svg(230, 10, "Brainstorm")}
 </svg>
 
 ---
@@ -1950,7 +2047,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <g transform="translate(30, 40)">
@@ -1965,6 +2062,8 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="20" width="110" height="80" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
     <text x="55" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">GET BADGES 🏆</text>
   </g>
+  
+  {get_hand_svg(225, 10, "Present")}
 </svg>
 
 ---

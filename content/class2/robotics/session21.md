@@ -19,7 +19,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
@@ -31,35 +31,50 @@ Tier Curriculum | Connect Shiksha
   <!-- Parallel Grid of 3 LEDs -->
   <!-- LED 1 -->
   <g transform="translate(160, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="2"/>
   </g>
 
   <!-- LED 2 -->
   <g transform="translate(250, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="2"/>
   </g>
 
   <!-- LED 3 -->
   <g transform="translate(340, 50)">
-    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
-    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#ef4444" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#3b82f6" stroke-width="3"/>
     <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="2"/>
   </g>
 
   <!-- Rails -->
-  <!-- Positive red rail -->
   <path d="M 45 50 L 45 25 L 365 25 L 365 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 275 25 L 275 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   
-  <!-- Negative black rail -->
   <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4"/>
   <path d="M 295 150 L 295 50" fill="none" stroke="#1e293b" stroke-width="4"/>
   <path d="M 205 150 L 205 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  
+  <g transform="translate(275, 10)">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;20" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Connect Parallel</text>
+  </g>
+
 </svg>
 
 ---

@@ -19,23 +19,23 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 3V Battery -->
   <g transform="translate(40, 50)">
     <rect x="0" y="20" width="80" height="90" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
     <text x="40" y="65" font-size="12" font-weight="bold" fill="#475569" text-anchor="middle">3V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="55" cy="45" r="7" fill="#3b82f6"/>
+    <text x="55" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Vibration Coin Motor -->
   <g transform="translate(280, 50)">
     <circle cx="50" cy="50" r="30" fill="#64748b" stroke="#475569" stroke-width="3"/>
-    <!-- Unbalanced inner weight -->
     <path d="M 50 50 L 70 30 A 25 25 0 0 1 70 70 Z" fill="#ef4444" opacity="0.8"/>
-    <!-- Vibration waves -->
     <path d="M 90 40 Q 95 50 90 60" fill="none" stroke="#ef4444" stroke-width="2"/>
     <path d="M 10 40 Q 5 50 10 60" fill="none" stroke="#ef4444" stroke-width="2"/>
     <text x="50" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">COIN MOTOR</text>
@@ -44,6 +44,23 @@ Tier Curriculum | Connect Shiksha
   <!-- Connections -->
   <path d="M 65 50 L 65 30 L 310 30 L 310 50" fill="none" stroke="#ef4444" stroke-width="4"/>
   <path d="M 95 50 L 95 160 L 350 160 L 350 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+  
+  
+  <g transform="translate(280, 30)">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;20" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Feel Vibration</text>
+  </g>
+
 </svg>
 
 ---

@@ -20,43 +20,67 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <!-- 9V Battery -->
   <g transform="translate(20, 50)">
     <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
     <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
-    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
-    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+    <circle cx="25" cy="45" r="7" fill="#ef4444"/>
+    <text x="25" y="49" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="45" cy="45" r="7" fill="#3b82f6"/>
+    <text x="45" y="49" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- LED 1 -->
   <g transform="translate(190, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <text x="20" y="139" font-size="9" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
+    <text x="40" y="124" font-size="9" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- LED 2 -->
   <g transform="translate(320, 50)">
-    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
-    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#ef4444" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#3b82f6" stroke-width="4"/>
     <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
     <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+    <circle cx="20" cy="135" r="7" fill="#ef4444"/>
+    <text x="20" y="139" font-size="9" fill="#ffffff" text-anchor="middle">+</text>
+    <circle cx="40" cy="120" r="7" fill="#3b82f6"/>
+    <text x="40" y="124" font-size="9" fill="#ffffff" text-anchor="middle">-</text>
   </g>
 
   <!-- Connections -->
-  <!-- Battery (+) to LED 1 (+) -->
-  <path d="M 45 50 L 45 25 L 210 25 L 210 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 45 50 L 45 25 L 210 25 L 210 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linejoin="round"/>
   
-  <!-- LED 1 (-) to LED 2 (+) -->
-  <path d="M 230 50 L 230 150 L 340 150 L 340 50" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="285" y="165" font-size="10" font-weight="bold" fill="#3b82f6" text-anchor="middle">🔵 BLUE WIRE</text>
+  <path d="M 230 50 L 230 150 L 340 150 L 340 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+  <text x="285" y="165" font-size="10" font-weight="bold" fill="#3b82f6" text-anchor="middle">🔵 Blue Wire (Series Joint)</text>
   
-  <!-- LED 2 (-) to Battery (-) -->
-  <path d="M 65 50 L 65 180 L 360 180 L 360 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 65 50 L 65 180 L 360 180 L 360 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  
+  
+  <g transform="translate(285, 90)">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;20" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Wire here</text>
+  </g>
+
 </svg>
 
 ---

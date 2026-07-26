@@ -19,7 +19,7 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+<svg width="450" height="240" viewBox="0 0 450 240" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
   <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
   
   <rect x="30" y="30" width="390" height="40" fill="#ef4444" rx="4"/>
@@ -38,6 +38,23 @@ Tier Curriculum | Connect Shiksha
     <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
     <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 3: Broken Wire</text>
   </g>
+  
+  
+  <g transform="translate(225, 120)">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;20" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="4" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Fix Faults</text>
+  </g>
+
 </svg>
 
 ---
