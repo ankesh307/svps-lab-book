@@ -19,27 +19,46 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🏁 Start Line (0 meters)"] -->|🏃‍♂️ Robot base travels| B["🏁 Finish Line (1 meter)"]
-    C["⏱️ Timer Starts"] -->|Record duration| D["⏱️ Timer Stops"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Path Line -->
+  <line x1="50" y1="120" x2="400" y2="120" stroke="#94a3b8" stroke-width="4" stroke-dasharray="6,6"/>
+  
+  <!-- Robot Start -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="10" width="50" height="30" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="15" cy="40" r="10" fill="#1e293b"/>
+    <circle cx="35" cy="40" r="10" fill="#1e293b"/>
+    <text x="25" y="5" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">START</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-```
+  <!-- Robot Finish -->
+  <g transform="translate(320, 80)">
+    <rect x="0" y="10" width="50" height="30" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+    <circle cx="15" cy="40" r="10" fill="#1e293b" opacity="0.5"/>
+    <circle cx="35" cy="40" r="10" fill="#1e293b" opacity="0.5"/>
+    <text x="25" y="5" font-size="10" font-weight="bold" fill="#64748b" text-anchor="middle">FINISH</text>
+  </g>
+
+  <!-- Flag -->
+  <line x1="390" y1="60" x2="390" y2="120" stroke="#475569" stroke-width="3"/>
+  <polygon points="390,60 415,70 390,80" fill="#ef4444"/>
+
+  <!-- Distance text -->
+  <text x="220" y="150" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">EXACTLY 1 METER (100 CM)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line trace/draw karein.
+* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line draw karein.
 * ⏱️ **Step 2:** Robot car ko start line par place karein aur switch ON karte hi stopwatch start karein.
-* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log book/sheet me record karein.
+* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log sheet me record karein.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein aur time notes update sheet check karein.
+1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein.
 2. **❓ Quiz Question:** Agar robot 1 meter travel karne me 5 seconds leta hai toh speed kya hogi?
 > **Answer:** 1 / 5 = 0.2 meters/second.

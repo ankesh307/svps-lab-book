@@ -20,28 +20,61 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔴 Junction Point A"]
-    B -->|🔴 Red Wire Branch| C["💡 LED 1 (Long Leg)"]
-    B -->|🔴 Red Wire Branch| D["💡 LED 2 (Long Leg)"]
-    C -->|⚫ Black Wire| E["⚫ Junction Point B"]
-    D -->|⚫ Black Wire| E
-    E -->|⚫ Black Wire| F["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style E fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Junction Red -->
+  <circle cx="170" cy="25" r="6" fill="#ef4444"/>
+  <text x="170" y="15" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">Joint A</text>
+
+  <!-- Junction Black -->
+  <circle cx="170" cy="150" r="6" fill="#1e293b"/>
+  <text x="170" y="165" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">Joint B</text>
+
+  <!-- LED 1 -->
+  <g transform="translate(230, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+  </g>
+
+  <!-- LED 2 -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Junction A -->
+  <path d="M 45 50 L 45 25 L 170 25" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Junction A to LED 1 (+) and LED 2 (+) -->
+  <path d="M 170 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 250 25 L 360 25 L 360 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- LED 1 (-) to Junction B -->
+  <path d="M 270 50 L 270 150 L 170 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- LED 2 (-) to Junction B -->
+  <path d="M 380 50 L 380 150 L 270 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Junction B to Battery (-) -->
+  <path d="M 170 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Junction Point A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
-* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Junction Point B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
+* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Joint A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
+* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Joint B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
 * 💡 **Verify:** Ek LED ko nikal kar check karein — dusri LED abhi bhi full brightness me chalti rahegi!
 
 ---

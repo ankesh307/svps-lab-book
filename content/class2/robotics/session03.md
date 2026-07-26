@@ -20,22 +20,52 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery"] -->|🔴 Red Wire (+)| B["💡 LED (Long Leg)"]
-    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="110" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <rect x="15" y="5" width="20" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="25" cy="5" r="4" fill="#64748b"/>
+    <rect x="45" y="5" width="20" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="55" cy="5" r="5" fill="#64748b"/>
+    <text x="40" y="65" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">9V</text>
+    <text x="40" y="85" font-size="11" fill="#94a3b8" text-anchor="middle">BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- LED -->
+  <g transform="translate(300, 50)">
+    <line x1="25" y1="90" x2="25" y2="150" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="90" x2="55" y2="135" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <rect x="15" y="80" width="50" height="10" rx="2" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M 20 80 Q 20 20 40 20 Q 60 20 60 80 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <circle cx="40" cy="50" r="30" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="40" y="115" font-size="12" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
+    <text x="20" y="165" font-size="10" fill="#64748b" text-anchor="middle">Long Leg (+)</text>
+    <text x="65" y="165" font-size="10" fill="#64748b" text-anchor="middle">Short Leg (-)</text>
+  </g>
+
+  <!-- Wires -->
+  <path d="M 65 55 L 65 30 L 325 30 L 325 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="22" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 RED WIRE (POSITIVE +)</text>
+  <path d="M 95 55 L 95 180 L 355 180 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="220" y="195" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (NEGATIVE -)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Longe Leg (+)** se direct touch/connect karein.
+* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Long Leg (+)** se direct connect karein.
 * ⚫ **Black Wire (Negative Connection):** Battery snap ke **Black Wire (-)** ko LED ke **Short Leg (-)** se connect karein.
-* ⚡ **Glow Check:** Jaise hi dono wires sahi se connect honge, electricity ka flow start ho jayega aur LED bright glow karegi!
+* ⚡ **Glow Check:** Jaise hi dono wires connect honge, current flow start ho jayega aur LED chalegi!
 
 ---
 

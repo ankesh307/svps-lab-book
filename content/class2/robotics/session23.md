@@ -19,29 +19,52 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] --> B["🔘 Push Button / Switch"]
-    B -->|🔴 Trigger Alert| C["🔴 Split Node"]
-    C -->|🔴 Positive Branch| D["💡 RED Alert LED"]
-    C -->|🔴 Positive Branch| E["🔊 Sound Buzzer"]
-    D --> F["⚫ Common Battery (-)"]
-    E --> F
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style D fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Push Button -->
+  <g transform="translate(150, 50)">
+    <rect x="0" y="20" width="75" height="50" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="37" cy="45" r="12" fill="#ef4444"/>
+    <text x="37" y="85" font-size="9" font-weight="bold" fill="#475569" text-anchor="middle">PUSH SWITCH</text>
+  </g>
+
+  <!-- Red LED -->
+  <g transform="translate(270, 40)">
+    <circle cx="20" cy="40" r="12" fill="#ef4444"/>
+    <text x="20" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">RED LED</text>
+  </g>
+
+  <!-- Buzzer -->
+  <g transform="translate(360, 40)">
+    <circle cx="20" cy="40" r="15" fill="#000000"/>
+    <text x="20" y="65" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">BUZZER</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Batt (+) to switch -->
+  <path d="M 45 50 L 45 25 L 165 25 L 165 50" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <!-- Switch output splitting to LED (+) and Buzzer (+) -->
+  <path d="M 210 50 L 210 25 L 290 25 L 290 40" fill="none" stroke="#eab308" stroke-width="3"/>
+  <path d="M 290 25 L 380 25 L 380 40" fill="none" stroke="#eab308" stroke-width="3"/>
+  
+  <!-- LED (-) and Buzzer (-) to Batt (-) -->
+  <path d="M 290 52 L 290 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 380 55 L 380 150 L 290 150" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko main control switch ke pin 1 par jodein.
-* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines mein divide karein (Red LED + active buzzer).
-* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Jaise hi button dabayein, tab siren sound aur flashing light dono chalu honge!
+* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines me split karein (Red LED + active buzzer).
+* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Button dabane par alarm aur flashing light start honge!
 
 ---
 

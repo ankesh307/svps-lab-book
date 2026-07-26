@@ -19,22 +19,39 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 3V Battery"] -->|🔴 Red Wire (+)| B["📳 Coin Vibration Motor (Internal Off-center Weight)"]
-    B -->|🔵 Blue Wire (-)| C["🔋 3V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 3V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="90" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="40" y="65" font-size="12" font-weight="bold" fill="#475569" text-anchor="middle">3V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Vibration Coin Motor -->
+  <g transform="translate(280, 50)">
+    <circle cx="50" cy="50" r="30" fill="#64748b" stroke="#475569" stroke-width="3"/>
+    <!-- Unbalanced inner weight -->
+    <path d="M 50 50 L 70 30 A 25 25 0 0 1 70 70 Z" fill="#ef4444" opacity="0.8"/>
+    <!-- Vibration waves -->
+    <path d="M 90 40 Q 95 50 90 60" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 10 40 Q 5 50 10 60" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <text x="50" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">COIN MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 65 50 L 65 30 L 310 30 L 310 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 95 50 L 95 160 L 350 160 L 350 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Coin vibration motor ke Red (+) wire ko battery positive se connect karein.
-* 🔵 **Step 2:** Motor ke Blue/Black (-) wire ko battery negative se connect karein.
-* 📳 **Observe:** Jab internal asymmetrical load high speed par rotate hota hai, toh structural vibrations paida hoti hain jise aap fingertip par feel kar sakte hain.
+* 🔵 **Step 2:** Motor ke Blue (-) wire ko battery negative se connect karein.
+* 📳 **Observe:** Internal asymmetric load high speed par rotate hone se vibration waves feel hone lagengi.
 
 ---
 

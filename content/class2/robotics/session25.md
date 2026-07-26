@@ -19,22 +19,32 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Main Slide Switch"]
-    B -->|🔴 Active Loop| C["🔴 Split Node"]
-    C -->|🔴 Positive wire| D["⚙️ Left BO Motor"]
-    C -->|🔴 Positive wire| E["⚙️ Right BO Motor"]
-    D --> F["⚫ Common Battery (-)"]
-    E --> F
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Car Base -->
+  <rect x="80" y="30" width="220" height="130" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Wheels -->
+  <rect x="60" y="20" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="60" y="140" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="220" y="20" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="220" y="140" width="40" height="20" rx="3" fill="#1e293b"/>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Motors -->
+  <rect x="200" y="45" width="40" height="20" fill="#f59e0b"/>
+  <rect x="200" y="115" width="40" height="20" fill="#f59e0b"/>
+
+  <!-- Battery inside -->
+  <rect x="100" y="55" width="50" height="70" rx="4" fill="#475569"/>
+  <text x="125" y="95" font-size="9" fill="#ffffff" text-anchor="middle">BATTERY</text>
+
+  <!-- Switch -->
+  <rect x="160" y="80" width="30" height="20" fill="#3b82f6"/>
+  <text x="175" y="92" font-size="8" fill="#ffffff" text-anchor="middle">SW</text>
+  
+  <text x="190" y="190" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">TOP-DOWN CHASSIS WIRING VIEW</text>
+</svg>
 
 ---
 

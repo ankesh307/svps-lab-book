@@ -20,34 +20,56 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] --> B["🔘 Red Switch"]
-    A --> C["🔘 Yellow Switch"]
-    A --> D["🔘 Green Switch"]
-    B -->|ON| E["🔴 RED LED (Stop)"]
-    C -->|ON| F["🟡 YELLOW LED (Ready)"]
-    D -->|ON| G["🟢 GREEN LED (Go)"]
-    E --> H["⚫ Battery (-) Node"]
-    F --> H
-    G --> H
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Red Switch & LED -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#ef4444" stroke="#991b1b" stroke-width="2"/>
+    <text x="25" y="30" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">RED SW</text>
+    <circle cx="110" cy="25" r="15" fill="#ef4444"/>
+    <path d="M 50 25 L 95 25" stroke="#ef4444" stroke-width="3"/>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style E fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style F fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style G fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style H fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Yellow Switch & LED -->
+  <g transform="translate(40, 75)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+    <text x="25" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">YEL SW</text>
+    <circle cx="110" cy="25" r="15" fill="#eab308"/>
+    <path d="M 50 25 L 95 25" stroke="#eab308" stroke-width="3"/>
+  </g>
+
+  <!-- Green Switch & LED -->
+  <g transform="translate(40, 130)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="25" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">GRN SW</text>
+    <circle cx="110" cy="25" r="15" fill="#10b981"/>
+    <path d="M 50 25 L 95 25" stroke="#10b981" stroke-width="3"/>
+  </g>
+
+  <!-- Common Battery -->
+  <g transform="translate(300, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
+
+  <!-- Battery positive to all switches -->
+  <path d="M 315 50 L 315 15 L 40 15 L 40 30" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 40 15 L 40 85" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 40 85 L 40 140" fill="none" stroke="#ef4444" stroke-width="3"/>
+
+  <!-- All LEDs to Battery Negative -->
+  <path d="M 165 45 L 335 45 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 165 100 L 335 100 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 165 155 L 335 155 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🚥 **Step 1:** Cardboard pole par sequence wise **RED**, **YELLOW**, aur **GREEN** LEDs place karein.
-* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide/rocker switch wire karein.
-* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic state changes model karein.
+* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide switch wire karein.
+* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic signals control karein.
 
 ---
 

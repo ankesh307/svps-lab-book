@@ -20,17 +20,41 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Slide Switch (Pin 1)"]
-    B -->|🟡 Yellow Wire| C["💡 Bright Torch LED (+)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Slide Switch -->
+  <g transform="translate(170, 50)">
+    <rect x="0" y="20" width="90" height="50" rx="6" fill="#475569" stroke="#334155" stroke-width="3"/>
+    <!-- slider handle -->
+    <rect x="35" y="10" width="20" height="12" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="45" y="52" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">SLIDE SWITCH</text>
+    <rect x="15" y="70" width="8" height="15" fill="#cbd5e1"/>
+    <rect x="65" y="70" width="8" height="15" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Torch LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="3"/>
+    <circle cx="30" cy="45" r="25" fill="#eab308" fill-opacity="0.2" stroke="#eab308" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#ca8a04" text-anchor="middle">TORCH LED</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -43,6 +67,6 @@ graph LR
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Torch Assembly:** Apna handheld model assemble karein aur andhere me focus beam test karein.
+1. **Torch Assembly:** Model assemble karein aur check check test karein.
 2. **❓ Quiz Question:** Torch me component parts kis direction me judtey hain?
 > **Answer:** Series circuit chain direction me.

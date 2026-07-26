@@ -19,18 +19,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery Source"] -->|🔴 Parallel Red Wire| B["⚙️ Left Motor (D-shaft)"]
-    A -->|🔴 Parallel Red Wire| C["⚙️ Right Motor (D-shaft)"]
-    B -->|🛞 Left Wheel| D["🏃‍♂️ Linear Straight Motion"]
-    C -->|🛞 Right Wheel| D
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Left Motor -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="20" width="80" height="40" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="70" cy="40" r="15" fill="#1e293b"/>
+    <text x="40" y="80" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">LEFT WHEEL</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- Right Motor -->
+  <g transform="translate(40, 120)">
+    <rect x="0" y="20" width="80" height="40" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="70" cy="40" r="15" fill="#1e293b"/>
+    <text x="40" y="80" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">RIGHT WHEEL</text>
+  </g>
+
+  <!-- Battery -->
+  <g transform="translate(240, 60)">
+    <rect x="0" y="20" width="60" height="80" rx="6" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="30" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 270 60 L 270 10 L 90 10 L 90 40" fill="none" stroke="#ef4444" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 270 10 L 90 10 L 90 140" fill="none" stroke="#ef4444" stroke-width="3" stroke-linejoin="round"/>
+  
+  <path d="M 285 60 L 285 190 L 110 190 L 110 160" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 285 190 L 110 190 L 110 60" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -42,6 +60,6 @@ graph TD
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein aur structure adjustment se straight route tune karein.
+1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein.
 2. **❓ Quiz Question:** Robot car ke ek side bhagne ka key reason kya ho sakta hai?
 > **Answer:** Motor speed mismatch ya ek wheel me extra friction/weight.

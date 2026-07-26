@@ -19,17 +19,22 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔬 Final Prototype Ready"] --> B["📊 Display Board/Poster Setup"]
-    B --> C["🗣️ Present to Judges (Name, Work, Parts)"]
-    C --> D["🏆 Get Congratulations & Badges!"]
-
-    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <g transform="translate(30, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#1e293b" text-anchor="middle">DISPLAY MODEL</text>
+  </g>
+  <g transform="translate(170, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">EXPLAIN WORK</text>
+  </g>
+  <g transform="translate(310, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">GET BADGES 🏆</text>
+  </g>
+</svg>
 
 ---
 

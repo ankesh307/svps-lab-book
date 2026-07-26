@@ -19,18 +19,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["💨 Wind/Air Input"] --> B["🌀 Propeller Fan Blade"]
-    B --> C["🔌 Toy Motor Shaft (Generates Voltage)"]
-    C -->|🔴 Red Wire| D["💡 LED glows"]
-    C -->|⚫ Black Wire| D
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Generator Motor -->
+  <g transform="translate(60, 50)">
+    <circle cx="50" cy="50" r="30" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M 50 20 Q 20 0 10 30 Q 30 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <path d="M 50 80 Q 80 100 90 70 Q 70 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <!-- Wind Lines -->
+    <path d="M -40 30 L -10 30" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
+    <path d="M -45 50 L -15 50" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="50" y="100" font-size="10" font-weight="bold" fill="#0284c7" text-anchor="middle">WIND GENERATOR</text>
+  </g>
 
-    style A fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+  <!-- Output LED -->
+  <g transform="translate(300, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <circle cx="30" cy="45" r="20" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">GLOWING LED</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 110 75 L 320 75" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <text x="215" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 POSITIVE WIRE</text>
+  
+  <path d="M 110 95 L 340 95" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+  <text x="215" y="110" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ NEGATIVE WIRE</text>
+</svg>
 
 ---
 
@@ -38,11 +56,11 @@ graph TD
 * 🌀 **Step 1:** Motor ke shaft par propeller lagakar use generator setup mein switch karein.
 * 💡 **Step 2:** Motor ke output wires ko directly **LED legs** se connect karein.
 * 💨 **Step 3:** Propeller par tez hawa (fan/blow) dalein aur check karein ki generator logic se LED jalti hai ya nahi.
-* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage calibration check karein.
+* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage check karein.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein aur speed compare karein.
+1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein.
 2. **❓ Quiz Question:** Kya speed aur blade angles coordinate hote hain?
 > **Answer:** Haan, blade angle thrust aur airflow rate control karta hai.

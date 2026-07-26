@@ -19,16 +19,29 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 3V AA Batteries"] -->|Low Voltage| B["🔌 DC Motor spins SLOW"]
-    C["🔋 9V Battery Source"] -->|High Voltage| D["🔌 DC Motor spins FAST"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Low Voltage Side -->
+  <g transform="translate(30, 40)">
+    <rect x="0" y="20" width="50" height="80" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="25" y="65" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">3V CELL</text>
+    <circle cx="120" cy="60" r="20" fill="#cbd5e1"/>
+    <!-- slow rotation arrows -->
+    <path d="M 120 30 A 30 30 0 0 1 150 60" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="120" y="105" font-size="9" fill="#475569" text-anchor="middle">SLOW SPIN</text>
+  </g>
 
-    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- High Voltage Side -->
+  <g transform="translate(250, 40)">
+    <rect x="0" y="20" width="50" height="80" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2"/>
+    <text x="25" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <circle cx="120" cy="60" r="20" fill="#f59e0b"/>
+    <!-- fast rotation arrows -->
+    <path d="M 120 30 A 30 30 0 1 1 150 60" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <text x="120" y="105" font-size="9" font-weight="bold" fill="#b45309" text-anchor="middle">FAST SPIN ⚡</text>
+  </g>
+</svg>
 
 ---
 

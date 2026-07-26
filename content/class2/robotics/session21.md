@@ -19,27 +19,54 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Common Positive Rail| B["💡 LED 1 (Red)"]
-    A -->|🔴 Common Positive Rail| C["💡 LED 2 (Green)"]
-    A -->|🔴 Common Positive Rail| D["💡 LED 3 (Yellow)"]
-    B -->|⚫ Common Ground| E["🔋 9V Battery (-)"]
-    C -->|⚫ Common Ground| E
-    D -->|⚫ Common Ground| E
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Parallel Grid of 3 LEDs -->
+  <!-- LED 1 -->
+  <g transform="translate(160, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="2"/>
+  </g>
+
+  <!-- LED 2 -->
+  <g transform="translate(250, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="2"/>
+  </g>
+
+  <!-- LED 3 -->
+  <g transform="translate(340, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="2"/>
+  </g>
+
+  <!-- Rails -->
+  <!-- Positive red rail -->
+  <path d="M 45 50 L 45 25 L 365 25 L 365 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 275 25 L 275 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  
+  <!-- Negative black rail -->
+  <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 295 150 L 295 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 205 150 L 205 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🎨 **Step 1:** Cardboard template par star ya home shape draw karke LEDs ke liye small holes karein.
-* 🔴 **Step 2:** Sabhi LEDs ke positive nodes (+) ko aapas mein ek standard wire (parallel) se link karein.
+* 🔴 **Step 2:** Sabhi LEDs ke positive nodes (+) ko aapas mein ek common wire (parallel) se link karein.
 * ⚫ **Step 3:** Negative nodes (-) ko common black wire se connect karke battery ground line se jodein.
 
 ---

@@ -39,22 +39,52 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery"] -->|🔴 Red Wire (+)| B["💡 LED (Long Leg)"]
-    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="110" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <rect x="15" y="5" width="20" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="25" cy="5" r="4" fill="#64748b"/>
+    <rect x="45" y="5" width="20" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="55" cy="5" r="5" fill="#64748b"/>
+    <text x="40" y="65" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">9V</text>
+    <text x="40" y="85" font-size="11" fill="#94a3b8" text-anchor="middle">BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- LED -->
+  <g transform="translate(300, 50)">
+    <line x1="25" y1="90" x2="25" y2="150" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="90" x2="55" y2="135" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <rect x="15" y="80" width="50" height="10" rx="2" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M 20 80 Q 20 20 40 20 Q 60 20 60 80 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <circle cx="40" cy="50" r="30" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="40" y="115" font-size="12" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
+    <text x="20" y="165" font-size="10" fill="#64748b" text-anchor="middle">Long Leg (+)</text>
+    <text x="65" y="165" font-size="10" fill="#64748b" text-anchor="middle">Short Leg (-)</text>
+  </g>
+
+  <!-- Wires -->
+  <path d="M 65 55 L 65 30 L 325 30 L 325 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="22" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 RED WIRE (POSITIVE +)</text>
+  <path d="M 95 55 L 95 180 L 355 180 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="220" y="195" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (NEGATIVE -)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Longe Leg (+)** se direct touch/connect karein.
+* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Long Leg (+)** se direct connect karein.
 * ⚫ **Black Wire (Negative Connection):** Battery snap ke **Black Wire (-)** ko LED ke **Short Leg (-)** se connect karein.
-* ⚡ **Glow Check:** Jaise hi dono wires sahi se connect honge, electricity ka flow start ho jayega aur LED bright glow karegi!
+* ⚡ **Glow Check:** Jaise hi dono wires connect honge, current flow start ho jayega aur LED chalegi!
 
 ---
 
@@ -91,25 +121,53 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Rocker Switch (Pin 1)"]
-    B -->|🟡 Yellow/Red Wire| C["💡 LED (Long Leg)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Rocker Switch -->
+  <g transform="translate(170, 50)">
+    <rect x="0" y="20" width="90" height="60" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="45" y="55" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">SWITCH</text>
+    <!-- Switch pins -->
+    <rect x="15" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="65" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+    <text x="20" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 1</text>
+    <text x="70" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 2</text>
+  </g>
+
+  <!-- LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle">LED</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Switch Pin 1 -->
+  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Switch Pin 2 to LED (+) -->
+  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="295" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
+  <!-- LED (-) to Battery (-) -->
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Rocker Switch** ke Pin 1 par connect karein.
-* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow/Red)** lekar **LED ke Long Leg (+)** par connect karein.
+* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow)** lekar **LED ke Long Leg (+)** par connect karein.
 * ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** par lagayein.
-* 🔄 **Toggle Check:** Switch ko press (ON) karein — loop close ho jayega aur light jalegi. Switch off karne par path open ho jayega aur light band hogi.
+* 🔄 **Toggle Check:** Switch ON karne par current flow complete ho jayega aur light chalegi!
 
 ---
 
@@ -146,22 +204,49 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["💡 LED 1 (Long Leg)"]
-    B -->|🔵 Blue Wire (Neg to Pos)| C["💡 LED 2 (Long Leg)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- LED 1 -->
+  <g transform="translate(190, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+  </g>
+
+  <!-- LED 2 -->
+  <g transform="translate(320, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to LED 1 (+) -->
+  <path d="M 45 50 L 45 25 L 210 25 L 210 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- LED 1 (-) to LED 2 (+) -->
+  <path d="M 230 50 L 230 150 L 340 150 L 340 50" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="285" y="165" font-size="10" font-weight="bold" fill="#3b82f6" text-anchor="middle">🔵 BLUE WIRE</text>
+  
+  <!-- LED 2 (-) to Battery (-) -->
+  <path d="M 65 50 L 65 180 L 360 180 L 360 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **LED 1 के Long Leg (+)** par connect karein.
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **LED 1 ke Long Leg (+)** par connect karein.
 * 🔵 **Step 2 (Chain Connection):** **LED 1 ke Short Leg (-)** ko ek wire se **LED 2 ke Long Leg (+)** se connect karein.
 * ⚫ **Step 3:** **LED 2 ke Short Leg (-)** ko battery snap ke **Black Wire (-)** se connect karein.
 * 💡 **Observation:** Check karein ki single LED ke mukable dono LEDs ki light thodi dim (kam bright) hai ya nahi.
@@ -199,28 +284,61 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔴 Junction Point A"]
-    B -->|🔴 Red Wire Branch| C["💡 LED 1 (Long Leg)"]
-    B -->|🔴 Red Wire Branch| D["💡 LED 2 (Long Leg)"]
-    C -->|⚫ Black Wire| E["⚫ Junction Point B"]
-    D -->|⚫ Black Wire| E
-    E -->|⚫ Black Wire| F["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style E fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Junction Red -->
+  <circle cx="170" cy="25" r="6" fill="#ef4444"/>
+  <text x="170" y="15" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">Joint A</text>
+
+  <!-- Junction Black -->
+  <circle cx="170" cy="150" r="6" fill="#1e293b"/>
+  <text x="170" y="165" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">Joint B</text>
+
+  <!-- LED 1 -->
+  <g transform="translate(230, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED 1</text>
+  </g>
+
+  <!-- LED 2 -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#a855f7" fill-opacity="0.8" stroke="#7e22ce" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#7e22ce" text-anchor="middle">LED 2</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Junction A -->
+  <path d="M 45 50 L 45 25 L 170 25" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Junction A to LED 1 (+) and LED 2 (+) -->
+  <path d="M 170 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 250 25 L 360 25 L 360 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- LED 1 (-) to Junction B -->
+  <path d="M 270 50 L 270 150 L 170 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- LED 2 (-) to Junction B -->
+  <path d="M 380 50 L 380 150 L 270 150" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Junction B to Battery (-) -->
+  <path d="M 170 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Junction Point A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
-* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Junction Point B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
+* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Joint A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
+* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Joint B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
 * 💡 **Verify:** Ek LED ko nikal kar check karein — dusri LED abhi bhi full brightness me chalti rahegi!
 
 ---
@@ -255,17 +373,45 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
-    B -->|🟡 Yellow Wire (When Pressed)| C["💡 LED (Long Leg)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Push Button -->
+  <g transform="translate(180, 50)">
+    <rect x="0" y="20" width="80" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <!-- Red button inside -->
+    <circle cx="40" cy="50" r="16" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+    <text x="40" y="100" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">PUSH BUTTON</text>
+    <!-- Pins -->
+    <line x1="15" y1="80" x2="15" y2="95" stroke="#475569" stroke-width="3"/>
+    <line x1="65" y1="80" x2="65" y2="95" stroke="#475569" stroke-width="3"/>
+  </g>
+
+  <!-- LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Button Pin 1 -->
+  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Button Pin 2 to LED (+) -->
+  <path d="M 245 50 L 245 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
+  <!-- LED (-) to Battery (-) -->
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -308,17 +454,41 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Slide Switch (Pin 1)"]
-    B -->|🟡 Yellow Wire| C["💡 Bright Torch LED (+)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Slide Switch -->
+  <g transform="translate(170, 50)">
+    <rect x="0" y="20" width="90" height="50" rx="6" fill="#475569" stroke="#334155" stroke-width="3"/>
+    <!-- slider handle -->
+    <rect x="35" y="10" width="20" height="12" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="45" y="52" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">SLIDE SWITCH</text>
+    <rect x="15" y="70" width="8" height="15" fill="#cbd5e1"/>
+    <rect x="65" y="70" width="8" height="15" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Torch LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="3"/>
+    <circle cx="30" cy="45" r="25" fill="#eab308" fill-opacity="0.2" stroke="#eab308" stroke-opacity="0.4" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#ca8a04" text-anchor="middle">TORCH LED</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -331,7 +501,7 @@ graph LR
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Torch Assembly:** Apna handheld model assemble karein aur andhere me focus beam test karein.
+1. **Torch Assembly:** Model assemble karein aur check check test karein.
 2. **❓ Quiz Question:** Torch me component parts kis direction me judtey hain?
 > **Answer:** Series circuit chain direction me.
 """
@@ -360,22 +530,41 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire (+)| B["🔊 Active Buzzer (Long Leg)"]
-    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="40" y="65" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Active Buzzer -->
+  <g transform="translate(300, 50)">
+    <circle cx="40" cy="50" r="30" fill="#000000" stroke="#334155" stroke-width="3"/>
+    <circle cx="40" cy="50" r="10" fill="#1e293b"/>
+    <!-- Terminals -->
+    <line x1="25" y1="80" x2="25" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="80" x2="55" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <text x="40" y="15" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">BUZZER</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 65 55 L 65 30 L 325 30 L 325 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="22" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 RED WIRE (+)</text>
+  
+  <path d="M 95 55 L 95 160 L 355 160 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="220" y="175" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (-)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Red Wire (Buzzer Positive):** Battery snap ke **Red Wire (+)** ko active buzzer ke **Long Leg (+)** se direct touch/connect karein.
 * ⚫ **Black Wire (Buzzer Negative):** Battery snap ke **Black Wire (-)** ko active buzzer ke **Short Leg (-)** se connect karein.
-* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega. Polarity reverse karne par buzzer sound nahi karega.
+* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega.
 
 ---
 
@@ -409,17 +598,38 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
-    B -->|🟡 Yellow Wire| C["🔊 Active Buzzer (+)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Push Button -->
+  <g transform="translate(180, 50)">
+    <rect x="0" y="20" width="80" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <circle cx="40" cy="50" r="16" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+    <text x="40" y="100" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">PUSH BUTTON</text>
+  </g>
+
+  <!-- Buzzer -->
+  <g transform="translate(330, 50)">
+    <circle cx="40" cy="50" r="25" fill="#000000" stroke="#334155" stroke-width="3"/>
+    <line x1="25" y1="75" x2="25" y2="120" stroke="#94a3b8" stroke-width="4"/>
+    <line x1="55" y1="75" x2="55" y2="110" stroke="#64748b" stroke-width="4"/>
+    <text x="40" y="15" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">BUZZER</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 245 50 L 245 25 L 355 25 L 355 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
+  <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -461,23 +671,39 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Toy DC Motor (Terminal A)"]
-    C["🔌 Toy DC Motor (Terminal B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style C fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- DC Motor -->
+  <g transform="translate(280, 50)">
+    <circle cx="50" cy="50" r="35" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <!-- shaft -->
+    <circle cx="50" cy="50" r="8" fill="#94a3b8"/>
+    <!-- Terminals -->
+    <rect x="10" y="45" width="8" height="10" fill="#f59e0b"/>
+    <rect x="82" y="45" width="8" height="10" fill="#f59e0b"/>
+    <text x="50" y="105" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle">DC MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 290 25 L 290 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75 50 L 75 150 L 362 150 L 362 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko DC motor ke pehle terminal (A) se connect karein.
-* ⚫ **Step 2:** Battery snap ke **Black Wire (-)** ko DC motor ke dusre terminal (B) se connect karein.
-* 🔄 **Polarity Reverse Test:** Wires ko switch (ultea) karein — observe karein ki motor ka rotating shaft ab opposite side ghum raha hai.
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko DC motor ke pehle terminal se connect karein.
+* ⚫ **Step 2:** Battery snap ke **Black Wire (-)** ko DC motor ke dusre terminal se connect karein.
+* 🔄 **Polarity Reverse Test:** Wires ko switch karein — observe karein ki motor ka rotating shaft opposite direction me ghum raha hai.
 
 ---
 
@@ -511,28 +737,44 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Motor with Fan Propeller (A)"]
-    C["🔌 Motor with Fan Propeller (B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="75" y="50" font-size="12" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- DC Motor with propeller -->
+  <g transform="translate(260, 50)">
+    <circle cx="50" cy="50" r="30" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Propeller Blades -->
+    <path d="M 50 20 Q 20 0 10 30 Q 30 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <path d="M 50 80 Q 80 100 90 70 Q 70 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <path d="M 20 50 Q 0 80 30 90 Q 50 70 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <path d="M 80 50 Q 100 20 70 10 Q 50 30 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <circle cx="50" cy="50" r="6" fill="#e2e8f0"/>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 270 25 L 270 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75 50 L 75 160 L 350 160 L 350 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* ⚙️ **Step 1:** Ek plastic propeller fan ko DC motor ke spindle shaft par gently push karke tightly mount karein.
+* ⚙️ **Step 1:** Ek plastic propeller fan ko DC motor ke spindle shaft par gently push karke mount karein.
 * 🔴 **Step 2:** Snap ke **Red Wire (+)** aur **Black Wire (-)** ko motor pins par connect karein.
 * 💨 **Airflow Direction Check:** Fan ko switch on karke check karein ki hawa front side aa rahi hai ya nahi. Agar hawa piche ja rahi hai, toh motor ke dono wires aapas mein swap karein.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Mini Desk Fan:** Motor and propeller attach karke frame stand build karein aur desk cooling fan test run karein.
+1. **Mini Desk Fan:** Motor and propeller attach karke stand build karein.
 2. **❓ Quiz Question:** Hawa ko forward push karne ke liye motor ki spin direction kya honi chahiye?
 > **Answer:** Spin direction aisi honi chahiye ki propeller blades hawa ko back side se cut karke front push karein.
 """
@@ -561,18 +803,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["💨 Wind/Air Input"] --> B["🌀 Propeller Fan Blade"]
-    B --> C["🔌 Toy Motor Shaft (Generates Voltage)"]
-    C -->|🔴 Red Wire| D["💡 LED glows"]
-    C -->|⚫ Black Wire| D
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Generator Motor -->
+  <g transform="translate(60, 50)">
+    <circle cx="50" cy="50" r="30" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M 50 20 Q 20 0 10 30 Q 30 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <path d="M 50 80 Q 80 100 90 70 Q 70 50 50 50 Z" fill="#0ea5e9" fill-opacity="0.7"/>
+    <!-- Wind Lines -->
+    <path d="M -40 30 L -10 30" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
+    <path d="M -45 50 L -15 50" stroke="#0ea5e9" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="50" y="100" font-size="10" font-weight="bold" fill="#0284c7" text-anchor="middle">WIND GENERATOR</text>
+  </g>
 
-    style A fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+  <!-- Output LED -->
+  <g transform="translate(300, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <circle cx="30" cy="45" r="20" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3,3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">GLOWING LED</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 110 75 L 320 75" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+  <text x="215" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 POSITIVE WIRE</text>
+  
+  <path d="M 110 95 L 340 95" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+  <text x="215" y="110" font-size="9" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ NEGATIVE WIRE</text>
+</svg>
 
 ---
 
@@ -580,12 +840,12 @@ graph TD
 * 🌀 **Step 1:** Motor ke shaft par propeller lagakar use generator setup mein switch karein.
 * 💡 **Step 2:** Motor ke output wires ko directly **LED legs** se connect karein.
 * 💨 **Step 3:** Propeller par tez hawa (fan/blow) dalein aur check karein ki generator logic se LED jalti hai ya nahi.
-* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage calibration check karein.
+* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage check karein.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein aur speed compare karein.
+1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein.
 2. **❓ Quiz Question:** Kya speed aur blade angles coordinate hote hain?
 > **Answer:** Haan, blade angle thrust aur airflow rate control karta hai.
 """
@@ -614,29 +874,39 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor (Gearbox Inside)"]
-    B -->|⚫ Black Wire| C["🔋 9V Battery (-)"]
-    B -->|🔧 High Torque| D["🛞 Heavy Robot Wheels Rotate"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- BO Gear Motor -->
+  <g transform="translate(240, 50)">
+    <rect x="0" y="20" width="120" height="60" rx="6" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <circle cx="95" cy="50" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="90" y="45" width="10" height="10" fill="#94a3b8"/> <!-- axle -->
+    <text x="60" y="100" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">BO GEAR MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75 50 L 75 160 L 300 160 L 300 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * ⚙️ **Step 1:** Gear motor ke terminals par battery snap ke **Red (+)** aur **Black (-)** wires attach karein.
 * 🌀 **Step 2:** Motor ke rotating axle (spindle shaft) par directly finger se pressure banayein.
-* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki rotation power (torque) itni zyaada hogi ki ise haath se rokna impossible ho jayega. normal toy motor turant ruk jati hai.
+* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki torque itni zyaada hogi ki ise haath se rokna impossible ho jayega.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein. Gear motor ko stop karna lagbhag impossible hoga!
+1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein.
 2. **❓ Quiz Question:** Robot wheels chalane ke liye kaun si motor use karni chahiye?
 > **Answer:** Gear Motor, kyunki iska torque aur wheel load capability zyada hoti hai.
 """
@@ -665,17 +935,34 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor Axle"]
-    B -->|🔒 Solid Axle Lock| C["🛞 Toy Rubber Wheel"]
-    D["🔋 9V Battery (-)"] -->|⚫ Black Wire| B
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- BO Gear Motor -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="120" height="60" rx="6" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <circle cx="95" cy="50" r="10" fill="#94a3b8"/>
+    <text x="60" y="100" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">GEAR MOTOR</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Rubber Wheel -->
+  <g transform="translate(240, 40)">
+    <circle cx="60" cy="60" r="45" fill="#1e293b" stroke="#475569" stroke-width="4"/>
+    <!-- Tread marks -->
+    <path d="M 60 15 L 60 25" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 60 95 L 60 105" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 15 60 L 25 60" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 95 60 L 105 60" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="60" cy="60" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- axle D slot -->
+    <rect x="56" y="56" width="8" height="8" fill="#475569"/>
+    <text x="60" y="125" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">RUBBER WHEEL</text>
+  </g>
+
+  <!-- Coupling line -->
+  <path d="M 135 100 L 240 100" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,4"/>
+  <text x="187" y="90" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">GENTLY PRESS-FIT</text>
+</svg>
 
 ---
 
@@ -716,18 +1003,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery Source"] -->|🔴 Parallel Red Wire| B["⚙️ Left Motor (D-shaft)"]
-    A -->|🔴 Parallel Red Wire| C["⚙️ Right Motor (D-shaft)"]
-    B -->|🛞 Left Wheel| D["🏃‍♂️ Linear Straight Motion"]
-    C -->|🛞 Right Wheel| D
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Left Motor -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="20" width="80" height="40" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="70" cy="40" r="15" fill="#1e293b"/>
+    <text x="40" y="80" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">LEFT WHEEL</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- Right Motor -->
+  <g transform="translate(40, 120)">
+    <rect x="0" y="20" width="80" height="40" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="70" cy="40" r="15" fill="#1e293b"/>
+    <text x="40" y="80" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">RIGHT WHEEL</text>
+  </g>
+
+  <!-- Battery -->
+  <g transform="translate(240, 60)">
+    <rect x="0" y="20" width="60" height="80" rx="6" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="30" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 270 60 L 270 10 L 90 10 L 90 40" fill="none" stroke="#ef4444" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 270 10 L 90 10 L 90 140" fill="none" stroke="#ef4444" stroke-width="3" stroke-linejoin="round"/>
+  
+  <path d="M 285 60 L 285 190 L 110 190 L 110 160" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 285 190 L 110 190 L 110 60" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+</svg>
 
 ---
 
@@ -739,7 +1044,7 @@ graph TD
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein aur structure adjustment se straight route tune karein.
+1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein.
 2. **❓ Quiz Question:** Robot car ke ek side bhagne ka key reason kya ho sakta hai?
 > **Answer:** Motor speed mismatch ya ek wheel me extra friction/weight.
 """
@@ -768,28 +1073,47 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🏁 Start Line (0 meters)"] -->|🏃‍♂️ Robot base travels| B["🏁 Finish Line (1 meter)"]
-    C["⏱️ Timer Starts"] -->|Record duration| D["⏱️ Timer Stops"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Path Line -->
+  <line x1="50" y1="120" x2="400" y2="120" stroke="#94a3b8" stroke-width="4" stroke-dasharray="6,6"/>
+  
+  <!-- Robot Start -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="10" width="50" height="30" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <circle cx="15" cy="40" r="10" fill="#1e293b"/>
+    <circle cx="35" cy="40" r="10" fill="#1e293b"/>
+    <text x="25" y="5" font-size="10" font-weight="bold" fill="#b45309" text-anchor="middle">START</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-```
+  <!-- Robot Finish -->
+  <g transform="translate(320, 80)">
+    <rect x="0" y="10" width="50" height="30" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2" opacity="0.5"/>
+    <circle cx="15" cy="40" r="10" fill="#1e293b" opacity="0.5"/>
+    <circle cx="35" cy="40" r="10" fill="#1e293b" opacity="0.5"/>
+    <text x="25" y="5" font-size="10" font-weight="bold" fill="#64748b" text-anchor="middle">FINISH</text>
+  </g>
+
+  <!-- Flag -->
+  <line x1="390" y1="60" x2="390" y2="120" stroke="#475569" stroke-width="3"/>
+  <polygon points="390,60 415,70 390,80" fill="#ef4444"/>
+
+  <!-- Distance text -->
+  <text x="220" y="150" font-size="14" font-weight="bold" fill="#1e293b" text-anchor="middle">EXACTLY 1 METER (100 CM)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line trace/draw karein.
+* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line draw karein.
 * ⏱️ **Step 2:** Robot car ko start line par place karein aur switch ON karte hi stopwatch start karein.
-* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log book/sheet me record karein.
+* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log sheet me record karein.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein aur time notes update sheet check karein.
+1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein.
 2. **❓ Quiz Question:** Agar robot 1 meter travel karne me 5 seconds leta hai toh speed kya hogi?
 > **Answer:** 1 / 5 = 0.2 meters/second.
 """
@@ -818,16 +1142,29 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 3V AA Batteries"] -->|Low Voltage| B["🔌 DC Motor spins SLOW"]
-    C["🔋 9V Battery Source"] -->|High Voltage| D["🔌 DC Motor spins FAST"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Low Voltage Side -->
+  <g transform="translate(30, 40)">
+    <rect x="0" y="20" width="50" height="80" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="25" y="65" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">3V CELL</text>
+    <circle cx="120" cy="60" r="20" fill="#cbd5e1"/>
+    <!-- slow rotation arrows -->
+    <path d="M 120 30 A 30 30 0 0 1 150 60" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="120" y="105" font-size="9" fill="#475569" text-anchor="middle">SLOW SPIN</text>
+  </g>
 
-    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- High Voltage Side -->
+  <g transform="translate(250, 40)">
+    <rect x="0" y="20" width="50" height="80" rx="4" fill="#1e293b" stroke="#0f172a" stroke-width="2"/>
+    <text x="25" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <circle cx="120" cy="60" r="20" fill="#f59e0b"/>
+    <!-- fast rotation arrows -->
+    <path d="M 120 30 A 30 30 0 1 1 150 60" fill="none" stroke="#f59e0b" stroke-width="3"/>
+    <text x="120" y="105" font-size="9" font-weight="bold" fill="#b45309" text-anchor="middle">FAST SPIN ⚡</text>
+  </g>
+</svg>
 
 ---
 
@@ -868,22 +1205,39 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 3V Battery"] -->|🔴 Red Wire (+)| B["📳 Coin Vibration Motor (Internal Off-center Weight)"]
-    B -->|🔵 Blue Wire (-)| C["🔋 3V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 3V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="90" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="40" y="65" font-size="12" font-weight="bold" fill="#475569" text-anchor="middle">3V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Vibration Coin Motor -->
+  <g transform="translate(280, 50)">
+    <circle cx="50" cy="50" r="30" fill="#64748b" stroke="#475569" stroke-width="3"/>
+    <!-- Unbalanced inner weight -->
+    <path d="M 50 50 L 70 30 A 25 25 0 0 1 70 70 Z" fill="#ef4444" opacity="0.8"/>
+    <!-- Vibration waves -->
+    <path d="M 90 40 Q 95 50 90 60" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <path d="M 10 40 Q 5 50 10 60" fill="none" stroke="#ef4444" stroke-width="2"/>
+    <text x="50" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">COIN MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 65 50 L 65 30 L 310 30 L 310 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 95 50 L 95 160 L 350 160 L 350 50" fill="none" stroke="#3b82f6" stroke-width="4"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Coin vibration motor ke Red (+) wire ko battery positive se connect karein.
-* 🔵 **Step 2:** Motor ke Blue/Black (-) wire ko battery negative se connect karein.
-* 📳 **Observe:** Jab internal asymmetrical load high speed par rotate hota hai, toh structural vibrations paida hoti hain jise aap fingertip par feel kar sakte hain.
+* 🔵 **Step 2:** Motor ke Blue (-) wire ko battery negative se connect karein.
+* 📳 **Observe:** Internal asymmetric load high speed par rotate hone se vibration waves feel hone lagengi.
 
 ---
 
@@ -917,23 +1271,33 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["📳 Vibration Coin Motor"] -->|Stick with Tape| B["📦 Lightweight Cardboard Body"]
-    B -->|Vibration energy transfers| C["🪥 Flexible Legs / Toothbrush Bristles"]
-    C -->|Random sliding motion| D["🕺 Robot Dances on table!"]
-
-    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Vibrobot Chassis -->
+  <g transform="translate(150, 40)">
+    <!-- Cardboard cup body -->
+    <polygon points="40,20 110,20 130,100 20,100" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <!-- Toothbrush bristles/Legs -->
+    <line x1="30" y1="100" x2="20" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="60" y1="100" x2="50" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="90" y1="100" x2="80" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="120" y1="100" x2="110" y2="130" stroke="#475569" stroke-width="4"/>
+    
+    <!-- Coin Vibration Motor on top -->
+    <rect x="55" y="5" width="40" height="15" rx="3" fill="#1e293b"/>
+    <!-- Vibration waves -->
+    <path d="M 50 12 Q 45 12 50 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <path d="M 100 12 Q 105 12 100 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <text x="75" y="60" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TOY BODY</text>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 📦 **Step 1:** Cardboard or paper use karke ek chota lightweight design model banayein.
-* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke exact center (Center of Mass) par mount karein.
+* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke center par mount karein.
 * 🔋 **Step 3:** Battery connect karke toy ko table par rakhein. Vibration energy transfer hone se legs slip honge aur toy dance karne lagega!
 
 ---
@@ -968,27 +1332,54 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Common Positive Rail| B["💡 LED 1 (Red)"]
-    A -->|🔴 Common Positive Rail| C["💡 LED 2 (Green)"]
-    A -->|🔴 Common Positive Rail| D["💡 LED 3 (Yellow)"]
-    B -->|⚫ Common Ground| E["🔋 9V Battery (-)"]
-    C -->|⚫ Common Ground| E
-    D -->|⚫ Common Ground| E
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Parallel Grid of 3 LEDs -->
+  <!-- LED 1 -->
+  <g transform="translate(160, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="2"/>
+  </g>
+
+  <!-- LED 2 -->
+  <g transform="translate(250, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="2"/>
+  </g>
+
+  <!-- LED 3 -->
+  <g transform="translate(340, 50)">
+    <line x1="15" y1="80" x2="15" y2="120" stroke="#94a3b8" stroke-width="3"/>
+    <line x1="35" y1="80" x2="35" y2="110" stroke="#64748b" stroke-width="3"/>
+    <path d="M 5 70 Q 5 20 25 20 Q 45 20 45 70 Z" fill="#eab308" fill-opacity="0.8" stroke="#ca8a04" stroke-width="2"/>
+  </g>
+
+  <!-- Rails -->
+  <!-- Positive red rail -->
+  <path d="M 45 50 L 45 25 L 365 25 L 365 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 275 25 L 275 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  <path d="M 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4"/>
+  
+  <!-- Negative black rail -->
+  <path d="M 65 50 L 65 150 L 385 150 L 385 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 295 150 L 295 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+  <path d="M 205 150 L 205 50" fill="none" stroke="#1e293b" stroke-width="4"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🎨 **Step 1:** Cardboard template par star ya home shape draw karke LEDs ke liye small holes karein.
-* 🔴 **Step 2:** Sabhi LEDs ke positive nodes (+) ko aapas mein ek standard wire (parallel) se link karein.
+* 🔴 **Step 2:** Sabhi LEDs ke positive nodes (+) ko aapas mein ek common wire (parallel) se link karein.
 * ⚫ **Step 3:** Negative nodes (-) ko common black wire se connect karke battery ground line se jodein.
 
 ---
@@ -1024,34 +1415,56 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] --> B["🔘 Red Switch"]
-    A --> C["🔘 Yellow Switch"]
-    A --> D["🔘 Green Switch"]
-    B -->|ON| E["🔴 RED LED (Stop)"]
-    C -->|ON| F["🟡 YELLOW LED (Ready)"]
-    D -->|ON| G["🟢 GREEN LED (Go)"]
-    E --> H["⚫ Battery (-) Node"]
-    F --> H
-    G --> H
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Red Switch & LED -->
+  <g transform="translate(40, 20)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#ef4444" stroke="#991b1b" stroke-width="2"/>
+    <text x="25" y="30" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">RED SW</text>
+    <circle cx="110" cy="25" r="15" fill="#ef4444"/>
+    <path d="M 50 25 L 95 25" stroke="#ef4444" stroke-width="3"/>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style E fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style F fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style G fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style H fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Yellow Switch & LED -->
+  <g transform="translate(40, 75)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+    <text x="25" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">YEL SW</text>
+    <circle cx="110" cy="25" r="15" fill="#eab308"/>
+    <path d="M 50 25 L 95 25" stroke="#eab308" stroke-width="3"/>
+  </g>
+
+  <!-- Green Switch & LED -->
+  <g transform="translate(40, 130)">
+    <rect x="0" y="10" width="50" height="30" rx="3" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="25" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">GRN SW</text>
+    <circle cx="110" cy="25" r="15" fill="#10b981"/>
+    <path d="M 50 25 L 95 25" stroke="#10b981" stroke-width="3"/>
+  </g>
+
+  <!-- Common Battery -->
+  <g transform="translate(300, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
+
+  <!-- Battery positive to all switches -->
+  <path d="M 315 50 L 315 15 L 40 15 L 40 30" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 40 15 L 40 85" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 40 85 L 40 140" fill="none" stroke="#ef4444" stroke-width="3"/>
+
+  <!-- All LEDs to Battery Negative -->
+  <path d="M 165 45 L 335 45 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 165 100 L 335 100 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 165 155 L 335 155 L 335 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🚥 **Step 1:** Cardboard pole par sequence wise **RED**, **YELLOW**, aur **GREEN** LEDs place karein.
-* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide/rocker switch wire karein.
-* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic state changes model karein.
+* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide switch wire karein.
+* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic signals control karein.
 
 ---
 
@@ -1085,29 +1498,52 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] --> B["🔘 Push Button / Switch"]
-    B -->|🔴 Trigger Alert| C["🔴 Split Node"]
-    C -->|🔴 Positive Branch| D["💡 RED Alert LED"]
-    C -->|🔴 Positive Branch| E["🔊 Sound Buzzer"]
-    D --> F["⚫ Common Battery (-)"]
-    E --> F
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style D fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Push Button -->
+  <g transform="translate(150, 50)">
+    <rect x="0" y="20" width="75" height="50" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="37" cy="45" r="12" fill="#ef4444"/>
+    <text x="37" y="85" font-size="9" font-weight="bold" fill="#475569" text-anchor="middle">PUSH SWITCH</text>
+  </g>
+
+  <!-- Red LED -->
+  <g transform="translate(270, 40)">
+    <circle cx="20" cy="40" r="12" fill="#ef4444"/>
+    <text x="20" y="65" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">RED LED</text>
+  </g>
+
+  <!-- Buzzer -->
+  <g transform="translate(360, 40)">
+    <circle cx="20" cy="40" r="15" fill="#000000"/>
+    <text x="20" y="65" font-size="9" font-weight="bold" fill="#000000" text-anchor="middle">BUZZER</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Batt (+) to switch -->
+  <path d="M 45 50 L 45 25 L 165 25 L 165 50" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <!-- Switch output splitting to LED (+) and Buzzer (+) -->
+  <path d="M 210 50 L 210 25 L 290 25 L 290 40" fill="none" stroke="#eab308" stroke-width="3"/>
+  <path d="M 290 25 L 380 25 L 380 40" fill="none" stroke="#eab308" stroke-width="3"/>
+  
+  <!-- LED (-) and Buzzer (-) to Batt (-) -->
+  <path d="M 290 52 L 290 150 L 65 150 L 65 50" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <path d="M 380 55 L 380 150 L 290 150" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko main control switch ke pin 1 par jodein.
-* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines mein divide karein (Red LED + active buzzer).
-* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Jaise hi button dabayein, tab siren sound aur flashing light dono chalu honge!
+* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines me split karein (Red LED + active buzzer).
+* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Button dabane par alarm aur flashing light start honge!
 
 ---
 
@@ -1141,19 +1577,35 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 ON/OFF Slide Switch"]
-    B -->|🔴 Switch Output| C["🔌 Toy DC Motor (Tower Top)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
-    C -->|🌀 Axle spin| E["💨 Rotating Windmill Fan"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-    style E fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
-```
+  <!-- Slide Switch -->
+  <g transform="translate(150, 60)">
+    <rect x="0" y="10" width="60" height="30" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="30" y="28" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">SWITCH</text>
+  </g>
+
+  <!-- Tower Motor -->
+  <g transform="translate(310, 50)">
+    <rect x="0" y="20" width="60" height="40" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Blades -->
+    <path d="M 30 0 L 30 80" stroke="#0ea5e9" stroke-width="4"/>
+    <path d="M -10 40 L 70 40" stroke="#0ea5e9" stroke-width="4"/>
+    <text x="30" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">WINDMILL MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 160 25 L 160 60" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 200 60 L 200 25 L 320 25 L 320 50" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 75 50 L 75 160 L 350 160 L 350 90" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 
@@ -1194,22 +1646,32 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Main Slide Switch"]
-    B -->|🔴 Active Loop| C["🔴 Split Node"]
-    C -->|🔴 Positive wire| D["⚙️ Left BO Motor"]
-    C -->|🔴 Positive wire| E["⚙️ Right BO Motor"]
-    D --> F["⚫ Common Battery (-)"]
-    E --> F
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Car Base -->
+  <rect x="80" y="30" width="220" height="130" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+  
+  <!-- Wheels -->
+  <rect x="60" y="20" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="60" y="140" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="220" y="20" width="40" height="20" rx="3" fill="#1e293b"/>
+  <rect x="220" y="140" width="40" height="20" rx="3" fill="#1e293b"/>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Motors -->
+  <rect x="200" y="45" width="40" height="20" fill="#f59e0b"/>
+  <rect x="200" y="115" width="40" height="20" fill="#f59e0b"/>
+
+  <!-- Battery inside -->
+  <rect x="100" y="55" width="50" height="70" rx="4" fill="#475569"/>
+  <text x="125" y="95" font-size="9" fill="#ffffff" text-anchor="middle">BATTERY</text>
+
+  <!-- Switch -->
+  <rect x="160" y="80" width="30" height="20" fill="#3b82f6"/>
+  <text x="175" y="92" font-size="8" fill="#ffffff" text-anchor="middle">SW</text>
+  
+  <text x="190" y="190" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">TOP-DOWN CHASSIS WIRING VIEW</text>
+</svg>
 
 ---
 
@@ -1250,22 +1712,32 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🛡️ Heavy Cardboard Bumper"] -->|Glued tightly to| B["🚗 Mini Car Base Chassis"]
-    B -->|High torque BO motors| C["🛞 High Grip Rubber Wheels"]
-    C -->|Pushes forward| D["📦 Light Boxes / Obstacles pushed away"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Car Chassis -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="160" height="80" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="40" cy="80" r="18" fill="#1e293b"/>
+    <circle cx="120" cy="80" r="18" fill="#1e293b"/>
+    <!-- Glued front bumper -->
+    <rect x="155" y="-10" width="12" height="100" fill="#475569" rx="2"/>
+    <text x="80" y="45" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle">ROBOT CAR</text>
+  </g>
 
-    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+  <!-- Obstacle Box -->
+  <g transform="translate(280, 70)">
+    <rect x="0" y="0" width="80" height="70" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">OBSTACLE</text>
+    <!-- Push Force Arrow -->
+    <path d="M -40 35 L -10 35" fill="none" stroke="#ef4444" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper bumper box ki tarah design karein.
+* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper box ki tarah design karein.
 * 🚗 **Step 2:** Is bumper ko chassis ke front side par tape aur hot glue se solid weld karein.
 * 📦 **Step 3:** Car ke aage paper cup/matchbox rakhein. Motor start karke displacement and push distance record karein.
 
@@ -1301,24 +1773,34 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🎨 Student Creative Idea"] --> B["✏️ Sketch Plan on paper"]
-    B -->|Select Components| C["📦 Assemble using 3D Pen + Battery Snap"]
-    C --> D["🤖 Working Creative Model!"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Flow nodes -->
+  <g transform="translate(20, 70)">
+    <rect x="0" y="10" width="80" height="50" rx="6" fill="#a855f7" stroke="#7e22ce" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1. THINK</text>
+  </g>
+  <g transform="translate(160, 70)">
+    <rect x="0" y="10" width="80" height="50" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. SKETCH</text>
+  </g>
+  <g transform="translate(300, 70)">
+    <rect x="0" y="10" width="100" height="50" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="50" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3. PROTOTYPE</text>
+  </g>
 
-    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-```
+  <!-- Connective Arrows -->
+  <path d="M 110 105 L 150 105" stroke="#475569" stroke-width="3"/>
+  <path d="M 250 105 L 290 105" stroke="#475569" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 📐 **Step 1:** Apne mind me ek idea sochein (jaise automatic alarm toy ya rotating windmill fan).
 * 📝 **Step 2:** Ek sheet par components ko block circles me draw karke connection wires design karein.
-* 🛠️ **Step 3:** Kit ke parameters combine karke manual structures ko complete push start test karein.
+* 🛠️ **Step 3:** Kit ke parts combine karke manual structures ko complete push start test karein.
 
 ---
 
@@ -1352,28 +1834,33 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["⚠️ Alarm doesn't ring / LED doesn't glow"] --> B["🕵️ Check 1: Is wire broken?"]
-    A --> C["🕵️ Check 2: Are LED legs reversed?"]
-    A --> D["🕵️ Check 3: Is battery snap loose?"]
-    B -->|Fix| E["✅ Circuit Works!"]
-    C -->|Fix| E
-    D -->|Fix| E
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <rect x="30" y="30" width="390" height="40" fill="#ef4444" rx="4"/>
+  <text x="225" y="55" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">🚨 PROBLEM: LED does not light up / buzzer does not ring</text>
 
-    style A fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- Checks -->
+  <g transform="translate(30, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 1: Loose Snap</text>
+  </g>
+  <g transform="translate(170, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 2: Reversed LED</text>
+  </g>
+  <g transform="translate(310, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 3: Broken Wire</text>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔍 **Step 1:** Agar circuit ON nahi ho raha, toh sabse pehle check karein ki battery snap loose toh nahi hai.
 * 🔌 **Step 2:** Check karein ki LED ki lambi leg (+) battery positive se hi judi ho.
-* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein taaki current leak na ho.
+* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein.
 
 ---
 
@@ -1407,17 +1894,22 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["💡 Problem: Need a cooling fan"] --> B["✏️ Ideate: Pocket Fan using toy motor"]
-    B --> C["🛠️ Prototype: Cardboard tube + fan blades"]
-    C --> D["🚀 Test & Refine for stable airflow"]
-
-    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <g transform="translate(40, 50)">
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="50" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1. IDEATE</text>
+  </g>
+  <g transform="translate(180, 50)">
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="50" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. PROTOTYPE</text>
+  </g>
+  <g transform="translate(320, 50)">
+    <rect x="0" y="0" width="90" height="80" rx="6" fill="#f43f5e" stroke="#e11d48" stroke-width="2"/>
+    <text x="45" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3. TEST</text>
+  </g>
+</svg>
 
 ---
 
@@ -1458,17 +1950,22 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔬 Final Prototype Ready"] --> B["📊 Display Board/Poster Setup"]
-    B --> C["🗣️ Present to Judges (Name, Work, Parts)"]
-    C --> D["🏆 Get Congratulations & Badges!"]
-
-    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <g transform="translate(30, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#1e293b" text-anchor="middle">DISPLAY MODEL</text>
+  </g>
+  <g transform="translate(170, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">EXPLAIN WORK</text>
+  </g>
+  <g transform="translate(310, 40)">
+    <rect x="0" y="20" width="110" height="80" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="55" y="65" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">GET BADGES 🏆</text>
+  </g>
+</svg>
 
 ---
 

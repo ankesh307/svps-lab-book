@@ -19,17 +19,22 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["💡 Problem: Need a cooling fan"] --> B["✏️ Ideate: Pocket Fan using toy motor"]
-    B --> C["🛠️ Prototype: Cardboard tube + fan blades"]
-    C --> D["🚀 Test & Refine for stable airflow"]
-
-    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <g transform="translate(40, 50)">
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="50" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1. IDEATE</text>
+  </g>
+  <g transform="translate(180, 50)">
+    <rect x="0" y="0" width="100" height="80" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="50" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. PROTOTYPE</text>
+  </g>
+  <g transform="translate(320, 50)">
+    <rect x="0" y="0" width="90" height="80" rx="6" fill="#f43f5e" stroke="#e11d48" stroke-width="2"/>
+    <text x="45" y="45" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3. TEST</text>
+  </g>
+</svg>
 
 ---
 

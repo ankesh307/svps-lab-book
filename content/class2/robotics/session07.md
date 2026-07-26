@@ -19,17 +19,45 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
-    B -->|🟡 Yellow Wire (When Pressed)| C["💡 LED (Long Leg)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Push Button -->
+  <g transform="translate(180, 50)">
+    <rect x="0" y="20" width="80" height="60" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="3"/>
+    <!-- Red button inside -->
+    <circle cx="40" cy="50" r="16" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+    <text x="40" y="100" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">PUSH BUTTON</text>
+    <!-- Pins -->
+    <line x1="15" y1="80" x2="15" y2="95" stroke="#475569" stroke-width="3"/>
+    <line x1="65" y1="80" x2="65" y2="95" stroke="#475569" stroke-width="3"/>
+  </g>
+
+  <!-- LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#10b981" fill-opacity="0.8" stroke="#047857" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#047857" text-anchor="middle">LED</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Button Pin 1 -->
+  <path d="M 45 50 L 45 25 L 195 25 L 195 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Button Pin 2 to LED (+) -->
+  <path d="M 245 50 L 245 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
+  <!-- LED (-) to Battery (-) -->
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 

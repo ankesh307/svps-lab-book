@@ -19,28 +19,33 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["⚠️ Alarm doesn't ring / LED doesn't glow"] --> B["🕵️ Check 1: Is wire broken?"]
-    A --> C["🕵️ Check 2: Are LED legs reversed?"]
-    A --> D["🕵️ Check 3: Is battery snap loose?"]
-    B -->|Fix| E["✅ Circuit Works!"]
-    C -->|Fix| E
-    D -->|Fix| E
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <rect x="30" y="30" width="390" height="40" fill="#ef4444" rx="4"/>
+  <text x="225" y="55" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">🚨 PROBLEM: LED does not light up / buzzer does not ring</text>
 
-    style A fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style E fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- Checks -->
+  <g transform="translate(30, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 1: Loose Snap</text>
+  </g>
+  <g transform="translate(170, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 2: Reversed LED</text>
+  </g>
+  <g transform="translate(310, 100)">
+    <rect x="0" y="0" width="110" height="60" rx="4" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="55" y="30" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">Check 3: Broken Wire</text>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔍 **Step 1:** Agar circuit ON nahi ho raha, toh sabse pehle check karein ki battery snap loose toh nahi hai.
 * 🔌 **Step 2:** Check karein ki LED ki lambi leg (+) battery positive se hi judi ho.
-* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein taaki current leak na ho.
+* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein.
 
 ---
 

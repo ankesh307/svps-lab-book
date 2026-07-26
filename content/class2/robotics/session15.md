@@ -19,17 +19,34 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor Axle"]
-    B -->|🔒 Solid Axle Lock| C["🛞 Toy Rubber Wheel"]
-    D["🔋 9V Battery (-)"] -->|⚫ Black Wire| B
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- BO Gear Motor -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="120" height="60" rx="6" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <circle cx="95" cy="50" r="10" fill="#94a3b8"/>
+    <text x="60" y="100" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">GEAR MOTOR</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Rubber Wheel -->
+  <g transform="translate(240, 40)">
+    <circle cx="60" cy="60" r="45" fill="#1e293b" stroke="#475569" stroke-width="4"/>
+    <!-- Tread marks -->
+    <path d="M 60 15 L 60 25" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 60 95 L 60 105" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 15 60 L 25 60" stroke="#ffffff" stroke-width="3"/>
+    <path d="M 95 60 L 105 60" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="60" cy="60" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- axle D slot -->
+    <rect x="56" y="56" width="8" height="8" fill="#475569"/>
+    <text x="60" y="125" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">RUBBER WHEEL</text>
+  </g>
+
+  <!-- Coupling line -->
+  <path d="M 135 100 L 240 100" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="4,4"/>
+  <text x="187" y="90" font-size="9" font-weight="bold" fill="#ef4444" text-anchor="middle">GENTLY PRESS-FIT</text>
+</svg>
 
 ---
 

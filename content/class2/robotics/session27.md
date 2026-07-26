@@ -19,24 +19,34 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🎨 Student Creative Idea"] --> B["✏️ Sketch Plan on paper"]
-    B -->|Select Components| C["📦 Assemble using 3D Pen + Battery Snap"]
-    C --> D["🤖 Working Creative Model!"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Flow nodes -->
+  <g transform="translate(20, 70)">
+    <rect x="0" y="10" width="80" height="50" rx="6" fill="#a855f7" stroke="#7e22ce" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">1. THINK</text>
+  </g>
+  <g transform="translate(160, 70)">
+    <rect x="0" y="10" width="80" height="50" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">2. SKETCH</text>
+  </g>
+  <g transform="translate(300, 70)">
+    <rect x="0" y="10" width="100" height="50" rx="6" fill="#10b981" stroke="#047857" stroke-width="2"/>
+    <text x="50" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">3. PROTOTYPE</text>
+  </g>
 
-    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-```
+  <!-- Connective Arrows -->
+  <path d="M 110 105 L 150 105" stroke="#475569" stroke-width="3"/>
+  <path d="M 250 105 L 290 105" stroke="#475569" stroke-width="3"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 📐 **Step 1:** Apne mind me ek idea sochein (jaise automatic alarm toy ya rotating windmill fan).
 * 📝 **Step 2:** Ek sheet par components ko block circles me draw karke connection wires design karein.
-* 🛠️ **Step 3:** Kit ke parameters combine karke manual structures ko complete push start test karein.
+* 🛠️ **Step 3:** Kit ke parts combine karke manual structures ko complete push start test karein.
 
 ---
 

@@ -19,22 +19,41 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire (+)| B["🔊 Active Buzzer (Long Leg)"]
-    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(40, 50)">
+    <rect x="0" y="20" width="80" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="40" y="65" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="55" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Active Buzzer -->
+  <g transform="translate(300, 50)">
+    <circle cx="40" cy="50" r="30" fill="#000000" stroke="#334155" stroke-width="3"/>
+    <circle cx="40" cy="50" r="10" fill="#1e293b"/>
+    <!-- Terminals -->
+    <line x1="25" y1="80" x2="25" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="55" y1="80" x2="55" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <text x="40" y="15" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle">BUZZER</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 65 55 L 65 30 L 325 30 L 325 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="22" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">🔴 RED WIRE (+)</text>
+  
+  <path d="M 95 55 L 95 160 L 355 160 L 355 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="220" y="175" font-size="11" font-weight="bold" fill="#1e293b" text-anchor="middle">⚫ BLACK WIRE (-)</text>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Red Wire (Buzzer Positive):** Battery snap ke **Red Wire (+)** ko active buzzer ke **Long Leg (+)** se direct touch/connect karein.
 * ⚫ **Black Wire (Buzzer Negative):** Battery snap ke **Black Wire (-)** ko active buzzer ke **Short Leg (-)** se connect karein.
-* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega. Polarity reverse karne par buzzer sound nahi karega.
+* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega.
 
 ---
 

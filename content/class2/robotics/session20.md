@@ -19,23 +19,33 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["📳 Vibration Coin Motor"] -->|Stick with Tape| B["📦 Lightweight Cardboard Body"]
-    B -->|Vibration energy transfers| C["🪥 Flexible Legs / Toothbrush Bristles"]
-    C -->|Random sliding motion| D["🕺 Robot Dances on table!"]
-
-    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Vibrobot Chassis -->
+  <g transform="translate(150, 40)">
+    <!-- Cardboard cup body -->
+    <polygon points="40,20 110,20 130,100 20,100" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <!-- Toothbrush bristles/Legs -->
+    <line x1="30" y1="100" x2="20" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="60" y1="100" x2="50" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="90" y1="100" x2="80" y2="130" stroke="#475569" stroke-width="4"/>
+    <line x1="120" y1="100" x2="110" y2="130" stroke="#475569" stroke-width="4"/>
+    
+    <!-- Coin Vibration Motor on top -->
+    <rect x="55" y="5" width="40" height="15" rx="3" fill="#1e293b"/>
+    <!-- Vibration waves -->
+    <path d="M 50 12 Q 45 12 50 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <path d="M 100 12 Q 105 12 100 2" stroke="#ef4444" stroke-width="1.5" fill="none"/>
+    <text x="75" y="60" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">TOY BODY</text>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 📦 **Step 1:** Cardboard or paper use karke ek chota lightweight design model banayein.
-* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke exact center (Center of Mass) par mount karein.
+* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke center par mount karein.
 * 🔋 **Step 3:** Battery connect karke toy ko table par rakhein. Vibration energy transfer hone se legs slip honge aur toy dance karne lagega!
 
 ---

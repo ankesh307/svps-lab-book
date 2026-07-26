@@ -19,19 +19,35 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 ON/OFF Slide Switch"]
-    B -->|🔴 Switch Output| C["🔌 Toy DC Motor (Tower Top)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
-    C -->|🌀 Axle spin| E["💨 Rotating Windmill Fan"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-    style E fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
-```
+  <!-- Slide Switch -->
+  <g transform="translate(150, 60)">
+    <rect x="0" y="10" width="60" height="30" rx="4" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"/>
+    <text x="30" y="28" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">SWITCH</text>
+  </g>
+
+  <!-- Tower Motor -->
+  <g transform="translate(310, 50)">
+    <rect x="0" y="20" width="60" height="40" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Blades -->
+    <path d="M 30 0 L 30 80" stroke="#0ea5e9" stroke-width="4"/>
+    <path d="M -10 40 L 70 40" stroke="#0ea5e9" stroke-width="4"/>
+    <text x="30" y="105" font-size="10" font-weight="bold" fill="#475569" text-anchor="middle">WINDMILL MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 160 25 L 160 60" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 200 60 L 200 25 L 320 25 L 320 50" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <path d="M 75 50 L 75 160 L 350 160 L 350 90" fill="none" stroke="#1e293b" stroke-width="3"/>
+</svg>
 
 ---
 

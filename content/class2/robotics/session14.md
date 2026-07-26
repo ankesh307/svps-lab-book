@@ -19,28 +19,38 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor (Gearbox Inside)"]
-    B -->|⚫ Black Wire| C["🔋 9V Battery (-)"]
-    B -->|🔧 High Torque| D["🛞 Heavy Robot Wheels Rotate"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Battery -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-```
+  <!-- BO Gear Motor -->
+  <g transform="translate(240, 50)">
+    <rect x="0" y="20" width="120" height="60" rx="6" fill="#f59e0b" stroke="#d97706" stroke-width="3"/>
+    <circle cx="95" cy="50" r="12" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="90" y="45" width="10" height="10" fill="#94a3b8"/> <!-- axle -->
+    <text x="60" y="100" font-size="11" font-weight="bold" fill="#b45309" text-anchor="middle">BO GEAR MOTOR</text>
+  </g>
+
+  <!-- Connections -->
+  <path d="M 55 50 L 55 25 L 250 25 L 250 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 75 50 L 75 160 L 300 160 L 300 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * ⚙️ **Step 1:** Gear motor ke terminals par battery snap ke **Red (+)** aur **Black (-)** wires attach karein.
 * 🌀 **Step 2:** Motor ke rotating axle (spindle shaft) par directly finger se pressure banayein.
-* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki rotation power (torque) itni zyaada hogi ki ise haath se rokna impossible ho jayega. normal toy motor turant ruk jati hai.
+* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki torque itni zyaada hogi ki ise haath se rokna impossible ho jayega.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
-1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein. Gear motor ko stop karna lagbhag impossible hoga!
+1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein.
 2. **❓ Quiz Question:** Robot wheels chalane ke liye kaun si motor use karni chahiye?
 > **Answer:** Gear Motor, kyunki iska torque aur wheel load capability zyada hoti hai.

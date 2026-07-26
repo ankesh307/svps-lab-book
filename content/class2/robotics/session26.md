@@ -19,22 +19,32 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph TD
-    A["🛡️ Heavy Cardboard Bumper"] -->|Glued tightly to| B["🚗 Mini Car Base Chassis"]
-    B -->|High torque BO motors| C["🛞 High Grip Rubber Wheels"]
-    C -->|Pushes forward| D["📦 Light Boxes / Obstacles pushed away"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- Car Chassis -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="160" height="80" rx="6" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="40" cy="80" r="18" fill="#1e293b"/>
+    <circle cx="120" cy="80" r="18" fill="#1e293b"/>
+    <!-- Glued front bumper -->
+    <rect x="155" y="-10" width="12" height="100" fill="#475569" rx="2"/>
+    <text x="80" y="45" font-size="11" font-weight="bold" fill="#475569" text-anchor="middle">ROBOT CAR</text>
+  </g>
 
-    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
-    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
-```
+  <!-- Obstacle Box -->
+  <g transform="translate(280, 70)">
+    <rect x="0" y="0" width="80" height="70" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <text x="40" y="40" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">OBSTACLE</text>
+    <!-- Push Force Arrow -->
+    <path d="M -40 35 L -10 35" fill="none" stroke="#ef4444" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
-* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper bumper box ki tarah design karein.
+* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper box ki tarah design karein.
 * 🚗 **Step 2:** Is bumper ko chassis ke front side par tape aur hot glue se solid weld karein.
 * 📦 **Step 3:** Car ke aage paper cup/matchbox rakhein. Motor start karke displacement and push distance record karein.
 

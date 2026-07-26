@@ -19,25 +19,53 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 3: Visual Circuit Diagram 🎨
-```mermaid
-graph LR
-    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Rocker Switch (Pin 1)"]
-    B -->|🟡 Yellow/Red Wire| C["💡 LED (Long Leg)"]
-    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+<svg width="450" height="220" viewBox="0 0 450 220" style="display: block; margin: 20px auto; background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 12px; font-family: sans-serif;">
+  <rect width="100%" height="100%" fill="#f8fafc" rx="12"/>
+  
+  <!-- 9V Battery -->
+  <g transform="translate(20, 50)">
+    <rect x="0" y="20" width="70" height="100" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <text x="35" y="70" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">9V BATTERY</text>
+    <text x="25" y="45" font-size="14" font-weight="bold" fill="#ef4444" text-anchor="middle">+</text>
+    <text x="45" y="45" font-size="16" font-weight="bold" fill="#3b82f6" text-anchor="middle">-</text>
+  </g>
 
-    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
-    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
-    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
-    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
-```
+  <!-- Rocker Switch -->
+  <g transform="translate(170, 50)">
+    <rect x="0" y="20" width="90" height="60" rx="6" fill="#3b82f6" stroke="#1d4ed8" stroke-width="3"/>
+    <text x="45" y="55" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">SWITCH</text>
+    <!-- Switch pins -->
+    <rect x="15" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="65" y="80" width="10" height="15" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1"/>
+    <text x="20" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 1</text>
+    <text x="70" y="110" font-size="9" fill="#64748b" text-anchor="middle">Pin 2</text>
+  </g>
+
+  <!-- LED -->
+  <g transform="translate(340, 50)">
+    <line x1="20" y1="80" x2="20" y2="130" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="40" y1="80" x2="40" y2="115" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 10 70 Q 10 20 30 20 Q 50 20 50 70 Z" fill="#ef4444" fill-opacity="0.8" stroke="#b91c1c" stroke-width="3"/>
+    <text x="30" y="95" font-size="10" font-weight="bold" fill="#b91c1c" text-anchor="middle">LED</text>
+  </g>
+
+  <!-- Connections -->
+  <!-- Battery (+) to Switch Pin 1 -->
+  <path d="M 45 50 L 45 25 L 185 25 L 185 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Switch Pin 2 to LED (+) -->
+  <path d="M 235 50 L 235 25 L 360 25 L 360 50" fill="none" stroke="#eab308" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="295" y="18" font-size="10" font-weight="bold" fill="#eab308" text-anchor="middle">🟡 YELLOW WIRE</text>
+  <!-- LED (-) to Battery (-) -->
+  <path d="M 65 50 L 65 150 L 380 150 L 380 50" fill="none" stroke="#1e293b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
 
 ---
 
 ## 📸 Slide 4: Step-by-Step Connection Guide
 * 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Rocker Switch** ke Pin 1 par connect karein.
-* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow/Red)** lekar **LED ke Long Leg (+)** par connect karein.
+* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow)** lekar **LED ke Long Leg (+)** par connect karein.
 * ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** par lagayein.
-* 🔄 **Toggle Check:** Switch ko press (ON) karein — loop close ho jayega aur light jalegi. Switch off karne par path open ho jayega aur light band hogi.
+* 🔄 **Toggle Check:** Switch ON karne par current flow complete ho jayega aur light chalegi!
 
 ---
 
