@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔬 Final Prototype Ready"] --> B["📊 Display Board/Poster Setup"]
+    B --> C["🗣️ Present to Judges (Name, Work, Parts)"]
+    C --> D["🏆 Get Congratulations & Badges!"]
+
+    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📊 **Step 1:** Apne project model ke aage ek display sheet lagayein jisme project name likha ho.
+* 🗣️ **Step 2:** Aane wale guest ya teachers ko batayein ki aapke project me kaun-kaun se components use hue hain aur unka kya kaam hai.
+* 🏃‍♂️ **Step 3:** Project model ka live demonstration run karke unhe dikhayein!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Showcase Model:** Setup product panel display board answer questions guests demo runs.
 2. **❓ Quiz Question:** Apne project ko explain karne ke liye main detail kya bolni chahiye?
 > **Answer:** Project ka naam, kaam, aur use kiya gaya component parts list.

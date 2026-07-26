@@ -18,17 +18,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Fan Assembly
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
-graph TD
-    A[Mount motor vertically in holder] --> B[Connect Snap wires to motor pins]
-    B --> C[Push propeller onto motor shaft gently]
-    C --> D[Turn on switch to test airflow]
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Motor with Fan Propeller (A)"]
+    C["🔌 Motor with Fan Propeller (B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Student Task — Hands-On Practice
+## 📸 Slide 4: Step-by-Step Connection Guide
+* ⚙️ **Step 1:** Ek plastic propeller fan ko DC motor ke spindle shaft par gently push karke tightly mount karein.
+* 🔴 **Step 2:** Snap ke **Red Wire (+)** aur **Black Wire (-)** ko motor pins par connect karein.
+* 💨 **Airflow Direction Check:** Fan ko switch on karke check karein ki hawa front side aa rahi hai ya nahi. Agar hawa piche ja rahi hai, toh motor ke dono wires aapas mein swap karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Mini Desk Fan:** Motor and propeller attach karke frame stand build karein aur desk cooling fan test run karein.
 2. **❓ Quiz Question:** Hawa ko forward push karne ke liye motor ki spin direction kya honi chahiye?
 > **Answer:** Spin direction aisi honi chahiye ki propeller blades hawa ko back side se cut karke front push karein.

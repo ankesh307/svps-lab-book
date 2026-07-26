@@ -18,7 +18,31 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 ON/OFF Slide Switch"]
+    B -->|🔴 Switch Output| C["🔌 Toy DC Motor (Tower Top)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+    C -->|🌀 Axle spin| E["💨 Rotating Windmill Fan"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+    style E fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🗼 **Step 1:** Ice cream sticks aur craft sheets ko jodhkar 15cm uncha vertical tower banayein.
+* 🔌 **Step 2:** DC motor ko tower ke top bracket par securely tape se mount karein.
+* 🔴 **Step 3:** Switch ko tower ke base par lagayein, wires ko tower ke sath connect karke motor battery loop complete karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Windmill Model:** Ice cream sticks use structure wind turbine design motor propeller shaft connect.
 2. **❓ Quiz Question:** Windmill blades kis power source se rotate hoti hain?
 > **Answer:** Wind energy (hawa ke flow) se.

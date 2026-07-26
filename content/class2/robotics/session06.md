@@ -19,22 +19,30 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph TD
-    A[Battery RED] --> B[Split Node A]
-    B --> C[LED 1 Positive]
-    B --> D[LED 2 Positive]
-    C --> E[Split Node B]
-    D --> E
-    E --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔴 Junction Point A"]
+    B -->|🔴 Red Wire Branch| C["💡 LED 1 (Long Leg)"]
+    B -->|🔴 Red Wire Branch| D["💡 LED 2 (Long Leg)"]
+    C -->|⚫ Black Wire| E["⚫ Junction Point B"]
+    D -->|⚫ Black Wire| E
+    E -->|⚫ Black Wire| F["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style E fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. Dono LEDs ke positive (+) legs ko ek hi node (Red wire) me connect karein.
-2. Dono LEDs ke negative (-) legs ko battery negative node (Black wire) se connect karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Junction Point A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
+* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Junction Point B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
+* 💡 **Verify:** Ek LED ko nikal kar check karein — dusri LED abhi bhi full brightness me chalti rahegi!
 
 ---
 

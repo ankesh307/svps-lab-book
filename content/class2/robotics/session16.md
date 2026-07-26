@@ -18,7 +18,30 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery Source"] -->|🔴 Parallel Red Wire| B["⚙️ Left Motor (D-shaft)"]
+    A -->|🔴 Parallel Red Wire| C["⚙️ Right Motor (D-shaft)"]
+    B -->|🛞 Left Wheel| D["🏃‍♂️ Linear Straight Motion"]
+    C -->|🛞 Right Wheel| D
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Dono gear motors ko parallel connection mein wire karein taaki dono ko barabar power mile.
+* 🛞 **Step 2:** Robot chassis ke dono side ke wheels ko exact center parallel direction mein scale se align karein.
+* 🏃‍♂️ **Step 3:** Floor par 1-meter straight line draw karein aur robot ko us par run karke directional error adjust karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein aur structure adjustment se straight route tune karein.
 2. **❓ Quiz Question:** Robot car ke ek side bhagne ka key reason kya ho sakta hai?
 > **Answer:** Motor speed mismatch ya ek wheel me extra friction/weight.

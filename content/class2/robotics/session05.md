@@ -19,20 +19,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[LED 1 Positive]
-    B -->|Negative to Positive| C[LED 2 Positive]
-    C -->|LED 2 Negative| D[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["💡 LED 1 (Long Leg)"]
+    B -->|🔵 Blue Wire (Neg to Pos)| C["💡 LED 2 (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. LED 1 ke negative (-) pin ko LED 2 ke positive (+) pin se direct connect karein.
-2. Battery snap Red wire ko LED 1 ke positive (+) pin par lagayein.
-3. Battery snap Black wire ko LED 2 ke negative (-) pin par lagayein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **LED 1 के Long Leg (+)** par connect karein.
+* 🔵 **Step 2 (Chain Connection):** **LED 1 ke Short Leg (-)** ko ek wire se **LED 2 ke Long Leg (+)** se connect karein.
+* ⚫ **Step 3:** **LED 2 ke Short Leg (-)** ko battery snap ke **Black Wire (-)** se connect karein.
+* 💡 **Observation:** Check karein ki single LED ke mukable dono LEDs ki light thodi dim (kam bright) hai ya nahi.
 
 ---
 

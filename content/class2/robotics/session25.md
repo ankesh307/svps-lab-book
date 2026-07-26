@@ -18,7 +18,34 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Main Slide Switch"]
+    B -->|🔴 Active Loop| C["🔴 Split Node"]
+    C -->|🔴 Positive wire| D["⚙️ Left BO Motor"]
+    C -->|🔴 Positive wire| E["⚙️ Right BO Motor"]
+    D --> F["⚫ Common Battery (-)"]
+    E --> F
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🚗 **Step 1:** Cardboard chassis ke bottom par dono BO gear motors ko glue se flat parallel mount karein.
+* 🔌 **Step 2:** Switch aur battery ko top panel par lagakar dono motors ke loops series connection me laye.
+* 🛞 **Step 3:** Motors par rubber wheels mount karke floor switch run check karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Moving Toy Car:** Base assembly finalize wheels battery snap secure trace ground test run.
 2. **❓ Quiz Question:** Car wheels ko direct stop switch control series connect kiya jata hai?
 > **Answer:** Yes, switch circuit ko break karke stop condition banata hai.

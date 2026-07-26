@@ -19,19 +19,23 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Positive RED] --> B[Resistor + LED Positive]
-    C[LED Negative] --> D[Battery Negative BLACK]
+    A["🔋 9V Battery"] -->|🔴 Red Wire (+)| B["💡 LED (Long Leg)"]
+    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. Battery Snap connector ko battery pins par tight secure karein.
-2. Snap ke Red wire (+) ko LED ki lambi leg (+) se connect karein.
-3. Snap ke Black wire (-) ko LED ki chhoti leg (-) se connect karein (series me 220 Ohm resistor ke sath).
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Longe Leg (+)** se direct touch/connect karein.
+* ⚫ **Black Wire (Negative Connection):** Battery snap ke **Black Wire (-)** ko LED ke **Short Leg (-)** se connect karein.
+* ⚡ **Glow Check:** Jaise hi dono wires sahi se connect honge, electricity ka flow start ho jayega aur LED bright glow karegi!
 
 ---
 

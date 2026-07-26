@@ -18,16 +18,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Wiring Loop
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Snap RED] --> B[Motor Terminal A]
-    C[Battery Snap BLACK] --> D[Motor Terminal B]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Toy DC Motor (Terminal A)"]
+    C["🔌 Toy DC Motor (Terminal B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style C fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Student Task — Hands-On Practice
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko DC motor ke pehle terminal (A) se connect karein.
+* ⚫ **Step 2:** Battery snap ke **Black Wire (-)** ko DC motor ke dusre terminal (B) se connect karein.
+* 🔄 **Polarity Reverse Test:** Wires ko switch (ultea) karein — observe karein ki motor ka rotating shaft ab opposite side ghum raha hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Spin Direction Swap:** Motor ko direct battery se chala kar RPM speed check karein aur polarity switch karke rotating shaft direction test swap karein.
 2. **❓ Quiz Question:** Motor ke wires ko exchange karne par kya motor kharab ho jayegi?
 > **Answer:** Nahi, uski spin hone ki direction (clockwise/anticlockwise) bas reverse ho jayegi.

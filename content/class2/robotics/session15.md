@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor Axle"]
+    B -->|🔒 Solid Axle Lock| C["🛞 Toy Rubber Wheel"]
+    D["🔋 9V Battery (-)"] -->|⚫ Black Wire| B
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🛞 **Step 1:** Toy rubber wheel ke center hole (D-shape) ko BO Gear Motor ke axle shaft par carefully line up karke press-fit karein.
+* 🔴 **Step 2:** Battery snap ke **Red (+)** aur **Black (-)** wires ko gear motor ke terminals se jodein.
+* 🏃‍♂️ **Step 3:** Setup ko floor par rakhein aur check karein ki friction aur axle motion se robot base kitni smooth chalti hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Rolling Chassis:** Gear motor par wheels mount karke motor battery loop connect karein aur ground run test karein.
 2. **❓ Quiz Question:** Wheel slides and slips se bachne ke liye tire rubber grid grip kyu zaroori hai?
 > **Answer:** Grip badhane aur rolling friction generate karne ke liye.

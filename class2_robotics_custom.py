@@ -38,19 +38,23 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Positive RED] --> B[Resistor + LED Positive]
-    C[LED Negative] --> D[Battery Negative BLACK]
+    A["🔋 9V Battery"] -->|🔴 Red Wire (+)| B["💡 LED (Long Leg)"]
+    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. Battery Snap connector ko battery pins par tight secure karein.
-2. Snap ke Red wire (+) ko LED ki lambi leg (+) se connect karein.
-3. Snap ke Black wire (-) ko LED ki chhoti leg (-) se connect karein (series me 220 Ohm resistor ke sath).
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Red Wire (Positive Connection):** Battery snap ke **Red Wire (+)** ko LED ke **Longe Leg (+)** se direct touch/connect karein.
+* ⚫ **Black Wire (Negative Connection):** Battery snap ke **Black Wire (-)** ko LED ke **Short Leg (-)** se connect karein.
+* ⚡ **Glow Check:** Jaise hi dono wires sahi se connect honge, electricity ka flow start ho jayega aur LED bright glow karegi!
 
 ---
 
@@ -86,21 +90,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Snap RED] --> B[Rocker Switch Terminal 1]
-    B -->|Switch ON| C[Rocker Switch Terminal 2]
-    C --> D[LED Positive]
-    E[LED Negative] --> F[Battery Snap BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Rocker Switch (Pin 1)"]
+    B -->|🟡 Yellow/Red Wire| C["💡 LED (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Snap Red wire ko Rocker switch ke kisi ek pin par connect karein.
-2. Switch ke dusre pin se ek jumper wire lekar LED Positive (+) leg par dalein.
-3. Snap Black wire ko directly LED Negative (-) leg par connect karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Rocker Switch** ke Pin 1 par connect karein.
+* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow/Red)** lekar **LED ke Long Leg (+)** par connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** par lagayein.
+* 🔄 **Toggle Check:** Switch ko press (ON) karein — loop close ho jayega aur light jalegi. Switch off karne par path open ho jayega aur light band hogi.
 
 ---
 
@@ -109,7 +118,7 @@ graph LR
 
 1. **ON/OFF Switch Loop:** Rocker switch ko series path me wire karein aur button toggle karke LED ON/OFF setup demonstrate karein.
 2. **❓ Quiz Question:** Open circuit me current flow hota hai ya nahi?
-> **Answer:** Nahi, open circuit me path break hone ki wajah se current flow nahi hota.
+> **Answer:** open circuit me path break hone ki wajah se current flow nahi hota.
 """
 
     # Session 5: Series Circuit
@@ -136,20 +145,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[LED 1 Positive]
-    B -->|Negative to Positive| C[LED 2 Positive]
-    C -->|LED 2 Negative| D[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["💡 LED 1 (Long Leg)"]
+    B -->|🔵 Blue Wire (Neg to Pos)| C["💡 LED 2 (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. LED 1 ke negative (-) pin ko LED 2 ke positive (+) pin se direct connect karein.
-2. Battery snap Red wire ko LED 1 ke positive (+) pin par lagayein.
-3. Battery snap Black wire ko LED 2 ke negative (-) pin par lagayein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **LED 1 के Long Leg (+)** par connect karein.
+* 🔵 **Step 2 (Chain Connection):** **LED 1 ke Short Leg (-)** ko ek wire se **LED 2 ke Long Leg (+)** se connect karein.
+* ⚫ **Step 3:** **LED 2 ke Short Leg (-)** ko battery snap ke **Black Wire (-)** se connect karein.
+* 💡 **Observation:** Check karein ki single LED ke mukable dono LEDs ki light thodi dim (kam bright) hai ya nahi.
 
 ---
 
@@ -183,22 +198,30 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph TD
-    A[Battery RED] --> B[Split Node A]
-    B --> C[LED 1 Positive]
-    B --> D[LED 2 Positive]
-    C --> E[Split Node B]
-    D --> E
-    E --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔴 Junction Point A"]
+    B -->|🔴 Red Wire Branch| C["💡 LED 1 (Long Leg)"]
+    B -->|🔴 Red Wire Branch| D["💡 LED 2 (Long Leg)"]
+    C -->|⚫ Black Wire| E["⚫ Junction Point B"]
+    D -->|⚫ Black Wire| E
+    E -->|⚫ Black Wire| F["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style E fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Rules
-1. Dono LEDs ke positive (+) legs ko ek hi node (Red wire) me connect karein.
-2. Dono LEDs ke negative (-) legs ko battery negative node (Black wire) se connect karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Dono LEDs ke **Long Legs (+)** ko aapas mein ek joint (Junction Point A) par jodein aur use battery ke **Red Wire (+)** se connect karein.
+* ⚫ **Step 2:** Dono LEDs ke **Short Legs (-)** ko dusre joint (Junction Point B) par jodein aur use battery ke **Black Wire (-)** se connect karein.
+* 💡 **Verify:** Ek LED ko nikal kar check karein — dusri LED abhi bhi full brightness me chalti rahegi!
 
 ---
 
@@ -227,25 +250,30 @@ Tier Curriculum | Connect Shiksha
 
 ## 📸 Slide 2: Normally Open button
 * **Momentary action:** Ye switch tab tak circuit connect rakhta hai jab tak ise finger se dabaye rakha jaye.
-* **Button terminals:** Tactile switch ke 4 pins hote hain, jisme opposite pins key press karne par close hotey hain.
+* **Button terminals:** Tactile switch ke pins key press karne par close hotey hain.
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Tactile Button Pin 1]
-    B -->|Press Button| C[Tactile Button Pin 2]
-    C --> D[LED Positive]
-    E[LED Negative] --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
+    B -->|🟡 Yellow Wire (When Pressed)| C["💡 LED (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Battery snap Red wire ko push button ke input pin par connect karein.
-2. Push button ke output pin se jumper wire LED positive par lagayein.
-3. Snap Black wire ko LED negative node par lock karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Push Button** ke Pin 1 par connect karein.
+* 🟡 **Step 2:** Push Button ke Pin 2 se ek wire lekar **LED ke Long Leg (+)** par lagayein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** se connect karein.
+* 👆 **Push Test:** Button ko press karein — push karte hi LED chalegi, finger hatate hi band ho jayegi.
 
 ---
 
@@ -273,33 +301,39 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 2: Design Modules
-* **Cardboard body:** Chassis structure jo battery aur wires ko andar safely hold karega.
+* **Cardboard body:** Wires aur battery ko securely hold karne ke liye chassis structure.
 * **Focussed light:** Bright LED reflector jo clear beam light dega.
 * **Control button:** Rocker switch loop ON/OFF karne ke liye.
 
 ---
 
-## 📸 Slide 3: Assembly Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
-graph TD
-    A[Wrap components in paper sleeve] --> B[Connect Switch in series with LED]
-    B --> C[Fix LED at top of tube]
-    C --> D[Stick Switch on tube surface]
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Slide Switch (Pin 1)"]
+    B -->|🟡 Yellow Wire| C["💡 Bright Torch LED (+)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Battery, switch aur LED ka standard closed loop series connection complete karein.
-2. Cardboard sheet ko roll karke tube shape banayein.
-3. Wires ko secure tap lagakar casing tube ke andar dalein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Slide Switch** ke side pin par jodein.
+* 🟡 **Step 2:** Switch ke center pin se extra wire lekar **Torch LED ke positive leg (+)** se connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke negative leg (-)** se jodein.
+* 🛠️ **Body Assembly:** Cardboard paper roll banakar battery aur switch ko tape se chipkaye.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Torch Assembly:** Apna handheld model assemble karein aur andhere me focus beam test karein.
 2. **❓ Quiz Question:** Torch me component parts kis direction me judtey hain?
-3. **Answer:** Series circuit chain direction me.
+> **Answer:** Series circuit chain direction me.
 """
 
     # Session 9: Buzzer Introduction
@@ -325,18 +359,23 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Active Buzzer Positive Pin]
-    C[Active Buzzer Negative Pin] --> D[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire (+)| B["🔊 Active Buzzer (Long Leg)"]
+    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Buzzer ke positive leg (+) ko battery snap ke Red wire se jodhein.
-2. Buzzer ke negative leg (-) ko snap ke Black wire se direct touch karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Red Wire (Buzzer Positive):** Battery snap ke **Red Wire (+)** ko active buzzer ke **Long Leg (+)** se direct touch/connect karein.
+* ⚫ **Black Wire (Buzzer Negative):** Battery snap ke **Black Wire (-)** ko active buzzer ke **Short Leg (-)** se connect karein.
+* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega. Polarity reverse karne par buzzer sound nahi karega.
 
 ---
 
@@ -369,20 +408,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Push Button Pin 1]
-    B -->|Press Bell| C[Push Button Pin 2]
-    C --> D[Active Buzzer Positive]
-    E[Active Buzzer Negative] --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
+    B -->|🟡 Yellow Wire| C["🔊 Active Buzzer (+)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Assembly Guide
-1. Board par push button aur active buzzer mount karein.
-2. Series connection path setup karke loop finalize karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Push Button** ke Terminal 1 par connect karein.
+* 🟡 **Step 2:** Push Button ke Terminal 2 se wire lekar **Buzzer ke positive leg (+)** par connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **Buzzer ke negative leg (-)** se jodein.
+* 🔔 **Interactive Check:** Door bell switch cardboard sheet par chipka kar use press karke test karein.
 
 ---
 
@@ -415,16 +460,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Wiring Loop
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Snap RED] --> B[Motor Terminal A]
-    C[Battery Snap BLACK] --> D[Motor Terminal B]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Toy DC Motor (Terminal A)"]
+    C["🔌 Toy DC Motor (Terminal B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style C fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Student Task — Hands-On Practice
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko DC motor ke pehle terminal (A) se connect karein.
+* ⚫ **Step 2:** Battery snap ke **Black Wire (-)** ko DC motor ke dusre terminal (B) se connect karein.
+* 🔄 **Polarity Reverse Test:** Wires ko switch (ultea) karein — observe karein ki motor ka rotating shaft ab opposite side ghum raha hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Spin Direction Swap:** Motor ko direct battery se chala kar RPM speed check karein aur polarity switch karke rotating shaft direction test swap karein.
 2. **❓ Quiz Question:** Motor ke wires ko exchange karne par kya motor kharab ho jayegi?
 > **Answer:** Nahi, uski spin hone ki direction (clockwise/anticlockwise) bas reverse ho jayegi.
@@ -453,17 +510,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Fan Assembly
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
-graph TD
-    A[Mount motor vertically in holder] --> B[Connect Snap wires to motor pins]
-    B --> C[Push propeller onto motor shaft gently]
-    C --> D[Turn on switch to test airflow]
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔌 Motor with Fan Propeller (A)"]
+    C["🔌 Motor with Fan Propeller (B)"] -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Student Task — Hands-On Practice
+## 📸 Slide 4: Step-by-Step Connection Guide
+* ⚙️ **Step 1:** Ek plastic propeller fan ko DC motor ke spindle shaft par gently push karke tightly mount karein.
+* 🔴 **Step 2:** Snap ke **Red Wire (+)** aur **Black Wire (-)** ko motor pins par connect karein.
+* 💨 **Airflow Direction Check:** Fan ko switch on karke check karein ki hawa front side aa rahi hai ya nahi. Agar hawa piche ja rahi hai, toh motor ke dono wires aapas mein swap karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Mini Desk Fan:** Motor and propeller attach karke frame stand build karein aur desk cooling fan test run karein.
 2. **❓ Quiz Question:** Hawa ko forward push karne ke liye motor ki spin direction kya honi chahiye?
 > **Answer:** Spin direction aisi honi chahiye ki propeller blades hawa ko back side se cut karke front push karein.
@@ -492,7 +560,31 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["💨 Wind/Air Input"] --> B["🌀 Propeller Fan Blade"]
+    B --> C["🔌 Toy Motor Shaft (Generates Voltage)"]
+    C -->|🔴 Red Wire| D["💡 LED glows"]
+    C -->|⚫ Black Wire| D
+
+    style A fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🌀 **Step 1:** Motor ke shaft par propeller lagakar use generator setup mein switch karein.
+* 💡 **Step 2:** Motor ke output wires ko directly **LED legs** se connect karein.
+* 💨 **Step 3:** Propeller par tez hawa (fan/blow) dalein aur check karein ki generator logic se LED jalti hai ya nahi.
+* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage calibration check karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein aur speed compare karein.
 2. **❓ Quiz Question:** Kya speed aur blade angles coordinate hote hain?
 > **Answer:** Haan, blade angle thrust aur airflow rate control karta hai.
@@ -521,7 +613,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor (Gearbox Inside)"]
+    B -->|⚫ Black Wire| C["🔋 9V Battery (-)"]
+    B -->|🔧 High Torque| D["🛞 Heavy Robot Wheels Rotate"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* ⚙️ **Step 1:** Gear motor ke terminals par battery snap ke **Red (+)** aur **Black (-)** wires attach karein.
+* 🌀 **Step 2:** Motor ke rotating axle (spindle shaft) par directly finger se pressure banayein.
+* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki rotation power (torque) itni zyaada hogi ki ise haath se rokna impossible ho jayega. normal toy motor turant ruk jati hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein. Gear motor ko stop karna lagbhag impossible hoga!
 2. **❓ Quiz Question:** Robot wheels chalane ke liye kaun si motor use karni chahiye?
 > **Answer:** Gear Motor, kyunki iska torque aur wheel load capability zyada hoti hai.
@@ -550,7 +664,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor Axle"]
+    B -->|🔒 Solid Axle Lock| C["🛞 Toy Rubber Wheel"]
+    D["🔋 9V Battery (-)"] -->|⚫ Black Wire| B
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🛞 **Step 1:** Toy rubber wheel ke center hole (D-shape) ko BO Gear Motor ke axle shaft par carefully line up karke press-fit karein.
+* 🔴 **Step 2:** Battery snap ke **Red (+)** aur **Black (-)** wires ko gear motor ke terminals se jodein.
+* 🏃‍♂️ **Step 3:** Setup ko floor par rakhein aur check karein ki friction aur axle motion se robot base kitni smooth chalti hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Rolling Chassis:** Gear motor par wheels mount karke motor battery loop connect karein aur ground run test karein.
 2. **❓ Quiz Question:** Wheel slides and slips se bachne ke liye tire rubber grid grip kyu zaroori hai?
 > **Answer:** Grip badhane aur rolling friction generate karne ke liye.
@@ -579,7 +715,30 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery Source"] -->|🔴 Parallel Red Wire| B["⚙️ Left Motor (D-shaft)"]
+    A -->|🔴 Parallel Red Wire| C["⚙️ Right Motor (D-shaft)"]
+    B -->|🛞 Left Wheel| D["🏃‍♂️ Linear Straight Motion"]
+    C -->|🛞 Right Wheel| D
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Dono gear motors ko parallel connection mein wire karein taaki dono ko barabar power mile.
+* 🛞 **Step 2:** Robot chassis ke dono side ke wheels ko exact center parallel direction mein scale se align karein.
+* 🏃‍♂️ **Step 3:** Floor par 1-meter straight line draw karein aur robot ko us par run karke directional error adjust karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Straight Line Run:** Robot car chassis floor line par straight chala kar deviations note karein aur structure adjustment se straight route tune karein.
 2. **❓ Quiz Question:** Robot car ke ek side bhagne ka key reason kya ho sakta hai?
 > **Answer:** Motor speed mismatch ya ek wheel me extra friction/weight.
@@ -608,7 +767,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🏁 Start Line (0 meters)"] -->|🏃‍♂️ Robot base travels| B["🏁 Finish Line (1 meter)"]
+    C["⏱️ Timer Starts"] -->|Record duration| D["⏱️ Timer Stops"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line trace/draw karein.
+* ⏱️ **Step 2:** Robot car ko start line par place karein aur switch ON karte hi stopwatch start karein.
+* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log book/sheet me record karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein aur time notes update sheet check karein.
 2. **❓ Quiz Question:** Agar robot 1 meter travel karne me 5 seconds leta hai toh speed kya hogi?
 > **Answer:** 1 / 5 = 0.2 meters/second.
@@ -637,7 +817,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 3V AA Batteries"] -->|Low Voltage| B["🔌 DC Motor spins SLOW"]
+    C["🔋 9V Battery Source"] -->|High Voltage| D["🔌 DC Motor spins FAST"]
+
+    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Motor ko pehle 2 double-A batteries (3V source) se connect karke rotation speed dekhein.
+* ⚡ **Step 2:** Uske baad motor ko directly 9V square battery (high voltage) se connect karein.
+* 📈 **Compare:** Observe karein ki kaise voltage level badhne se motor ka RPM aur power speed improve hoti hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Multi Voltage run:** Motor loop voltage change karke 3V aur 9V motor rotation speeds comparison analyze karein.
 2. **❓ Quiz Question:** Motor speed directly kis electrical variable par depend hoti hai?
 > **Answer:** Voltage levels input par.
@@ -666,7 +867,27 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 3V Battery"] -->|🔴 Red Wire (+)| B["📳 Coin Vibration Motor (Internal Off-center Weight)"]
+    B -->|🔵 Blue Wire (-)| C["🔋 3V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Coin vibration motor ke Red (+) wire ko battery positive se connect karein.
+* 🔵 **Step 2:** Motor ke Blue/Black (-) wire ko battery negative se connect karein.
+* 📳 **Observe:** Jab internal asymmetrical load high speed par rotate hota hai, toh structural vibrations paida hoti hain jise aap fingertip par feel kar sakte hain.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Vibration Feel test:** Coin motor wire snap battery touch karke silent vibration levels index card patterns compare karein.
 2. **❓ Quiz Question:** Coin motor ke vibrations kis weight configuration se generated hote hain?
 > **Answer:** Unbalanced/asymmetric internal weight rotation se.
@@ -695,7 +916,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["📳 Vibration Coin Motor"] -->|Stick with Tape| B["📦 Lightweight Cardboard Body"]
+    B -->|Vibration energy transfers| C["🪥 Flexible Legs / Toothbrush Bristles"]
+    C -->|Random sliding motion| D["🕺 Robot Dances on table!"]
+
+    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📦 **Step 1:** Cardboard or paper use karke ek chota lightweight design model banayein.
+* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke exact center (Center of Mass) par mount karein.
+* 🔋 **Step 3:** Battery connect karke toy ko table par rakhein. Vibration energy transfer hone se legs slip honge aur toy dance karne lagega!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Vibrobot Bug:** Cardboard and paper legs build karke bug design karein aur battery connect karke desk dancing patterns verify run karein.
 2. **❓ Quiz Question:** Vibrobot bug linear run karne ke liye weight distribution balance hona zaroori hai?
 > **Answer:** Haan, weight balance linear trajectory determine karta hai.
@@ -724,7 +967,33 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] -->|🔴 Common Positive Rail| B["💡 LED 1 (Red)"]
+    A -->|🔴 Common Positive Rail| C["💡 LED 2 (Green)"]
+    A -->|🔴 Common Positive Rail| D["💡 LED 3 (Yellow)"]
+    B -->|⚫ Common Ground| E["🔋 9V Battery (-)"]
+    C -->|⚫ Common Ground| E
+    D -->|⚫ Common Ground| E
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style E fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🎨 **Step 1:** Cardboard template par star ya home shape draw karke LEDs ke liye small holes karein.
+* 🔴 **Step 2:** Sabhi LEDs ke positive nodes (+) ko aapas mein ek standard wire (parallel) se link karein.
+* ⚫ **Step 3:** Negative nodes (-) ko common black wire se connect karke battery ground line se jodein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Design Panel:** 5 LEDs parallel layout node setup board design karke lights panel build karein.
 2. **❓ Quiz Question:** Decoration lights panel me parallel node kyu useful hai?
 > **Answer:** Kyunki ek LED damage hone par grid me baki saari lights chalti rehti hain.
@@ -754,7 +1023,39 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] --> B["🔘 Red Switch"]
+    A --> C["🔘 Yellow Switch"]
+    A --> D["🔘 Green Switch"]
+    B -->|ON| E["🔴 RED LED (Stop)"]
+    C -->|ON| F["🟡 YELLOW LED (Ready)"]
+    D -->|ON| G["🟢 GREEN LED (Go)"]
+    E --> H["⚫ Battery (-) Node"]
+    F --> H
+    G --> H
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style E fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style F fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style G fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style H fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🚥 **Step 1:** Cardboard pole par sequence wise **RED**, **YELLOW**, aur **GREEN** LEDs place karein.
+* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide/rocker switch wire karein.
+* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic state changes model karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Signal Pole:** Cardboard box signal design red/yellow/green indicators parallel wire structure connect.
 2. **❓ Quiz Question:** Real traffic light signaling automatically controlled hoti hai?
 > **Answer:** Haan, program codes sequence time parameters loop logic se.
@@ -783,7 +1084,34 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] --> B["🔘 Push Button / Switch"]
+    B -->|🔴 Trigger Alert| C["🔴 Split Node"]
+    C -->|🔴 Positive Branch| D["💡 RED Alert LED"]
+    C -->|🔴 Positive Branch| E["🔊 Sound Buzzer"]
+    D --> F["⚫ Common Battery (-)"]
+    E --> F
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style D fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko main control switch ke pin 1 par jodein.
+* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines mein divide karein (Red LED + active buzzer).
+* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Jaise hi button dabayein, tab siren sound aur flashing light dono chalu honge!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Siren system:** Press button indicator series buzzer and LED light connection compile.
 2. **❓ Quiz Question:** Emergency vehicles (Ambulance/Police) me kaun se feedback variables use hote hain?
 > **Answer:** Siren (sound) aur red-blue flashing lights (visual indicator).
@@ -812,7 +1140,31 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 ON/OFF Slide Switch"]
+    B -->|🔴 Switch Output| C["🔌 Toy DC Motor (Tower Top)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+    C -->|🌀 Axle spin| E["💨 Rotating Windmill Fan"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+    style E fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🗼 **Step 1:** Ice cream sticks aur craft sheets ko jodhkar 15cm uncha vertical tower banayein.
+* 🔌 **Step 2:** DC motor ko tower ke top bracket par securely tape se mount karein.
+* 🔴 **Step 3:** Switch ko tower ke base par lagayein, wires ko tower ke sath connect karke motor battery loop complete karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Windmill Model:** Ice cream sticks use structure wind turbine design motor propeller shaft connect.
 2. **❓ Quiz Question:** Windmill blades kis power source se rotate hoti hain?
 > **Answer:** Wind energy (hawa ke flow) se.
@@ -841,7 +1193,34 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Main Slide Switch"]
+    B -->|🔴 Active Loop| C["🔴 Split Node"]
+    C -->|🔴 Positive wire| D["⚙️ Left BO Motor"]
+    C -->|🔴 Positive wire| E["⚙️ Right BO Motor"]
+    D --> F["⚫ Common Battery (-)"]
+    E --> F
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🚗 **Step 1:** Cardboard chassis ke bottom par dono BO gear motors ko glue se flat parallel mount karein.
+* 🔌 **Step 2:** Switch aur battery ko top panel par lagakar dono motors ke loops series connection me laye.
+* 🛞 **Step 3:** Motors par rubber wheels mount karke floor switch run check karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Moving Toy Car:** Base assembly finalize wheels battery snap secure trace ground test run.
 2. **❓ Quiz Question:** Car wheels ko direct stop switch control series connect kiya jata hai?
 > **Answer:** Yes, switch circuit ko break karke stop condition banata hai.
@@ -870,7 +1249,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🛡️ Heavy Cardboard Bumper"] -->|Glued tightly to| B["🚗 Mini Car Base Chassis"]
+    B -->|High torque BO motors| C["🛞 High Grip Rubber Wheels"]
+    C -->|Pushes forward| D["📦 Light Boxes / Obstacles pushed away"]
+
+    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper bumper box ki tarah design karein.
+* 🚗 **Step 2:** Is bumper ko chassis ke front side par tape aur hot glue se solid weld karein.
+* 📦 **Step 3:** Car ke aage paper cup/matchbox rakhein. Motor start karke displacement and push distance record karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Push challenge:** Robot front cardboard bumper design coordinate matchbox push check test.
 2. **❓ Quiz Question:** Object push karne ke liye motor ka RPM speed high hona zaroori hai ya torque?
 > **Answer:** High torque (Gear Motor power) push karne ke liye useful hai.
@@ -899,7 +1300,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🎨 Student Creative Idea"] --> B["✏️ Sketch Plan on paper"]
+    B -->|Select Components| C["📦 Assemble using 3D Pen + Battery Snap"]
+    C --> D["🤖 Working Creative Model!"]
+
+    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📐 **Step 1:** Apne mind me ek idea sochein (jaise automatic alarm toy ya rotating windmill fan).
+* 📝 **Step 2:** Ek sheet par components ko block circles me draw karke connection wires design karein.
+* 🛠️ **Step 3:** Kit ke parameters combine karke manual structures ko complete push start test karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Custom prototype:** Craft sheets motors switches components organize design project check.
 2. **❓ Quiz Question:** Ek robot design karne ka first step kya hota hai?
 > **Answer:** Drawing plan aur parts requirement structure banana.
@@ -928,7 +1351,33 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["⚠️ Alarm doesn't ring / LED doesn't glow"] --> B["🕵️ Check 1: Is wire broken?"]
+    A --> C["🕵️ Check 2: Are LED legs reversed?"]
+    A --> D["🕵️ Check 3: Is battery snap loose?"]
+    B -->|Fix| E["✅ Circuit Works!"]
+    C -->|Fix| E
+    D -->|Fix| E
+
+    style A fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style E fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔍 **Step 1:** Agar circuit ON nahi ho raha, toh sabse pehle check karein ki battery snap loose toh nahi hai.
+* 🔌 **Step 2:** Check karein ki LED ki lambi leg (+) battery positive se hi judi ho.
+* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein taaki current leak na ho.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Fault fix challenge:** Pre-messed circuit board errors (loose snap wire, wrong LED legs) check debug fix.
 2. **❓ Quiz Question:** Agar switch ON karne par buzzer beeps na ho toh sabse pehle kya check karenge?
 > **Answer:** Battery charge aur snaps connections nodes check.
@@ -957,7 +1406,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["💡 Problem: Need a cooling fan"] --> B["✏️ Ideate: Pocket Fan using toy motor"]
+    B --> C["🛠️ Prototype: Cardboard tube + fan blades"]
+    C --> D["🚀 Test & Refine for stable airflow"]
+
+    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📝 **Step 1:** Koi daily problem sochein (jaise study table par andhera ya garmi hona).
+* ⚙️ **Step 2:** Apne kit ke parts se us problem ka solution design karein.
+* 🛠️ **Step 3:** Project structure ko build karein, wiring check karein aur use real test karke refine karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Unique project:** Mentors direction choice prototype model finalize design test output.
 2. **❓ Quiz Question:** Trial and error debug kyu zaroori hai?
 > **Answer:** Prototype design errors fix karke use refine karne ke liye.
@@ -986,7 +1457,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔬 Final Prototype Ready"] --> B["📊 Display Board/Poster Setup"]
+    B --> C["🗣️ Present to Judges (Name, Work, Parts)"]
+    C --> D["🏆 Get Congratulations & Badges!"]
+
+    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📊 **Step 1:** Apne project model ke aage ek display sheet lagayein jisme project name likha ho.
+* 🗣️ **Step 2:** Aane wale guest ya teachers ko batayein ki aapke project me kaun-kaun se components use hue hain aur unka kya kaam hai.
+* 🏃‍♂️ **Step 3:** Project model ka live demonstration run karke unhe dikhayein!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Showcase Model:** Setup product panel display board answer questions guests demo runs.
 2. **❓ Quiz Question:** Apne project ko explain karne ke liye main detail kya bolni chahiye?
 > **Answer:** Project ka naam, kaam, aur use kiya gaya component parts list.

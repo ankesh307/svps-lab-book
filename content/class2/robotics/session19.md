@@ -18,7 +18,27 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🔋 3V Battery"] -->|🔴 Red Wire (+)| B["📳 Coin Vibration Motor (Internal Off-center Weight)"]
+    B -->|🔵 Blue Wire (-)| C["🔋 3V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Coin vibration motor ke Red (+) wire ko battery positive se connect karein.
+* 🔵 **Step 2:** Motor ke Blue/Black (-) wire ko battery negative se connect karein.
+* 📳 **Observe:** Jab internal asymmetrical load high speed par rotate hota hai, toh structural vibrations paida hoti hain jise aap fingertip par feel kar sakte hain.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Vibration Feel test:** Coin motor wire snap battery touch karke silent vibration levels index card patterns compare karein.
 2. **❓ Quiz Question:** Coin motor ke vibrations kis weight configuration se generated hote hain?
 > **Answer:** Unbalanced/asymmetric internal weight rotation se.

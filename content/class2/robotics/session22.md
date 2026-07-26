@@ -19,7 +19,39 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] --> B["🔘 Red Switch"]
+    A --> C["🔘 Yellow Switch"]
+    A --> D["🔘 Green Switch"]
+    B -->|ON| E["🔴 RED LED (Stop)"]
+    C -->|ON| F["🟡 YELLOW LED (Ready)"]
+    D -->|ON| G["🟢 GREEN LED (Go)"]
+    E --> H["⚫ Battery (-) Node"]
+    F --> H
+    G --> H
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style E fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style F fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style G fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style H fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🚥 **Step 1:** Cardboard pole par sequence wise **RED**, **YELLOW**, aur **GREEN** LEDs place karein.
+* 🔘 **Step 2:** Har LED ke series path mein ek dedicated slide/rocker switch wire karein.
+* 🔌 **Step 3:** Sabhi switches ko battery (+) aur sabhi LEDs ke common negative nodes ko battery (-) se jodein. Switch toggle karke traffic state changes model karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Signal Pole:** Cardboard box signal design red/yellow/green indicators parallel wire structure connect.
 2. **❓ Quiz Question:** Real traffic light signaling automatically controlled hoti hai?
 > **Answer:** Haan, program codes sequence time parameters loop logic se.

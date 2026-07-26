@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["💡 Problem: Need a cooling fan"] --> B["✏️ Ideate: Pocket Fan using toy motor"]
+    B --> C["🛠️ Prototype: Cardboard tube + fan blades"]
+    C --> D["🚀 Test & Refine for stable airflow"]
+
+    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📝 **Step 1:** Koi daily problem sochein (jaise study table par andhera ya garmi hona).
+* ⚙️ **Step 2:** Apne kit ke parts se us problem ka solution design karein.
+* 🛠️ **Step 3:** Project structure ko build karein, wiring check karein aur use real test karke refine karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Unique project:** Mentors direction choice prototype model finalize design test output.
 2. **❓ Quiz Question:** Trial and error debug kyu zaroori hai?
 > **Answer:** Prototype design errors fix karke use refine karne ke liye.

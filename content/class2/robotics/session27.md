@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🎨 Student Creative Idea"] --> B["✏️ Sketch Plan on paper"]
+    B -->|Select Components| C["📦 Assemble using 3D Pen + Battery Snap"]
+    C --> D["🤖 Working Creative Model!"]
+
+    style A fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📐 **Step 1:** Apne mind me ek idea sochein (jaise automatic alarm toy ya rotating windmill fan).
+* 📝 **Step 2:** Ek sheet par components ko block circles me draw karke connection wires design karein.
+* 🛠️ **Step 3:** Kit ke parameters combine karke manual structures ko complete push start test karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Custom prototype:** Craft sheets motors switches components organize design project check.
 2. **❓ Quiz Question:** Ek robot design karne ka first step kya hota hai?
 > **Answer:** Drawing plan aur parts requirement structure banana.

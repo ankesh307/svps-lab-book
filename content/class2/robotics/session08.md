@@ -13,30 +13,36 @@ Tier Curriculum | Connect Shiksha
 ---
 
 ## 📸 Slide 2: Design Modules
-* **Cardboard body:** Chassis structure jo battery aur wires ko andar safely hold karega.
+* **Cardboard body:** Wires aur battery ko securely hold karne ke liye chassis structure.
 * **Focussed light:** Bright LED reflector jo clear beam light dega.
 * **Control button:** Rocker switch loop ON/OFF karne ke liye.
 
 ---
 
-## 📸 Slide 3: Assembly Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
-graph TD
-    A[Wrap components in paper sleeve] --> B[Connect Switch in series with LED]
-    B --> C[Fix LED at top of tube]
-    C --> D[Stick Switch on tube surface]
+graph LR
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Slide Switch (Pin 1)"]
+    B -->|🟡 Yellow Wire| C["💡 Bright Torch LED (+)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Battery, switch aur LED ka standard closed loop series connection complete karein.
-2. Cardboard sheet ko roll karke tube shape banayein.
-3. Wires ko secure tap lagakar casing tube ke andar dalein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Slide Switch** ke side pin par jodein.
+* 🟡 **Step 2:** Switch ke center pin se extra wire lekar **Torch LED ke positive leg (+)** se connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke negative leg (-)** se jodein.
+* 🛠️ **Body Assembly:** Cardboard paper roll banakar battery aur switch ko tape se chipkaye.
 
 ---
 
 ## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Torch Assembly:** Apna handheld model assemble karein aur andhere me focus beam test karein.
 2. **❓ Quiz Question:** Torch me component parts kis direction me judtey hain?
-3. **Answer:** Series circuit chain direction me.
+> **Answer:** Series circuit chain direction me.

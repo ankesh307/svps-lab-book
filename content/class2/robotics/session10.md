@@ -18,20 +18,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Push Button Pin 1]
-    B -->|Press Bell| C[Push Button Pin 2]
-    C --> D[Active Buzzer Positive]
-    E[Active Buzzer Negative] --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
+    B -->|🟡 Yellow Wire| C["🔊 Active Buzzer (+)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Assembly Guide
-1. Board par push button aur active buzzer mount karein.
-2. Series connection path setup karke loop finalize karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Push Button** ke Terminal 1 par connect karein.
+* 🟡 **Step 2:** Push Button ke Terminal 2 se wire lekar **Buzzer ke positive leg (+)** par connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **Buzzer ke negative leg (-)** se jodein.
+* 🔔 **Interactive Check:** Door bell switch cardboard sheet par chipka kar use press karke test karein.
 
 ---
 

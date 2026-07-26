@@ -18,7 +18,31 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["💨 Wind/Air Input"] --> B["🌀 Propeller Fan Blade"]
+    B --> C["🔌 Toy Motor Shaft (Generates Voltage)"]
+    C -->|🔴 Red Wire| D["💡 LED glows"]
+    C -->|⚫ Black Wire| D
+
+    style A fill:#0ea5e9,stroke:#0369a1,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🌀 **Step 1:** Motor ke shaft par propeller lagakar use generator setup mein switch karein.
+* 💡 **Step 2:** Motor ke output wires ko directly **LED legs** se connect karein.
+* 💨 **Step 3:** Propeller par tez hawa (fan/blow) dalein aur check karein ki generator logic se LED jalti hai ya nahi.
+* 📐 **Angle adjustment:** Blades ke bent angle ko modify karke maximum brightness voltage calibration check karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Thrust angle check:** Propeller blades ke pitch angle ko manually (slightly) bend karke airflow output pressure test karein aur speed compare karein.
 2. **❓ Quiz Question:** Kya speed aur blade angles coordinate hote hain?
 > **Answer:** Haan, blade angle thrust aur airflow rate control karta hai.

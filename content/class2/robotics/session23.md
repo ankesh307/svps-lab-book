@@ -18,7 +18,34 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] --> B["🔘 Push Button / Switch"]
+    B -->|🔴 Trigger Alert| C["🔴 Split Node"]
+    C -->|🔴 Positive Branch| D["💡 RED Alert LED"]
+    C -->|🔴 Positive Branch| E["🔊 Sound Buzzer"]
+    D --> F["⚫ Common Battery (-)"]
+    E --> F
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#f97316,stroke:#c2410c,stroke-width:3px,color:#fff
+    style D fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style E fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style F fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko main control switch ke pin 1 par jodein.
+* 🔌 **Step 2:** Switch ke Pin 2 se wire lekar use parallel lines mein divide karein (Red LED + active buzzer).
+* ⚫ **Step 3:** LED aur buzzer ke **negative legs (-)** ko battery snap ke **Black Wire (-)** se jodein. Jaise hi button dabayein, tab siren sound aur flashing light dono chalu honge!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Siren system:** Press button indicator series buzzer and LED light connection compile.
 2. **❓ Quiz Question:** Emergency vehicles (Ambulance/Police) me kaun se feedback variables use hote hain?
 > **Answer:** Siren (sound) aur red-blue flashing lights (visual indicator).

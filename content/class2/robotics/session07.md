@@ -14,25 +14,30 @@ Tier Curriculum | Connect Shiksha
 
 ## 📸 Slide 2: Normally Open button
 * **Momentary action:** Ye switch tab tak circuit connect rakhta hai jab tak ise finger se dabaye rakha jaye.
-* **Button terminals:** Tactile switch ke 4 pins hote hain, jisme opposite pins key press karne par close hotey hain.
+* **Button terminals:** Tactile switch ke pins key press karne par close hotey hain.
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Tactile Button Pin 1]
-    B -->|Press Button| C[Tactile Button Pin 2]
-    C --> D[LED Positive]
-    E[LED Negative] --> F[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Push Button (Pin 1)"]
+    B -->|🟡 Yellow Wire (When Pressed)| C["💡 LED (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Battery snap Red wire ko push button ke input pin par connect karein.
-2. Push button ke output pin se jumper wire LED positive par lagayein.
-3. Snap Black wire ko LED negative node par lock karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Push Button** ke Pin 1 par connect karein.
+* 🟡 **Step 2:** Push Button ke Pin 2 se ek wire lekar **LED ke Long Leg (+)** par lagayein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** se connect karein.
+* 👆 **Push Test:** Button ko press karein — push karte hi LED chalegi, finger hatate hi band ho jayegi.
 
 ---
 

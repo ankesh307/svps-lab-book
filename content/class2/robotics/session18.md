@@ -18,7 +18,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 3V AA Batteries"] -->|Low Voltage| B["🔌 DC Motor spins SLOW"]
+    C["🔋 9V Battery Source"] -->|High Voltage| D["🔌 DC Motor spins FAST"]
+
+    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Motor ko pehle 2 double-A batteries (3V source) se connect karke rotation speed dekhein.
+* ⚡ **Step 2:** Uske baad motor ko directly 9V square battery (high voltage) se connect karein.
+* 📈 **Compare:** Observe karein ki kaise voltage level badhne se motor ka RPM aur power speed improve hoti hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Multi Voltage run:** Motor loop voltage change karke 3V aur 9V motor rotation speeds comparison analyze karein.
 2. **❓ Quiz Question:** Motor speed directly kis electrical variable par depend hoti hai?
 > **Answer:** Voltage levels input par.

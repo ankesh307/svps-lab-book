@@ -18,18 +18,23 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery RED] --> B[Active Buzzer Positive Pin]
-    C[Active Buzzer Negative Pin] --> D[Battery BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire (+)| B["🔊 Active Buzzer (Long Leg)"]
+    B -->|⚫ Black Wire (-)| C["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Buzzer ke positive leg (+) ko battery snap ke Red wire se jodhein.
-2. Buzzer ke negative leg (-) ko snap ke Black wire se direct touch karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Red Wire (Buzzer Positive):** Battery snap ke **Red Wire (+)** ko active buzzer ke **Long Leg (+)** se direct touch/connect karein.
+* ⚫ **Black Wire (Buzzer Negative):** Battery snap ke **Black Wire (-)** ko active buzzer ke **Short Leg (-)** se connect karein.
+* 🔊 **Note:** Correct wire touch karte hi high-pitch warning alarm start ho jayega. Polarity reverse karne par buzzer sound nahi karega.
 
 ---
 

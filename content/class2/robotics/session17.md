@@ -18,7 +18,28 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph LR
+    A["🏁 Start Line (0 meters)"] -->|🏃‍♂️ Robot base travels| B["🏁 Finish Line (1 meter)"]
+    C["⏱️ Timer Starts"] -->|Record duration| D["⏱️ Timer Stops"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📐 **Step 1:** Floor par exactly 1 meter (100 cm) ki target line trace/draw karein.
+* ⏱️ **Step 2:** Robot car ko start line par place karein aur switch ON karte hi stopwatch start karein.
+* 🏁 **Step 3:** Robot ke target line cross karte hi timer stop karein aur use time log book/sheet me record karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Timer Run:** Robot base coordinate path runtime check stop-watch se trace karein aur time notes update sheet check karein.
 2. **❓ Quiz Question:** Agar robot 1 meter travel karne me 5 seconds leta hai toh speed kya hogi?
 > **Answer:** 1 / 5 = 0.2 meters/second.

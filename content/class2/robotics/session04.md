@@ -18,21 +18,26 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Circuit Diagram
+## 📸 Slide 3: Visual Circuit Diagram 🎨
 ```mermaid
 graph LR
-    A[Battery Snap RED] --> B[Rocker Switch Terminal 1]
-    B -->|Switch ON| C[Rocker Switch Terminal 2]
-    C --> D[LED Positive]
-    E[LED Negative] --> F[Battery Snap BLACK]
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["🔘 Rocker Switch (Pin 1)"]
+    B -->|🟡 Yellow/Red Wire| C["💡 LED (Long Leg)"]
+    C -->|⚫ Black Wire| D["🔋 9V Battery (-)"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
 ```
 
 ---
 
-## 📸 Slide 4: Connection Guide
-1. Snap Red wire ko Rocker switch ke kisi ek pin par connect karein.
-2. Switch ke dusre pin se ek jumper wire lekar LED Positive (+) leg par dalein.
-3. Snap Black wire ko directly LED Negative (-) leg par connect karein.
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔴 **Step 1:** Battery snap ke **Red Wire (+)** ko **Rocker Switch** ke Pin 1 par connect karein.
+* 🟡 **Step 2:** Rocker Switch ke Pin 2 se ek **extra wire (Yellow/Red)** lekar **LED ke Long Leg (+)** par connect karein.
+* ⚫ **Step 3:** Battery snap ke **Black Wire (-)** ko directly **LED ke Short Leg (-)** par lagayein.
+* 🔄 **Toggle Check:** Switch ko press (ON) karein — loop close ho jayega aur light jalegi. Switch off karne par path open ho jayega aur light band hogi.
 
 ---
 
@@ -41,4 +46,4 @@ graph LR
 
 1. **ON/OFF Switch Loop:** Rocker switch ko series path me wire karein aur button toggle karke LED ON/OFF setup demonstrate karein.
 2. **❓ Quiz Question:** Open circuit me current flow hota hai ya nahi?
-> **Answer:** Nahi, open circuit me path break hone ki wajah se current flow nahi hota.
+> **Answer:** open circuit me path break hone ki wajah se current flow nahi hota.

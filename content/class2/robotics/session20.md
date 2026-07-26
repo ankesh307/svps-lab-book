@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["📳 Vibration Coin Motor"] -->|Stick with Tape| B["📦 Lightweight Cardboard Body"]
+    B -->|Vibration energy transfers| C["🪥 Flexible Legs / Toothbrush Bristles"]
+    C -->|Random sliding motion| D["🕺 Robot Dances on table!"]
+
+    style A fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#3b82f6,stroke:#1d4ed8,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 📦 **Step 1:** Cardboard or paper use karke ek chota lightweight design model banayein.
+* 📳 **Step 2:** Vibration motor ko tape se cardboard body ke exact center (Center of Mass) par mount karein.
+* 🔋 **Step 3:** Battery connect karke toy ko table par rakhein. Vibration energy transfer hone se legs slip honge aur toy dance karne lagega!
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Vibrobot Bug:** Cardboard and paper legs build karke bug design karein aur battery connect karke desk dancing patterns verify run karein.
 2. **❓ Quiz Question:** Vibrobot bug linear run karne ke liye weight distribution balance hona zaroori hai?
 > **Answer:** Haan, weight balance linear trajectory determine karta hai.

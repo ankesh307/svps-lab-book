@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🔋 9V Battery (+)"] -->|🔴 Red Wire| B["⚙️ BO Gear Motor (Gearbox Inside)"]
+    B -->|⚫ Black Wire| C["🔋 9V Battery (-)"]
+    B -->|🔧 High Torque| D["🛞 Heavy Robot Wheels Rotate"]
+
+    style A fill:#f43f5e,stroke:#9f1239,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#1e293b,stroke:#0f172a,stroke-width:3px,color:#fff
+    style D fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* ⚙️ **Step 1:** Gear motor ke terminals par battery snap ke **Red (+)** aur **Black (-)** wires attach karein.
+* 🌀 **Step 2:** Motor ke rotating axle (spindle shaft) par directly finger se pressure banayein.
+* 💡 **Observe:** Gear ratio reduction ki wajah se motor ki rotation power (torque) itni zyaada hogi ki ise haath se rokna impossible ho jayega. normal toy motor turant ruk jati hai.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Torque Resistance Test:** Dono motors chalakar shaft ko finger tip se rokhne ka pressure compare karein. Gear motor ko stop karna lagbhag impossible hoga!
 2. **❓ Quiz Question:** Robot wheels chalane ke liye kaun si motor use karni chahiye?
 > **Answer:** Gear Motor, kyunki iska torque aur wheel load capability zyada hoti hai.

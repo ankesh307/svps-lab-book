@@ -18,7 +18,29 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["🛡️ Heavy Cardboard Bumper"] -->|Glued tightly to| B["🚗 Mini Car Base Chassis"]
+    B -->|High torque BO motors| C["🛞 High Grip Rubber Wheels"]
+    C -->|Pushes forward| D["📦 Light Boxes / Obstacles pushed away"]
+
+    style A fill:#64748b,stroke:#334155,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+    style D fill:#a855f7,stroke:#6b21a8,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🛡️ **Step 1:** Ek flat rectangular cardboard sheet ko front bumper bumper box ki tarah design karein.
+* 🚗 **Step 2:** Is bumper ko chassis ke front side par tape aur hot glue se solid weld karein.
+* 📦 **Step 3:** Car ke aage paper cup/matchbox rakhein. Motor start karke displacement and push distance record karein.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Push challenge:** Robot front cardboard bumper design coordinate matchbox push check test.
 2. **❓ Quiz Question:** Object push karne ke liye motor ka RPM speed high hona zaroori hai ya torque?
 > **Answer:** High torque (Gear Motor power) push karne ke liye useful hai.

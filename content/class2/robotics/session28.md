@@ -18,7 +18,33 @@ Tier Curriculum | Connect Shiksha
 
 ---
 
-## 📸 Slide 3: Student Task — Hands-On Practice
+## 📸 Slide 3: Visual Circuit Diagram 🎨
+```mermaid
+graph TD
+    A["⚠️ Alarm doesn't ring / LED doesn't glow"] --> B["🕵️ Check 1: Is wire broken?"]
+    A --> C["🕵️ Check 2: Are LED legs reversed?"]
+    A --> D["🕵️ Check 3: Is battery snap loose?"]
+    B -->|Fix| E["✅ Circuit Works!"]
+    C -->|Fix| E
+    D -->|Fix| E
+
+    style A fill:#ef4444,stroke:#991b1b,stroke-width:3px,color:#fff
+    style B fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style C fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style D fill:#f59e0b,stroke:#b45309,stroke-width:3px,color:#fff
+    style E fill:#10b981,stroke:#064e3b,stroke-width:3px,color:#fff
+```
+
+---
+
+## 📸 Slide 4: Step-by-Step Connection Guide
+* 🔍 **Step 1:** Agar circuit ON nahi ho raha, toh sabse pehle check karein ki battery snap loose toh nahi hai.
+* 🔌 **Step 2:** Check karein ki LED ki lambi leg (+) battery positive se hi judi ho.
+* ⚡ **Step 3:** Kisi bhi broken wire ko aapas mein tightly twist karke tape lagayein taaki current leak na ho.
+
+---
+
+## 📸 Slide 5: Student Task — Hands-On Practice
 1. **Fault fix challenge:** Pre-messed circuit board errors (loose snap wire, wrong LED legs) check debug fix.
 2. **❓ Quiz Question:** Agar switch ON karne par buzzer beeps na ho toh sabse pehle kya check karenge?
 > **Answer:** Battery charge aur snaps connections nodes check.
