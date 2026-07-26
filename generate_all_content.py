@@ -509,6 +509,129 @@ Robots move kar sakte hain, bol sakte hain, weight lift kar sakte hain, aur unke
 3. **❓ Bonus Activity:** Agar ek robot ko window saaf karne ka job diya jaye, toh use kaun-kaun se components (Brain, Sensors, Battery) chahiye honge? Class me discuss karo!
 """
 
+    # Intercept custom content for Class 2 Robotics Session 2 (Kit Components)
+    if class_key == "class2" and track == "robotics" and num == 2:
+        s1 = get_base64_image("kit_overview.jpg")
+        s2 = get_base64_image("battery_snap.jpg")
+        s3 = get_base64_image("gear_motor_wheels.jpg")
+        s4 = get_base64_image("toy_motor_propeller.jpg")
+        s5 = get_base64_image("leds_buzzer.jpg")
+        s6 = get_base64_image("vibration_coin_motor.jpg")
+        s7 = get_base64_image("switches_buttons.jpg")
+        s8 = get_base64_image("three_d_pen_filaments.jpg")
+        
+        return f"""# Session 02: Kit Components 📦
+
+**Class 2 – ROBOTICS TRACK**  
+Tier Curriculum | Connect Shiksha
+
+---
+
+## 📸 Slide 1: Junior Maker Kit Overview
+![Kit Overview]({s1})
+
+> **Grade 2 STEM Kit Components Introduction**
+>
+> Is session me hum Junior Maker Kit ke sabhi components, unke naam aur basic uses ke baare mein seekhenge!
+
+---
+
+## 📸 Slide 2: Power — 9V Battery & Snap Connector
+![9V Battery & Snap Connector]({s2})
+
+### 🔋 9V Battery
+* **Naam:** 9V Alkaline/Carbon-Zinc Battery.
+* **Use:** Humare circuits aur motors ko electric power (energy) dene ke liye!
+* **Safety Rule:** Dono terminals (+ aur -) ko directly wire se connect mat karein, varna battery garam hokar kharab ho sakti hai.
+
+### 🔌 Snap Connector
+* **Naam:** 9V Battery Snap Connector.
+* **Use:** Battery se current ko wires ke through LED aur switches tak safely pahunchane ke liye!
+
+---
+
+## 📸 Slide 3: Actuators — 1 BO Gear Motor & 2 Rubber Wheels
+![BO Gear Motor & Wheels]({s3})
+
+### ⚙️ BO Gear Motor
+* **Naam:** Battery-Operated (BO) Gear Motor.
+* **Use:** Iske andar special gears hote hain jo motor ki speed ko kam aur power (torque) ko zyada karte hain taaki robot heavy weight push kar sake!
+
+### 🛞 Rubber Wheels
+* **Naam:** Rubber Grip Toy Wheels (2 units).
+* **Use:** Gear motor ke spindle par lagakar robot chassis ko surface par smooth movements/rolling dene ke liye!
+
+---
+
+## 📸 Slide 4: Thrust — 1 Normal Toy DC Motor & Propeller
+![Toy Motor & Propeller]({s4})
+
+### 🌀 Normal Toy DC Motor
+* **Naam:** Toy DC Motor (High RPM).
+* **Use:** Ye motor bina gear ke bahut fast ghumti hai!
+* **Application:** Iska use hum mini fan, thrust car aur wind generator banane me karte hain.
+
+### 💨 Propeller (Fan Blades)
+* **Naam:** Plastic Propeller.
+* **Use:** Toy motor ke metal axle par fit karke high-speed air flow (hawa/thrust) generate karne ke liye!
+
+---
+
+## 📸 Slide 5: Outputs — Multicolor LEDs & Active Buzzer
+![LEDs & Active Buzzer]({s5})
+
+### 💡 Multicolor LEDs
+* **Naam:** Light Emitting Diodes (Multicolor Pack).
+* **Use:** Jab isme se current flow hota hai, ye glow karti hai (lights up)! Red, Green aur Yellow LEDs se signal aur decor model bante hain.
+
+### 🔊 Active Buzzer
+* **Naam:** 5V Active Sound Buzzer.
+* **Use:** Circuits me sound indicator ya warning alarm dene ke liye (jaise doorbell ya security alarms).
+
+---
+
+## 📸 Slide 6: Motion — Vibration Coin Motor
+![Vibration Coin Motor]({s6})
+
+### 📳 Vibration Coin Motor
+* **Naam:** Flat Coin Vibration Motor.
+* **Use:** Chhoti flat coin shape motor jisme ek asymmetric load ghumta hai aur mechanical vibration levels generate karta hai (jaise mobile phone ka silent mode vibration).
+* **Application:** Iska use hum vibrot bugs aur creative dancing toys banane me karte hain.
+
+---
+
+## 📸 Slide 7: Control — Rocker Switches & Push Buttons
+![Switches & Buttons]({s7})
+
+### 🔘 Rocker Switch
+* **Naam:** SPST Rocker Switch.
+* **Use:** Circuit loop ko permanently ON ya OFF rakhne ke liye switch positions.
+
+### 🔴 Tactile Push Buttons
+* **Naam:** Momentary Push Button.
+* **Use:** Jab tak hum button press karte hain, tab tak circuit close rehta hai (jaise doorbell switch).
+
+---
+
+## 📸 Slide 8: Craft — 3D Pen & PLA Plastic Filaments
+![3D Pen & Filaments]({s8})
+
+### ✍️ 3D Printing Pen
+* **Naam:** Low-temperature 3D Pen.
+* **Use:** Melting plastic nozzle se hawa me 3D model, structures, aur wheels-holders draw/weld karne ke liye!
+
+### 🧵 PLA Plastic Filaments
+* **Naam:** Polylactic Acid (PLA) Filaments.
+* **Use:** 3D pen ka "ink" jise melt karke plastic models banaye jate hain.
+
+---
+
+## Student Task — Hands-On Practice
+1. **Component Match Game:** Apni table par rakhe sabhi components ko unke sahi naam ke sath align karo.
+2. **First Circuit connection:** 9V battery aur snap connector lekar directly ek LED ko connect karo (make sure correct legs connection).
+3. **Switch Integration:** Us loop ke beech me rocker switch lagakar LED ko manually ON/OFF karne ki practice karo!
+"""
+
     # Intercept custom NodeMCU detailed content for Class 6 Robotics Session 1
     if class_key == "class6" and track == "robotics" and num == 1:
         return """# Session 01: ESP8266 Pin Map & Limits
