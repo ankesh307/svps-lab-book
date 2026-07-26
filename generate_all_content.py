@@ -632,6 +632,15 @@ Tier Curriculum | Connect Shiksha
 3. **Switch Integration:** Us loop ke beech me rocker switch lagakar LED ko manually ON/OFF karne ki practice karo!
 """
 
+    # Intercept custom content for Class 2 Robotics Sessions 3-30
+    if class_key == "class2" and track == "robotics" and num >= 3:
+        try:
+            import class2_robotics_custom as c2rc
+            res = c2rc.get_custom_session(num)
+            if res: return res
+        except Exception as e:
+            print(f"Error loading custom content for Session {num}: {e}")
+
     # Intercept custom NodeMCU detailed content for Class 6 Robotics Session 1
     if class_key == "class6" and track == "robotics" and num == 1:
         return """# Session 01: ESP8266 Pin Map & Limits
