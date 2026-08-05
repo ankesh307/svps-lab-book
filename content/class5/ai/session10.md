@@ -1,9 +1,9 @@
-# Session 10: Arrays memory map
+# Session 10: Arduino Serial API with Python
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Arrays memory map](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Arduino Serial API with Python](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
 
 > **Session 10** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Index mapping memory offset arrays structures.... |
+| **0-20 min** | Theory | Write a Python script using PySerial to read Arduino sensor ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Arrays memory` | `Offset index` | `Structures`
+**Keywords:** `PySerial` | `Python COM Port` | `Serial Read`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Index mapping memory offset arrays structures.
+Write a Python script using PySerial to read Arduino sensor data in real-time.
 
 ### Component Specifications
-* **Key Device:** Arrays memory map
-* **Usage Parameter:** Arrays memory / Offset index / Structures
+* **Key Device:** Arduino Serial API with Python
+* **Usage Parameter:** PySerial / Python COM Port / Serial Read
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Arrays memory`?
+**Q2.** What is the purpose of `PySerial`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

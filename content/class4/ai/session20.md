@@ -1,9 +1,9 @@
-# Session 20: Object recognition box
+# Session 20: Showcase AI mBlock Project
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Object recognition box](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
+![Showcase AI mBlock Project](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Object bounding coordinates box detection logic.... |
+| **0-20 min** | Theory | Present your custom mBlock AI game/model to the class.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Bounding Box` | `Object Detection` | `Webcam`
+**Keywords:** `Showcase` | `AI mBlock Game` | `Exhibition`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Object bounding coordinates box detection logic.
+Present your custom mBlock AI game/model to the class.
 
 ### Component Specifications
-* **Key Device:** Object recognition box
-* **Usage Parameter:** Bounding Box / Object Detection / Webcam
+* **Key Device:** Showcase AI mBlock Project
+* **Usage Parameter:** Showcase / AI mBlock Game / Exhibition
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Bounding Box`?
+**Q2.** What is the purpose of `Showcase`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

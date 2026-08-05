@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | RFID card index positions coordinate grid maps.... |
+| **0-20 min** | Theory | Scanning tags to trigger localized delivery route points.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `RFID grid` | `Coordinate tracking` | `Index check`
+**Keywords:** `RFID navigation` | `Tracking tag` | `Delivery path`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-RFID card index positions coordinate grid maps.
+Scanning tags to trigger localized delivery route points.
 
 ### Component Specifications
 * **Key Device:** RFID coordinate tracking
-* **Usage Parameter:** RFID grid / Coordinate tracking / Index check
+* **Usage Parameter:** RFID navigation / Tracking tag / Delivery path
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `RFID grid`?
+**Q2.** What is the purpose of `RFID navigation`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

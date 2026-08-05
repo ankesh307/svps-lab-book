@@ -1,9 +1,9 @@
-# Session 12: Soil moisture range map
+# Session 12: Teachable Machine Extension in mBlock
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Soil moisture range map](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![Teachable Machine Extension in mBlock](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 12** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Calibrating dry soil vs wet soil percentage logic.... |
+| **0-20 min** | Theory | Train and upload an image classification model to control sp... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Soil dry/wet` | `Calibration` | `Percentage map`
+**Keywords:** `Teachable Machine` | `Image Dataset` | `Webcam Control`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Calibrating dry soil vs wet soil percentage logic.
+Train and upload an image classification model to control sprites.
 
 ### Component Specifications
-* **Key Device:** Soil moisture range map
-* **Usage Parameter:** Soil dry/wet / Calibration / Percentage map
+* **Key Device:** Teachable Machine Extension in mBlock
+* **Usage Parameter:** Teachable Machine / Image Dataset / Webcam Control
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Soil dry/wet`?
+**Q2.** What is the purpose of `Teachable Machine`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

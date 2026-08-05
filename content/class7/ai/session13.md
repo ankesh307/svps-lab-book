@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | MAC address target peer configurations setup.... |
+| **0-20 min** | Theory | Establishing direct peer links between control transmitters.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `ESP-NOW MAC` | `Peer config` | `Remote setup`
+**Keywords:** `ESP-NOW remote` | `Transceiver link` | `Latency`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-MAC address target peer configurations setup.
+Establishing direct peer links between control transmitters.
 
 ### Component Specifications
 * **Key Device:** ESP-NOW remote setup
-* **Usage Parameter:** ESP-NOW MAC / Peer config / Remote setup
+* **Usage Parameter:** ESP-NOW remote / Transceiver link / Latency
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `ESP-NOW MAC`?
+**Q2.** What is the purpose of `ESP-NOW remote`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

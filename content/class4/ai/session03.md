@@ -1,9 +1,9 @@
-# Session 03: Traffic light logic
+# Session 03: mBlock Event Blocks (Keyboard & Mouse)
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Traffic light logic](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
+![mBlock Event Blocks (Keyboard & Mouse)](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 03** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Red Yellow Green LED sequence timing map control.... |
+| **0-20 min** | Theory | Trigger events to control sprite directions and actions.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Traffic Light` | `Sequence Logic` | `Timing Map`
+**Keywords:** `Event Blocks` | `Keyboard Control` | `Mouse Events`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Red Yellow Green LED sequence timing map control.
+Trigger events to control sprite directions and actions.
 
 ### Component Specifications
-* **Key Device:** Traffic light logic
-* **Usage Parameter:** Traffic Light / Sequence Logic / Timing Map
+* **Key Device:** mBlock Event Blocks (Keyboard & Mouse)
+* **Usage Parameter:** Event Blocks / Keyboard Control / Mouse Events
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Traffic Light`?
+**Q2.** What is the purpose of `Event Blocks`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

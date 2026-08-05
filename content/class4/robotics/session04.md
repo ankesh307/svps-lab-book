@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | IDE download, port detection aur Uno board configuration tes... |
+| **0-20 min** | Theory | Download, install, and configure the IDE for Arduino develop... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Arduino IDE` | `COM Port` | `Uno Setup`
+**Keywords:** `Arduino IDE` | `Editor Setup` | `Configuration`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-IDE download, port detection aur Uno board configuration test.
+Download, install, and configure the IDE for Arduino development.
 
 ### Component Specifications
 * **Key Device:** Setup Arduino IDE
-* **Usage Parameter:** Arduino IDE / COM Port / Uno Setup
+* **Usage Parameter:** Arduino IDE / Editor Setup / Configuration
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

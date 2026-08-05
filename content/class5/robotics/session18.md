@@ -1,9 +1,9 @@
-# Session 18: Servo write() function
+# Session 18: Laser Module Tripwire Alarm
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Servo write() function](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
+![Laser Module Tripwire Alarm](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 18** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Servo class instances attach pin, write angle coordinate.... |
+| **0-20 min** | Theory | Build a security tripwire using a Laser Module pointing at a... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Servo.h` | `attach()` | `write()`
+**Keywords:** `Laser Module` | `LDR Tripwire` | `Laser Security`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Servo class instances attach pin, write angle coordinate.
+Build a security tripwire using a Laser Module pointing at an LDR sensor.
 
 ### Component Specifications
-* **Key Device:** Servo write() function
-* **Usage Parameter:** Servo.h / attach() / write()
+* **Key Device:** Laser Module Tripwire Alarm
+* **Usage Parameter:** Laser Module / LDR Tripwire / Laser Security
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Servo.h`?
+**Q2.** What is the purpose of `Laser Module`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

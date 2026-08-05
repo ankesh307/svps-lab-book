@@ -1,9 +1,9 @@
-# Session 15: Array storage lists
+# Session 15: IR Receiver & Remote Control
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Array storage lists](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![IR Receiver & Remote Control](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 15** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Index based array storage lists and matrix arrays.... |
+| **0-20 min** | Theory | Decode signals from an IR remote to switch different LEDs on... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Array storage` | `Index` | `Matrix`
+**Keywords:** `IR Receiver` | `IR Remote` | `Signal Decode`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Index based array storage lists and matrix arrays.
+Decode signals from an IR remote to switch different LEDs on/off.
 
 ### Component Specifications
-* **Key Device:** Array storage lists
-* **Usage Parameter:** Array storage / Index / Matrix
+* **Key Device:** IR Receiver & Remote Control
+* **Usage Parameter:** IR Receiver / IR Remote / Signal Decode
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Array storage`?
+**Q2.** What is the purpose of `IR Receiver`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

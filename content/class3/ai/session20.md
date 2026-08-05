@@ -1,9 +1,9 @@
-# Session 20: Hide and show blocks
+# Session 20: Showcase exhibition model
 
 **Class 3 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Hide and show blocks](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
+![Showcase exhibition model](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Using hide/show blocks on broadcast triggers events.... |
+| **0-20 min** | Theory | Self running Scratch AI game live showcase presentation.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Hide/Show` | `Broadcast Trigger` | `Events`
+**Keywords:** `Showcase` | `AI Scratch Game` | `Exhibition`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Using hide/show blocks on broadcast triggers events.
+Self running Scratch AI game live showcase presentation.
 
 ### Component Specifications
-* **Key Device:** Hide and show blocks
-* **Usage Parameter:** Hide/Show / Broadcast Trigger / Events
+* **Key Device:** Showcase exhibition model
+* **Usage Parameter:** Showcase / AI Scratch Game / Exhibition
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -71,7 +71,7 @@ end
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Hide/Show`?
+**Q2.** What is the purpose of `Showcase`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

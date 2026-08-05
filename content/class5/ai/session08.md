@@ -1,9 +1,9 @@
-# Session 08: While Loop exit logic
+# Session 08: String Manipulation & LCD Formatting
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![While Loop exit logic](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![String Manipulation & LCD Formatting](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | break statement loops exit checks conditions.... |
+| **0-20 min** | Theory | Parse text strings and print them with custom formatting on ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `While exit` | `break` | `Loops check`
+**Keywords:** `String Class` | `LCD Formatting` | `sprintf()`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-break statement loops exit checks conditions.
+Parse text strings and print them with custom formatting on an LCD1602 screen.
 
 ### Component Specifications
-* **Key Device:** While Loop exit logic
-* **Usage Parameter:** While exit / break / Loops check
+* **Key Device:** String Manipulation & LCD Formatting
+* **Usage Parameter:** String Class / LCD Formatting / sprintf()
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `While exit`?
+**Q2.** What is the purpose of `String Class`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -1,9 +1,9 @@
-# Session 17: Slicing Thickness Density
+# Session 17: ESP8266 Car steering
 
 **Class 6 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Slicing Thickness Density](https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&auto=format&fit=crop&q=80)
+![ESP8266 Car steering](https://images.unsplash.com/photo-1555664424-778a1e5e1b48?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Layer height 0.2mm, infill density settings process.... |
+| **0-20 min** | Theory | Write C++ functions to steer the robot car in multiple direc... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Layer Height` | `Infill Density` | `Slicer`
+**Keywords:** `Car Steering` | `Drive Functions` | `C++ code`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Layer height 0.2mm, infill density settings process.
+Write C++ functions to steer the robot car in multiple directions.
 
 ### Component Specifications
-* **Key Device:** Slicing Thickness Density
-* **Usage Parameter:** Layer Height / Infill Density / Slicer
+* **Key Device:** ESP8266 Car steering
+* **Usage Parameter:** Car Steering / Drive Functions / C++ code
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Layer Height`?
+**Q2.** What is the purpose of `Car Steering`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

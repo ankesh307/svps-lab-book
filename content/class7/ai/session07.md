@@ -3,7 +3,7 @@
 **Class 7 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Bambu AMS multicolor select](https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&auto=format&fit=crop&q=80)
+![Bambu AMS multicolor select](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 07** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Bambu Studio paint tool color fill STL.... |
+| **0-20 min** | Theory | Instruct Bambu printer to alternate between colors dynamical... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Bambu AMS` | `Paint tool` | `Slicer colors`
+**Keywords:** `Bambu AMS` | `Multicolor` | `Filament swap`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Bambu Studio paint tool color fill STL.
+Instruct Bambu printer to alternate between colors dynamically.
 
 ### Component Specifications
 * **Key Device:** Bambu AMS multicolor select
-* **Usage Parameter:** Bambu AMS / Paint tool / Slicer colors
+* **Usage Parameter:** Bambu AMS / Multicolor / Filament swap
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

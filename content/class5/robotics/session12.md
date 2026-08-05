@@ -1,9 +1,9 @@
-# Session 12: Switch Case C++ State
+# Session 12: LCD1602 Display (I2C)
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Switch Case C++ State](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![LCD1602 Display (I2C)](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
 
 > **Session 12** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Switch case structure mapped to multiple choice operations.... |
+| **0-20 min** | Theory | Wire the LCD1602 display screen and print 'Hello World' and ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Switch Case` | `Multiple Choice` | `States`
+**Keywords:** `LCD1602` | `I2C Interface` | `Display Text`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Switch case structure mapped to multiple choice operations.
+Wire the LCD1602 display screen and print 'Hello World' and sensor values.
 
 ### Component Specifications
-* **Key Device:** Switch Case C++ State
-* **Usage Parameter:** Switch Case / Multiple Choice / States
+* **Key Device:** LCD1602 Display (I2C)
+* **Usage Parameter:** LCD1602 / I2C Interface / Display Text
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Switch Case`?
+**Q2.** What is the purpose of `LCD1602`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

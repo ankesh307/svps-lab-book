@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Chassis plates aur side panels connect karne wale angle bars... |
+| **0-20 min** | Theory | L-joint structure layout and connection holes mapping.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Angle Bars` | `L-Joint` | `Connection`
+**Keywords:** `L-Joint` | `Angle Bars` | `Chassis`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Chassis plates aur side panels connect karne wale angle bars.
+L-joint structure layout and connection holes mapping.
 
 ### Component Specifications
 * **Key Device:** L-Joint Angle Bars
-* **Usage Parameter:** Angle Bars / L-Joint / Connection
+* **Usage Parameter:** L-Joint / Angle Bars / Chassis
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -67,7 +67,7 @@ Here is the code structure for today:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Angle Bars`?
+**Q2.** What is the purpose of `L-Joint`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

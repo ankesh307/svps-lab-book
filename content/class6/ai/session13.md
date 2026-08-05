@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Check left path vs check right path decisions.... |
+| **0-20 min** | Theory | IF obstacle detected THEN stop motors, reverse steering.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Path check` | `Brake/Turn` | `Decisions`
+**Keywords:** `Obstacle avoid` | `Brake logic` | `Car driving`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Check left path vs check right path decisions.
+IF obstacle detected THEN stop motors, reverse steering.
 
 ### Component Specifications
 * **Key Device:** Obstacle check logic
-* **Usage Parameter:** Path check / Brake/Turn / Decisions
+* **Usage Parameter:** Obstacle avoid / Brake logic / Car driving
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Path check`?
+**Q2.** What is the purpose of `Obstacle avoid`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Breadboard rows, columns aur internal metal strip layout che... |
+| **0-20 min** | Theory | Learn how to plug LEDs and wires into a breadboard without s... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Breadboard` | `Rows` | `Metal Strips`
+**Keywords:** `Breadboard` | `Prototyping` | `LED Circuits`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Breadboard rows, columns aur internal metal strip layout check karo.
+Learn how to plug LEDs and wires into a breadboard without soldering.
 
 ### Component Specifications
 * **Key Device:** Breadboard Prototyping
-* **Usage Parameter:** Breadboard / Rows / Metal Strips
+* **Usage Parameter:** Breadboard / Prototyping / LED Circuits
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

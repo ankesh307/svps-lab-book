@@ -13,7 +13,7 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | HTTPClient post data payload formatted string URL.... |
+| **0-20 min** | Theory | Write post request data payloads to send values to the cloud... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
@@ -25,7 +25,7 @@ Tier Curriculum | Connect Shiksha
 ## Theory (20 Minutes)
 
 ### Core Concept
-HTTPClient post data payload formatted string URL.
+Write post request data payloads to send values to the cloud.
 
 ### Component Specifications
 * **Key Device:** ESP8266 HTTPClient

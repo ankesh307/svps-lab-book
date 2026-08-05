@@ -1,9 +1,9 @@
-# Session 16: Web basic authentication
+# Session 16: Warehouse Delivery Bot
 
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Web basic authentication](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
+![Warehouse Delivery Bot](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 16** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Adding username password auth header validation.... |
+| **0-20 min** | Theory | Build line follower/grid tracking transport robot prototypes... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Basic Auth` | `Security Header` | `Web Server`
+**Keywords:** `Delivery Bot` | `Warehouse transport` | `Prototype`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Adding username password auth header validation.
+Build line follower/grid tracking transport robot prototypes.
 
 ### Component Specifications
-* **Key Device:** Web basic authentication
-* **Usage Parameter:** Basic Auth / Security Header / Web Server
+* **Key Device:** Warehouse Delivery Bot
+* **Usage Parameter:** Delivery Bot / Warehouse transport / Prototype
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Basic Auth`?
+**Q2.** What is the purpose of `Delivery Bot`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

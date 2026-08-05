@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Microcontroller pins layout, power terminals aur reset butto... |
+| **0-20 min** | Theory | Understand the board layout, power options, and key pin head... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Arduino Uno` | `Pins` | `Reset`
+**Keywords:** `Arduino Uno` | `Board Layout` | `Headers`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Microcontroller pins layout, power terminals aur reset button samjho.
+Understand the board layout, power options, and key pin headers.
 
 ### Component Specifications
 * **Key Device:** Meet Arduino Uno
-* **Usage Parameter:** Arduino Uno / Pins / Reset
+* **Usage Parameter:** Arduino Uno / Board Layout / Headers
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

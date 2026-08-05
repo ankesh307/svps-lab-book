@@ -1,9 +1,9 @@
-# Session 17: Audio classification model
+# Session 17: Wokwi/Tinkercad Arduino Simulation
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Audio classification model](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
+![Wokwi/Tinkercad Arduino Simulation](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Audios waveforms feature matching thresholds.... |
+| **0-20 min** | Theory | Simulate complex hardware circuits online to test code befor... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Audio Classify` | `Waveform feature` | `Threshold`
+**Keywords:** `Online Simulation` | `Tinkercad Circuits` | `Wokwi Debug`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Audios waveforms feature matching thresholds.
+Simulate complex hardware circuits online to test code before uploading.
 
 ### Component Specifications
-* **Key Device:** Audio classification model
-* **Usage Parameter:** Audio Classify / Waveform feature / Threshold
+* **Key Device:** Wokwi/Tinkercad Arduino Simulation
+* **Usage Parameter:** Online Simulation / Tinkercad Circuits / Wokwi Debug
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Audio Classify`?
+**Q2.** What is the purpose of `Online Simulation`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

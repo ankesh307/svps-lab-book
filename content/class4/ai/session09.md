@@ -1,9 +1,9 @@
-# Session 09: Buzzer pitch notesHz
+# Session 09: Cognitive Services (Text to Speech)
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Buzzer pitch notesHz](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Cognitive Services (Text to Speech)](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 09** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | tone() frequency parameter notes scale map Hz.... |
+| **0-20 min** | Theory | Make your sprite read out loud in different accents and voic... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `tone()` | `Buzzer pitch` | `Hz Notes scale`
+**Keywords:** `Text to Speech` | `Auditory Output` | `Speech Generation`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-tone() frequency parameter notes scale map Hz.
+Make your sprite read out loud in different accents and voices.
 
 ### Component Specifications
-* **Key Device:** Buzzer pitch notesHz
-* **Usage Parameter:** tone() / Buzzer pitch / Hz Notes scale
+* **Key Device:** Cognitive Services (Text to Speech)
+* **Usage Parameter:** Text to Speech / Auditory Output / Speech Generation
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `tone()`?
+**Q2.** What is the purpose of `Text to Speech`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

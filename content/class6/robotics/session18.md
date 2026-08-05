@@ -1,9 +1,9 @@
-# Session 18: Gyroid Infill Pattern
+# Session 18: HC-SR04 Trigger Echo
 
 **Class 6 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Gyroid Infill Pattern](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![HC-SR04 Trigger Echo](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 18** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Why gyroid pattern provides high structural strength.... |
+| **0-20 min** | Theory | Connect ultrasonic sensors and read raw pulse duration.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Gyroid` | `Structural Strength` | `Infill`
+**Keywords:** `HC-SR04` | `Trigger Echo` | `Ultrasonic`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Why gyroid pattern provides high structural strength.
+Connect ultrasonic sensors and read raw pulse duration.
 
 ### Component Specifications
-* **Key Device:** Gyroid Infill Pattern
-* **Usage Parameter:** Gyroid / Structural Strength / Infill
+* **Key Device:** HC-SR04 Trigger Echo
+* **Usage Parameter:** HC-SR04 / Trigger Echo / Ultrasonic
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Gyroid`?
+**Q2.** What is the purpose of `HC-SR04`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

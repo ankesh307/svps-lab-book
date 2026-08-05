@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | RFID swipe sends post request to IFTTT sheets applet.... |
+| **0-20 min** | Theory | Log attendance data to cloud sheets directly using scripting... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `RFID Sheets` | `Google Log` | `IFTTT Applet`
+**Keywords:** `RFID Log` | `Google Sheets` | `Cloud Attendance`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-RFID swipe sends post request to IFTTT sheets applet.
+Log attendance data to cloud sheets directly using scripting.
 
 ### Component Specifications
 * **Key Device:** RFID Google Sheets Log
-* **Usage Parameter:** RFID Sheets / Google Log / IFTTT Applet
+* **Usage Parameter:** RFID Log / Google Sheets / Cloud Attendance
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `RFID Sheets`?
+**Q2.** What is the purpose of `RFID Log`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

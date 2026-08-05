@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | CascadeClassifier XML matching loop bounding box.... |
+| **0-20 min** | Theory | Use Haar Cascade models to recognize frontal face regions.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Haar Cascade` | `Face detection` | `Bounding box`
+**Keywords:** `Face detection` | `Haar Cascade` | `XML Classifier`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-CascadeClassifier XML matching loop bounding box.
+Use Haar Cascade models to recognize frontal face regions.
 
 ### Component Specifications
 * **Key Device:** Face detection Haar Cascade
-* **Usage Parameter:** Haar Cascade / Face detection / Bounding box
+* **Usage Parameter:** Face detection / Haar Cascade / XML Classifier
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Haar Cascade`?
+**Q2.** What is the purpose of `Face detection`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -1,9 +1,9 @@
-# Session 07: For Loop incremental
+# Session 07: C++ Arrays & Keypad Mapping
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![For Loop incremental](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![C++ Arrays & Keypad Mapping](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 07** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Index increment counters, memory optimization logic.... |
+| **0-20 min** | Theory | Understand arrays and how they are used to map rows and colu... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `For loop` | `Index count` | `Memory optimize`
+**Keywords:** `C++ Arrays` | `Keypad Mapping` | `Memory Indexes`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Index increment counters, memory optimization logic.
+Understand arrays and how they are used to map rows and columns of a 4x4 keypad matrix.
 
 ### Component Specifications
-* **Key Device:** For Loop incremental
-* **Usage Parameter:** For loop / Index count / Memory optimize
+* **Key Device:** C++ Arrays & Keypad Mapping
+* **Usage Parameter:** C++ Arrays / Keypad Mapping / Memory Indexes
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `For loop`?
+**Q2.** What is the purpose of `C++ Arrays`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

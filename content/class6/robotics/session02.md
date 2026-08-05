@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Why ESP8266 has built-in WiFi chip and larger flash memory.... |
+| **0-20 min** | Theory | Compare Arduino Uno features with ESP8266 built-in Wi-Fi.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Uno vs ESP8266` | `Flash memory` | `WiFi`
+**Keywords:** `Uno vs ESP8266` | `WiFi Board` | `Features`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Why ESP8266 has built-in WiFi chip and larger flash memory.
+Compare Arduino Uno features with ESP8266 built-in Wi-Fi.
 
 ### Component Specifications
 * **Key Device:** Uno vs ESP8266 WiFi
-* **Usage Parameter:** Uno vs ESP8266 / Flash memory / WiFi
+* **Usage Parameter:** Uno vs ESP8266 / WiFi Board / Features
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

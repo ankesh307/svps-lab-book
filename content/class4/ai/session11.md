@@ -1,9 +1,9 @@
-# Session 11: Rain sensor threshold
+# Session 11: mBlock Face Recognition AI
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Rain sensor threshold](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![mBlock Face Recognition AI](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 11** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Water drops levels check output alerts threshold.... |
+| **0-20 min** | Theory | Detect faces, age, and emotions using webcam cognitive block... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Rain threshold` | `Water drop alert` | `Sensor`
+**Keywords:** `Face Detection` | `Age Predict` | `Emotion AI`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Water drops levels check output alerts threshold.
+Detect faces, age, and emotions using webcam cognitive blocks.
 
 ### Component Specifications
-* **Key Device:** Rain sensor threshold
-* **Usage Parameter:** Rain threshold / Water drop alert / Sensor
+* **Key Device:** mBlock Face Recognition AI
+* **Usage Parameter:** Face Detection / Age Predict / Emotion AI
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Rain threshold`?
+**Q2.** What is the purpose of `Face Detection`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

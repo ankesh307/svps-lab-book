@@ -1,9 +1,9 @@
-# Session 11: While loop condition
+# Session 11: Automatic Plant Watering System
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![While loop condition](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Automatic Plant Watering System](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 11** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | While condition true execution loops and break commands.... |
+| **0-20 min** | Theory | Integrate Soil Moisture sensor + Relay + Water Pump to build... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `While Loop` | `break` | `Condition true`
+**Keywords:** `Automatic Irrigation` | `Soil Sensor` | `Water Pump`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-While condition true execution loops and break commands.
+Integrate Soil Moisture sensor + Relay + Water Pump to build an automatic plant watering system.
 
 ### Component Specifications
-* **Key Device:** While loop condition
-* **Usage Parameter:** While Loop / break / Condition true
+* **Key Device:** Automatic Plant Watering System
+* **Usage Parameter:** Automatic Irrigation / Soil Sensor / Water Pump
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `While Loop`?
+**Q2.** What is the purpose of `Automatic Irrigation`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

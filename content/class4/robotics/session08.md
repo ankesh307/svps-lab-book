@@ -3,7 +3,7 @@
 **Class 4 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![External LED Circuit](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
+![External LED Circuit](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Uno Digital outputs se 220 ohm resistor lagakar external LED... |
+| **0-20 min** | Theory | Connect an LED on a breadboard using a current-limiting resi... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Digital Output` | `External LED` | `220 Ohm`
+**Keywords:** `External LED` | `Resistor` | `Breadboard`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Uno Digital outputs se 220 ohm resistor lagakar external LED run karo.
+Connect an LED on a breadboard using a current-limiting resistor.
 
 ### Component Specifications
 * **Key Device:** External LED Circuit
-* **Usage Parameter:** Digital Output / External LED / 220 Ohm
+* **Usage Parameter:** External LED / Resistor / Breadboard
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Digital Output`?
+**Q2.** What is the purpose of `External LED`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

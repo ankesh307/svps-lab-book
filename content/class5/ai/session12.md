@@ -1,9 +1,9 @@
-# Session 12: Function parameter pass
+# Session 12: Teachable Machine Image Classification
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Function parameter pass](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Teachable Machine Image Classification](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 12** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Call by value vs call by reference memory paths.... |
+| **0-20 min** | Theory | Train a custom computer vision model on Google Teachable Mac... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Call by value` | `Call by reference` | `Memory`
+**Keywords:** `Teachable Machine` | `Image Dataset` | `Model Training`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Call by value vs call by reference memory paths.
+Train a custom computer vision model on Google Teachable Machine.
 
 ### Component Specifications
-* **Key Device:** Function parameter pass
-* **Usage Parameter:** Call by value / Call by reference / Memory
+* **Key Device:** Teachable Machine Image Classification
+* **Usage Parameter:** Teachable Machine / Image Dataset / Model Training
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Call by value`?
+**Q2.** What is the purpose of `Teachable Machine`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

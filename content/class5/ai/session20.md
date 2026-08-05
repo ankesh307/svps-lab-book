@@ -1,9 +1,9 @@
-# Session 20: Sensor data plotter
+# Session 20: Class 5 AI & Software Showcase
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Sensor data plotter](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![Class 5 AI & Software Showcase](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Live LDR values wave tracking plotter tool.... |
+| **0-20 min** | Theory | Present a hybrid Python-Arduino project (e.g. voice-controll... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `LDR Plotter` | `Live waves` | `Serial Monitor`
+**Keywords:** `Showcase Project` | `Python-Arduino Hybrid` | `Exhibition`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Live LDR values wave tracking plotter tool.
+Present a hybrid Python-Arduino project (e.g. voice-controlled fan or face-tracking alarm).
 
 ### Component Specifications
-* **Key Device:** Sensor data plotter
-* **Usage Parameter:** LDR Plotter / Live waves / Serial Monitor
+* **Key Device:** Class 5 AI & Software Showcase
+* **Usage Parameter:** Showcase Project / Python-Arduino Hybrid / Exhibition
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `LDR Plotter`?
+**Q2.** What is the purpose of `Showcase Project`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

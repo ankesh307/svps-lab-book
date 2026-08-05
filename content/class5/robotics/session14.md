@@ -1,9 +1,9 @@
-# Session 14: C++ Custom Functions
+# Session 14: Digital Combination Lock
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![C++ Custom Functions](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Digital Combination Lock](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 14** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Functions parameters passing, return types (void, int).... |
+| **0-20 min** | Theory | Combine Keypad + SG90 Servo + LCD1602 to build a passcode-lo... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Custom Functions` | `Return types` | `Parameters`
+**Keywords:** `Combination Lock` | `Keypad Passcode` | `Servo Lock`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Functions parameters passing, return types (void, int).
+Combine Keypad + SG90 Servo + LCD1602 to build a passcode-locked door lock.
 
 ### Component Specifications
-* **Key Device:** C++ Custom Functions
-* **Usage Parameter:** Custom Functions / Return types / Parameters
+* **Key Device:** Digital Combination Lock
+* **Usage Parameter:** Combination Lock / Keypad Passcode / Servo Lock
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Custom Functions`?
+**Q2.** What is the purpose of `Combination Lock`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

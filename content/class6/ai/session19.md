@@ -3,7 +3,7 @@
 **Class 6 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Matplotlib live graphs](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![Matplotlib live graphs](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 19** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Real-time plotter line graphs data visualization.... |
+| **0-20 min** | Theory | Plot live sensor data over time inside Python canvas.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Matplotlib` | `Live graph` | `Plotter line`
+**Keywords:** `Matplotlib` | `Live graph` | `Sensor plot`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Real-time plotter line graphs data visualization.
+Plot live sensor data over time inside Python canvas.
 
 ### Component Specifications
 * **Key Device:** Matplotlib live graphs
-* **Usage Parameter:** Matplotlib / Live graph / Plotter line
+* **Usage Parameter:** Matplotlib / Live graph / Sensor plot
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

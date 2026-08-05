@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Proportional Integral Derivative correction calculation.... |
+| **0-20 min** | Theory | minimizing drone shaking errors using feedback gains.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `PID stabilize` | `Derivative correction` | `Math`
+**Keywords:** `PID Feedback` | `Stabilization` | `Error minimize`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Proportional Integral Derivative correction calculation.
+minimizing drone shaking errors using feedback gains.
 
 ### Component Specifications
 * **Key Device:** PID stabilization loop
-* **Usage Parameter:** PID stabilize / Derivative correction / Math
+* **Usage Parameter:** PID Feedback / Stabilization / Error minimize
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `PID stabilize`?
+**Q2.** What is the purpose of `PID Feedback`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

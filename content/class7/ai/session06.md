@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | 0.5mm clearance gap slicer boundary setup.... |
+| **0-20 min** | Theory | Setting exact tolerances for clean mechanical rotations.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Clearance gap` | `3D print hinge` | `Slicer setup`
+**Keywords:** `Clearance gap` | `3D print fit` | `Hinge CAD`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-0.5mm clearance gap slicer boundary setup.
+Setting exact tolerances for clean mechanical rotations.
 
 ### Component Specifications
 * **Key Device:** Moving parts clearance
-* **Usage Parameter:** Clearance gap / 3D print hinge / Slicer setup
+* **Usage Parameter:** Clearance gap / 3D print fit / Hinge CAD
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

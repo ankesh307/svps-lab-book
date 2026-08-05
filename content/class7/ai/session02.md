@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | GET request return fields JSON parser values.... |
+| **0-20 min** | Theory | Fetch and extract status logs from JSON API responses.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `ThingSpeak JSON` | `GET request` | `Field parsing`
+**Keywords:** `JSON API` | `ThingSpeak read` | `JSON parsing`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-GET request return fields JSON parser values.
+Fetch and extract status logs from JSON API responses.
 
 ### Component Specifications
 * **Key Device:** ThingSpeak JSON parsing
-* **Usage Parameter:** ThingSpeak JSON / GET request / Field parsing
+* **Usage Parameter:** JSON API / ThingSpeak read / JSON parsing
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `ThingSpeak JSON`?
+**Q2.** What is the purpose of `JSON API`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

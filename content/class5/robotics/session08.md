@@ -1,9 +1,9 @@
-# Session 08: digitalRead C++ Syntax
+# Session 08: IR Obstacle Sensor (Burglar Alarm)
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![digitalRead C++ Syntax](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![IR Obstacle Sensor (Burglar Alarm)](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | digitalRead() returns HIGH or LOW with pullup constraints.... |
+| **0-20 min** | Theory | Use an IR sensor to detect movement and sound a burglar warn... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `digitalRead()` | `INPUT_PULLUP` | `HIGH/LOW`
+**Keywords:** `IR Sensor` | `Obstacle Detect` | `Burglar Alarm`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-digitalRead() returns HIGH or LOW with pullup constraints.
+Use an IR sensor to detect movement and sound a burglar warning alarm.
 
 ### Component Specifications
-* **Key Device:** digitalRead C++ Syntax
-* **Usage Parameter:** digitalRead() / INPUT_PULLUP / HIGH/LOW
+* **Key Device:** IR Obstacle Sensor (Burglar Alarm)
+* **Usage Parameter:** IR Sensor / Obstacle Detect / Burglar Alarm
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `digitalRead()`?
+**Q2.** What is the purpose of `IR Sensor`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

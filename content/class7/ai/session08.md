@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Forces balance equations roll pitch yaw parameters.... |
+| **0-20 min** | Theory | Learn the balance between Lift, Weight, Thrust, and Drag.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Quadcopter forces` | `Roll/Pitch/Yaw` | `Balance`
+**Keywords:** `Flight physics` | `Lift forces` | `Drone balance`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Forces balance equations roll pitch yaw parameters.
+Learn the balance between Lift, Weight, Thrust, and Drag.
 
 ### Component Specifications
 * **Key Device:** Drone flight forces
-* **Usage Parameter:** Quadcopter forces / Roll/Pitch/Yaw / Balance
+* **Usage Parameter:** Flight physics / Lift forces / Drone balance
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Quadcopter forces`?
+**Q2.** What is the purpose of `Flight physics`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

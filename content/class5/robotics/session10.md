@@ -1,9 +1,9 @@
-# Session 10: C++ For Loop Iterations
+# Session 10: 5V Relay & Submersible Water Pump
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![C++ For Loop Iterations](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![5V Relay & Submersible Water Pump](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 10** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | For loop iteration count increments and speed optimization.... |
+| **0-20 min** | Theory | Connect a relay module to safely switch a 5V water pump on a... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `For Loop` | `Iterations` | `Speed`
+**Keywords:** `Relay Module` | `5V Water Pump` | `Submersible Pump`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-For loop iteration count increments and speed optimization.
+Connect a relay module to safely switch a 5V water pump on and off.
 
 ### Component Specifications
-* **Key Device:** C++ For Loop Iterations
-* **Usage Parameter:** For Loop / Iterations / Speed
+* **Key Device:** 5V Relay & Submersible Water Pump
+* **Usage Parameter:** Relay Module / 5V Water Pump / Submersible Pump
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `For Loop`?
+**Q2.** What is the purpose of `Relay Module`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

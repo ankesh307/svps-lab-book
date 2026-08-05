@@ -1,9 +1,9 @@
-# Session 17: Image classification model
+# Session 17: Data Visualization in mBlock
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Image classification model](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
+![Data Visualization in mBlock](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Training classification classes webcam threshold.... |
+| **0-20 min** | Theory | Create live line graphs and bar charts plotting cloud variab... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Classification` | `Webcam Class` | `Threshold`
+**Keywords:** `Data Visuals` | `Line Graph` | `Bar Chart`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Training classification classes webcam threshold.
+Create live line graphs and bar charts plotting cloud variables.
 
 ### Component Specifications
-* **Key Device:** Image classification model
-* **Usage Parameter:** Classification / Webcam Class / Threshold
+* **Key Device:** Data Visualization in mBlock
+* **Usage Parameter:** Data Visuals / Line Graph / Bar Chart
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Classification`?
+**Q2.** What is the purpose of `Data Visuals`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

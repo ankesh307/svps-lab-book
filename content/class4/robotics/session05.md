@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | B type cable se code upload process aur bootloader signals c... |
+| **0-20 min** | Theory | Configure COM ports, drivers, and establishing laptop commun... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `USB Upload` | `Bootloader` | `B type`
+**Keywords:** `USB Interface` | `COM Ports` | `Driver`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-B type cable se code upload process aur bootloader signals check.
+Configure COM ports, drivers, and establishing laptop communication.
 
 ### Component Specifications
 * **Key Device:** Connecting USB Interface
-* **Usage Parameter:** USB Upload / Bootloader / B type
+* **Usage Parameter:** USB Interface / COM Ports / Driver
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `USB Upload`?
+**Q2.** What is the purpose of `USB Interface`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -1,9 +1,9 @@
-# Session 15: ESP-NOW Joystick Remote
+# Session 15: Web basic authentication
 
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![ESP-NOW Joystick Remote](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Web basic authentication](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 15** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Joystick analog X/Y data sent to robot receiver.... |
+| **0-20 min** | Theory | Secure server dashboards using base64 header validation.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Joystick Remote` | `Transmitter` | `ESP-NOW`
+**Keywords:** `Web security` | `Basic Auth` | `Passwords`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Joystick analog X/Y data sent to robot receiver.
+Secure server dashboards using base64 header validation.
 
 ### Component Specifications
-* **Key Device:** ESP-NOW Joystick Remote
-* **Usage Parameter:** Joystick Remote / Transmitter / ESP-NOW
+* **Key Device:** Web basic authentication
+* **Usage Parameter:** Web security / Basic Auth / Passwords
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Joystick Remote`?
+**Q2.** What is the purpose of `Web security`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

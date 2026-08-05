@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Data update payload formatting parameters logs.... |
+| **0-20 min** | Theory | Send numeric inputs to dedicated fields on cloud channels.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Data update` | `ThingSpeak logs` | `Parameters`
+**Keywords:** `ThingSpeak write` | `Fields update` | `Cloud API`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Data update payload formatting parameters logs.
+Send numeric inputs to dedicated fields on cloud channels.
 
 ### Component Specifications
 * **Key Device:** ThingSpeak fields update
-* **Usage Parameter:** Data update / ThingSpeak logs / Parameters
+* **Usage Parameter:** ThingSpeak write / Fields update / Cloud API
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Data update`?
+**Q2.** What is the purpose of `ThingSpeak write`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

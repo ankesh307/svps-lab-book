@@ -1,9 +1,9 @@
-# Session 20: L298N H-Bridge Drive
+# Session 20: Showcase WiFi Robot Car
 
 **Class 6 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![L298N H-Bridge Drive](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Showcase WiFi Robot Car](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | IN1-4 direction control pins, ENA/B speed pins.... |
+| **0-20 min** | Theory | Demonstrate local phone-guided autonomous car over Wi-Fi.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `L298N` | `IN1-IN4` | `ENA/ENB`
+**Keywords:** `Showcase` | `WiFi Car` | `Demonstration`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-IN1-4 direction control pins, ENA/B speed pins.
+Demonstrate local phone-guided autonomous car over Wi-Fi.
 
 ### Component Specifications
-* **Key Device:** L298N H-Bridge Drive
-* **Usage Parameter:** L298N / IN1-IN4 / ENA/ENB
+* **Key Device:** Showcase WiFi Robot Car
+* **Usage Parameter:** Showcase / WiFi Car / Demonstration
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `L298N`?
+**Q2.** What is the purpose of `Showcase`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -1,9 +1,9 @@
-# Session 02: C++ Void Setup & Loop
+# Session 02: LED & Buzzer Alarm Circuit
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![C++ Void Setup & Loop](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![LED & Buzzer Alarm Circuit](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
 
 > **Session 02** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | void setup() aur void loop() execution blocks and priority f... |
+| **0-20 min** | Theory | Code a blinking LED and buzzer tone to create a security fla... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `void setup()` | `void loop()` | `Flow`
+**Keywords:** `LED Flasher` | `Buzzer Beeps` | `Security Beacon`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-void setup() aur void loop() execution blocks and priority flow.
+Code a blinking LED and buzzer tone to create a security flashing beacon.
 
 ### Component Specifications
-* **Key Device:** C++ Void Setup & Loop
-* **Usage Parameter:** void setup() / void loop() / Flow
+* **Key Device:** LED & Buzzer Alarm Circuit
+* **Usage Parameter:** LED Flasher / Buzzer Beeps / Security Beacon
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `void setup()`?
+**Q2.** What is the purpose of `LED Flasher`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

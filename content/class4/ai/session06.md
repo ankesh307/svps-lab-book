@@ -1,9 +1,9 @@
-# Session 06: Potentiometer map calculation
+# Session 06: mBlock Broadcast Message Events
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Potentiometer map calculation](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![mBlock Broadcast Message Events](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 06** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | 0-1023 analog range mapping analogWrite 0-255 PWM.... |
+| **0-20 min** | Theory | Coordinate communication between multiple sprites.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `analogRead 0-1023` | `analogWrite 0-255` | `map()`
+**Keywords:** `Broadcast Message` | `Sprite Sync` | `Event Trigger`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-0-1023 analog range mapping analogWrite 0-255 PWM.
+Coordinate communication between multiple sprites.
 
 ### Component Specifications
-* **Key Device:** Potentiometer map calculation
-* **Usage Parameter:** analogRead 0-1023 / analogWrite 0-255 / map()
+* **Key Device:** mBlock Broadcast Message Events
+* **Usage Parameter:** Broadcast Message / Sprite Sync / Event Trigger
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `analogRead 0-1023`?
+**Q2.** What is the purpose of `Broadcast Message`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

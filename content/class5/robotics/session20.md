@@ -1,9 +1,9 @@
-# Session 20: IR Receiver Decoders
+# Session 20: Class 5 Robotics Showcase Project
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![IR Receiver Decoders](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![Class 5 Robotics Showcase Project](https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Decode HEX code patterns from IR remote control devices.... |
+| **0-20 min** | Theory | Build and present a custom integrated system combining multi... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `IRremote.h` | `HEX Codes` | `Decoders`
+**Keywords:** `Showcase Project` | `System Design` | `Exhibition`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Decode HEX code patterns from IR remote control devices.
+Build and present a custom integrated system combining multiple sensors and actuators.
 
 ### Component Specifications
-* **Key Device:** IR Receiver Decoders
-* **Usage Parameter:** IRremote.h / HEX Codes / Decoders
+* **Key Device:** Class 5 Robotics Showcase Project
+* **Usage Parameter:** Showcase Project / System Design / Exhibition
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `IRremote.h`?
+**Q2.** What is the purpose of `Showcase Project`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

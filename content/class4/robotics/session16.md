@@ -13,7 +13,7 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Pin A0 values coordinate karke PWM pin LED brightness smooth... |
+| **0-20 min** | Theory | Map A0 analog inputs to adjust LED brightness smoothly.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
@@ -25,7 +25,7 @@ Tier Curriculum | Connect Shiksha
 ## Theory (20 Minutes)
 
 ### Core Concept
-Pin A0 values coordinate karke PWM pin LED brightness smoothly map.
+Map A0 analog inputs to adjust LED brightness smoothly.
 
 ### Component Specifications
 * **Key Device:** PWM Output Dimming

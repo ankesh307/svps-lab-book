@@ -66,6 +66,6 @@ for filename in ["NextGen_Curriculum.html", "index.html"]:
             new_content = parts[0] + start_marker + js_data + end_marker + subparts[1]
             with open(filename, "w", encoding="utf-8") as f:
                 f.write(new_content)
-            print(f"Successfully injected 360 session lists and contents into {filename}!")
+            print(f"Successfully injected session lists and contents into {filename}!")
     except Exception as e:
         print(f"Error writing to {filename}: {e}")

@@ -1,9 +1,9 @@
-# Session 16: Voice Model Speech to text
+# Session 16: Voice Controlled Arduino Hardware
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Voice Model Speech to text](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Voice Controlled Arduino Hardware](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
 
 > **Session 16** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | SpeechRecognition module parsing sound waves text.... |
+| **0-20 min** | Theory | Send voice command strings from Python to Arduino to toggle ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `SpeechRecognition` | `Text parse` | `Sound waves`
+**Keywords:** `Voice Control` | `Relay Switch` | `Arduino Serial`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-SpeechRecognition module parsing sound waves text.
+Send voice command strings from Python to Arduino to toggle the relay/pump.
 
 ### Component Specifications
-* **Key Device:** Voice Model Speech to text
-* **Usage Parameter:** SpeechRecognition / Text parse / Sound waves
+* **Key Device:** Voice Controlled Arduino Hardware
+* **Usage Parameter:** Voice Control / Relay Switch / Arduino Serial
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `SpeechRecognition`?
+**Q2.** What is the purpose of `Voice Control`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

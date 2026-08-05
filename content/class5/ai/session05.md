@@ -1,9 +1,9 @@
-# Session 05: Nested If-Else conditions
+# Session 05: C++ Loops (For & While)
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Nested If-Else conditions](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![C++ Loops (For & While)](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 05** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Nested branch logic operations tree diagram flow.... |
+| **0-20 min** | Theory | Write loops to repeat actions, blink LEDs multiple times, or... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Nested If-Else` | `Branch logic` | `Tree diagram`
+**Keywords:** `For Loop` | `While Loop` | `Repeat Logic`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Nested branch logic operations tree diagram flow.
+Write loops to repeat actions, blink LEDs multiple times, or print counting variables.
 
 ### Component Specifications
-* **Key Device:** Nested If-Else conditions
-* **Usage Parameter:** Nested If-Else / Branch logic / Tree diagram
+* **Key Device:** C++ Loops (For & While)
+* **Usage Parameter:** For Loop / While Loop / Repeat Logic
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Nested If-Else`?
+**Q2.** What is the purpose of `For Loop`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

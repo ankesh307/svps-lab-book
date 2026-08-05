@@ -3,7 +3,7 @@
 **Class 7 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![RFID Google Sheets log](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![RFID Google Sheets log](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 05** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Google Script triggers Google Sheets logging data.... |
+| **0-20 min** | Theory | Log visitor name details into sheets rows via HTTP triggers.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Google Script` | `Sheets log` | `RFID log`
+**Keywords:** `RFID Cloud sheet` | `Attendance log` | `App Script`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Google Script triggers Google Sheets logging data.
+Log visitor name details into sheets rows via HTTP triggers.
 
 ### Component Specifications
 * **Key Device:** RFID Google Sheets log
-* **Usage Parameter:** Google Script / Sheets log / RFID log
+* **Usage Parameter:** RFID Cloud sheet / Attendance log / App Script
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Google Script`?
+**Q2.** What is the purpose of `RFID Cloud sheet`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

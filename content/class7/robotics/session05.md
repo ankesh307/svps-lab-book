@@ -3,7 +3,7 @@
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![IFTTT Webhooks setup](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
+![IFTTT Webhooks setup](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 05** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Create event triggers mapped to email notification.... |
+| **0-20 min** | Theory | Create trigger applets for instant email/SMS web notificatio... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `IFTTT` | `Webhooks` | `Email alert`
+**Keywords:** `IFTTT Webhooks` | `Applet Trigger` | `Notifications`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Create event triggers mapped to email notification.
+Create trigger applets for instant email/SMS web notifications.
 
 ### Component Specifications
 * **Key Device:** IFTTT Webhooks setup
-* **Usage Parameter:** IFTTT / Webhooks / Email alert
+* **Usage Parameter:** IFTTT Webhooks / Applet Trigger / Notifications
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `IFTTT`?
+**Q2.** What is the purpose of `IFTTT Webhooks`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

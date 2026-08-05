@@ -1,9 +1,9 @@
-# Session 19: Tilt Glove control logic
+# Session 19: Python Tkinter GUI setup
 
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Tilt Glove control logic](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![Python Tkinter GUI setup](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 19** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | MPU6050 glove sensor readings mapped to car movements.... |
+| **0-20 min** | Theory | Create desktop control panels with custom buttons.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Tilt Glove` | `MPU6050 remote` | `ESP-NOW`
+**Keywords:** `Tkinter GUI` | `Desktop panel` | `Python buttons`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-MPU6050 glove sensor readings mapped to car movements.
+Create desktop control panels with custom buttons.
 
 ### Component Specifications
-* **Key Device:** Tilt Glove control logic
-* **Usage Parameter:** Tilt Glove / MPU6050 remote / ESP-NOW
+* **Key Device:** Python Tkinter GUI setup
+* **Usage Parameter:** Tkinter GUI / Desktop panel / Python buttons
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Tilt Glove`?
+**Q2.** What is the purpose of `Tkinter GUI`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

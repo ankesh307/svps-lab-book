@@ -1,9 +1,9 @@
-# Session 17: Warehouse Delivery Bot
+# Session 17: Delta Cloud uploading
 
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Warehouse Delivery Bot](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Delta Cloud uploading](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | RFID cards coordinate parsing on floor navigate paths.... |
+| **0-20 min** | Theory | Batch transfer local sensor databases to server databases.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `RFID Navigate` | `Delivery Bot` | `Warehouse`
+**Keywords:** `Batch upload` | `Data transfer` | `Server logs`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-RFID cards coordinate parsing on floor navigate paths.
+Batch transfer local sensor databases to server databases.
 
 ### Component Specifications
-* **Key Device:** Warehouse Delivery Bot
-* **Usage Parameter:** RFID Navigate / Delivery Bot / Warehouse
+* **Key Device:** Delta Cloud uploading
+* **Usage Parameter:** Batch upload / Data transfer / Server logs
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `RFID Navigate`?
+**Q2.** What is the purpose of `Batch upload`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

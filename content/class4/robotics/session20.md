@@ -1,9 +1,9 @@
-# Session 20: Relay Switch Wiring
+# Session 20: Showcase Panel Presentation
 
 **Class 4 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Relay Switch Wiring](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
+![Showcase Panel Presentation](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
 
 > **Session 20** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Relay electromagnetic switch isolation coil terminals check.... |
+| **0-20 min** | Theory | Complete Uno based sensor integration model exhibit.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Relay Coil` | `Switch Isolation` | `Wiring`
+**Keywords:** `Exhibition` | `Sensor Model` | `Showcase`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Relay electromagnetic switch isolation coil terminals check.
+Complete Uno based sensor integration model exhibit.
 
 ### Component Specifications
-* **Key Device:** Relay Switch Wiring
-* **Usage Parameter:** Relay Coil / Switch Isolation / Wiring
+* **Key Device:** Showcase Panel Presentation
+* **Usage Parameter:** Exhibition / Sensor Model / Showcase
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Relay Coil`?
+**Q2.** What is the purpose of `Exhibition`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

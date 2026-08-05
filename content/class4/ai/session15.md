@@ -1,9 +1,9 @@
-# Session 15: Troubleshooting Uno compiler
+# Session 15: mBlock Climate & Weather Extension
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Troubleshooting Uno compiler](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
+![mBlock Climate & Weather Extension](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 15** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | COM port lock fix, board parameter settings check.... |
+| **0-20 min** | Theory | Fetch live real-time city temperature and weather data using... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `COM lock` | `Uno compiler` | `Bugs fix`
+**Keywords:** `Weather API` | `Cloud Data` | `Climate Blocks`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-COM port lock fix, board parameter settings check.
+Fetch live real-time city temperature and weather data using cloud blocks.
 
 ### Component Specifications
-* **Key Device:** Troubleshooting Uno compiler
-* **Usage Parameter:** COM lock / Uno compiler / Bugs fix
+* **Key Device:** mBlock Climate & Weather Extension
+* **Usage Parameter:** Weather API / Cloud Data / Climate Blocks
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `COM lock`?
+**Q2.** What is the purpose of `Weather API`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

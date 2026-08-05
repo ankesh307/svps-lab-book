@@ -1,9 +1,9 @@
-# Session 08: Auto street light logic
+# Session 08: Cognitive Services (Speech to Text)
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Auto street light logic](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
+![Cognitive Services (Speech to Text)](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | IF LDR < 300 THEN LED HIGH else LED LOW.... |
+| **0-20 min** | Theory | Use mBlock's AI Cognitive Services to recognize voice comman... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Auto light` | `LDR 300` | `LED HIGH/LOW`
+**Keywords:** `Speech to Text` | `Cognitive Services` | `AI Voice`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-IF LDR < 300 THEN LED HIGH else LED LOW.
+Use mBlock's AI Cognitive Services to recognize voice commands.
 
 ### Component Specifications
-* **Key Device:** Auto street light logic
-* **Usage Parameter:** Auto light / LDR 300 / LED HIGH/LOW
+* **Key Device:** Cognitive Services (Speech to Text)
+* **Usage Parameter:** Speech to Text / Cognitive Services / AI Voice
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Auto light`?
+**Q2.** What is the purpose of `Speech to Text`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

@@ -1,9 +1,9 @@
-# Session 18: Troubleshooting COM port
+# Session 18: Debugging Code Compilation Errors
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Troubleshooting COM port](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Debugging Code Compilation Errors](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 18** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Access denied Serial port lock bypass script.... |
+| **0-20 min** | Theory | Identify common syntax errors, missing library errors, and C... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Access Denied` | `Port Lock` | `Bypass Script`
+**Keywords:** `Compiler Errors` | `Syntax Fix` | `COM Port Lock`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Access denied Serial port lock bypass script.
+Identify common syntax errors, missing library errors, and COM port locks.
 
 ### Component Specifications
-* **Key Device:** Troubleshooting COM port
-* **Usage Parameter:** Access Denied / Port Lock / Bypass Script
+* **Key Device:** Debugging Code Compilation Errors
+* **Usage Parameter:** Compiler Errors / Syntax Fix / COM Port Lock
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Access Denied`?
+**Q2.** What is the purpose of `Compiler Errors`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

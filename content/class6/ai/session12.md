@@ -3,7 +3,7 @@
 **Class 6 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Distance alert threshold](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![Distance alert threshold](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 12** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | IF distance < 20cm brake command serial trigger.... |
+| **0-20 min** | Theory | Map sensor distance values to coordinate alert alerts.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Distance alert` | `20cm Brake` | `Serial trigger`
+**Keywords:** `Distance alert` | `Threshold` | `Logic control`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-IF distance < 20cm brake command serial trigger.
+Map sensor distance values to coordinate alert alerts.
 
 ### Component Specifications
 * **Key Device:** Distance alert threshold
-* **Usage Parameter:** Distance alert / 20cm Brake / Serial trigger
+* **Usage Parameter:** Distance alert / Threshold / Logic control
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

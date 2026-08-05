@@ -1,9 +1,9 @@
-# Session 19: Servo Sweep sweep()
+# Session 19: Relay Switch Wiring
 
 **Class 4 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Servo Sweep sweep()](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
+![Relay Switch Wiring](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 19** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Servo motor shaft ko 0 to 180 degrees code sweep parameter c... |
+| **0-20 min** | Theory | Wiring electromagnetic relay switches safely.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Servo Sweep` | `0-180` | `Angle sweep`
+**Keywords:** `Relay Coil` | `Switch Isolation` | `Wiring`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Servo motor shaft ko 0 to 180 degrees code sweep parameter command.
+Wiring electromagnetic relay switches safely.
 
 ### Component Specifications
-* **Key Device:** Servo Sweep sweep()
-* **Usage Parameter:** Servo Sweep / 0-180 / Angle sweep
+* **Key Device:** Relay Switch Wiring
+* **Usage Parameter:** Relay Coil / Switch Isolation / Wiring
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Servo Sweep`?
+**Q2.** What is the purpose of `Relay Coil`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

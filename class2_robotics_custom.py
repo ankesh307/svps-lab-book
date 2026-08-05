@@ -30,6 +30,32 @@ def get_hand_svg(x, y, label="Press/Connect"):
 """
 
 def get_custom_session(num):
+    # Mapping table: new index -> original index
+    mapping = {
+        3: 3, # Battery Basics
+        4: 4, # Open & Closed
+        5: 5, # Series Circuit
+        6: 6, # Parallel Circuit
+        7: 7, # Push Button
+        8: 8, # Mini Torch
+        9: 9, # Buzzer Intro
+        10: 10, # Door Bell
+        11: 11, # Motor Intro
+        12: 12, # Propeller Fan
+        13: 14, # Gear Motor (originally 14)
+        14: 15, # Wheel Motion (originally 15)
+        15: 16, # Straight Line Challenge (originally 16)
+        16: 19, # Vibration Motor (originally 19)
+        17: 20, # Dancing Robot (originally 20)
+        18: 22, # Traffic Signal (originally 22)
+        19: 25, # Mini Car Model (originally 25)
+        20: 30, # Robotics Exhibition (originally 30)
+    }
+    mapped_num = mapping.get(num)
+    if not mapped_num:
+        return ""
+    num = mapped_num
+
     s1 = get_base64_image("kit_overview.jpg")
     
     # Session 3: Battery Basics

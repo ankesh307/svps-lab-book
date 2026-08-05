@@ -1,9 +1,9 @@
-# Session 19: Custom C++ libraries
+# Session 19: Object Detection with Python OpenCV
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Custom C++ libraries](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
+![Object Detection with Python OpenCV](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 19** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Uno import library directory structure check.... |
+| **0-20 min** | Theory | Setup simple color-tracking or face-tracking in Python.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Library directory` | `Import check` | `Uno lib`
+**Keywords:** `OpenCV` | `Object Tracking` | `Color Mask`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Uno import library directory structure check.
+Setup simple color-tracking or face-tracking in Python.
 
 ### Component Specifications
-* **Key Device:** Custom C++ libraries
-* **Usage Parameter:** Library directory / Import check / Uno lib
+* **Key Device:** Object Detection with Python OpenCV
+* **Usage Parameter:** OpenCV / Object Tracking / Color Mask
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Library directory`?
+**Q2.** What is the purpose of `OpenCV`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

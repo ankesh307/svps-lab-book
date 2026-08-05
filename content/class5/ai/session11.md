@@ -1,9 +1,9 @@
-# Session 11: String functions C++
+# Session 11: Data Logging to Excel/CSV
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![String functions C++](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Data Logging to Excel/CSV](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 11** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | length() find() substring() string parser functions.... |
+| **0-20 min** | Theory | Save sensor readings (temperature, soil moisture) from Ardui... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `length()` | `find()` | `substring()` | `String`
+**Keywords:** `Data Logger` | `Python csv` | `Excel logs`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-length() find() substring() string parser functions.
+Save sensor readings (temperature, soil moisture) from Arduino directly to Excel/CSV using Python.
 
 ### Component Specifications
-* **Key Device:** String functions C++
-* **Usage Parameter:** length() / find() / substring() / String
+* **Key Device:** Data Logging to Excel/CSV
+* **Usage Parameter:** Data Logger / Python csv / Excel logs
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `length()`?
+**Q2.** What is the purpose of `Data Logger`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

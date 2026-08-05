@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | if, elif, else indentation logic vs C++ braces.... |
+| **0-20 min** | Theory | Write if, elif, and else branching logic blocks.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Python Indentation` | `if-elif-else` | `Logic`
+**Keywords:** `Conditionals` | `if-else` | `Branching`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-if, elif, else indentation logic vs C++ braces.
+Write if, elif, and else branching logic blocks.
 
 ### Component Specifications
 * **Key Device:** Python Conditional statements
-* **Usage Parameter:** Python Indentation / if-elif-else / Logic
+* **Usage Parameter:** Conditionals / if-else / Branching
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Python Indentation`?
+**Q2.** What is the purpose of `Conditionals`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

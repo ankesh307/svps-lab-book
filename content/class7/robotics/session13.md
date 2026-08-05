@@ -1,9 +1,9 @@
-# Session 13: Gyro Stabilized Gimbal
+# Session 13: ESP-NOW Peer protocol
 
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Gyro Stabilized Gimbal](https://images.unsplash.com/photo-1517055720413-77a282b11dd9?w=800&auto=format&fit=crop&q=80)
+![ESP-NOW Peer protocol](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 13** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Tilt angle compensation mapping to 2-axis servos.... |
+| **0-20 min** | Theory | Establish connectionless low-latency communication between b... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Camera Gimbal` | `2-Axis` | `Stabilized`
+**Keywords:** `ESP-NOW` | `Peer connection` | `Bridge`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Tilt angle compensation mapping to 2-axis servos.
+Establish connectionless low-latency communication between boards.
 
 ### Component Specifications
-* **Key Device:** Gyro Stabilized Gimbal
-* **Usage Parameter:** Camera Gimbal / 2-Axis / Stabilized
+* **Key Device:** ESP-NOW Peer protocol
+* **Usage Parameter:** ESP-NOW / Peer connection / Bridge
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Camera Gimbal`?
+**Q2.** What is the purpose of `ESP-NOW`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

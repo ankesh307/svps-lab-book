@@ -1,9 +1,9 @@
-# Session 01: Blink logic frequency
+# Session 01: Introduction to mBlock 5 Interface
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Blink logic frequency](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
+![Introduction to mBlock 5 Interface](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 01** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | delay() block map calculation for millisecond frequency.... |
+| **0-20 min** | Theory | Tour the mBlock coding editor, stage, sprites, devices, and ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Blink Logic` | `delay()` | `Frequency`
+**Keywords:** `mBlock 5` | `Interface` | `Extensions`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-delay() block map calculation for millisecond frequency.
+Tour the mBlock coding editor, stage, sprites, devices, and extensions.
 
 ### Component Specifications
-* **Key Device:** Blink logic frequency
-* **Usage Parameter:** Blink Logic / delay() / Frequency
+* **Key Device:** Introduction to mBlock 5 Interface
+* **Usage Parameter:** mBlock 5 / Interface / Extensions
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Blink Logic`?
+**Q2.** What is the purpose of `mBlock 5`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

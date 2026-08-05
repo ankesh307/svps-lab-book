@@ -1,9 +1,9 @@
-# Session 16: Bambu Slicer Interface
+# Session 16: L298N H-Bridge Drive
 
 **Class 6 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Bambu Slicer Interface](https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&auto=format&fit=crop&q=80)
+![L298N H-Bridge Drive](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 16** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Import STL, CAD viewer, camera coordinates controls.... |
+| **0-20 min** | Theory | Configure high-current H-Bridge drivers for BO motors.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Bambu Studio` | `STL Import` | `CAD Viewer`
+**Keywords:** `L298N Driver` | `H-Bridge` | `Dual Motors`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Import STL, CAD viewer, camera coordinates controls.
+Configure high-current H-Bridge drivers for BO motors.
 
 ### Component Specifications
-* **Key Device:** Bambu Slicer Interface
-* **Usage Parameter:** Bambu Studio / STL Import / CAD Viewer
+* **Key Device:** L298N H-Bridge Drive
+* **Usage Parameter:** L298N Driver / H-Bridge / Dual Motors
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Bambu Studio`?
+**Q2.** What is the purpose of `L298N Driver`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

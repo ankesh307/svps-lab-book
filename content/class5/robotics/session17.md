@@ -1,9 +1,9 @@
-# Session 17: LiquidCrystal_I2C class
+# Session 17: Bluetooth Controlled Light/Appliance
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![LiquidCrystal_I2C class](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
+![Bluetooth Controlled Light/Appliance](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | LCD class initialize, print text, cursor update coordinates.... |
+| **0-20 min** | Theory | Use a phone app to control LEDs and relay via HC-05 bluetoot... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `LiquidCrystal_I2C` | `lcd.print()` | `setCursor`
+**Keywords:** `Bluetooth App` | `Smart Light` | `Relay Control`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-LCD class initialize, print text, cursor update coordinates.
+Use a phone app to control LEDs and relay via HC-05 bluetooth.
 
 ### Component Specifications
-* **Key Device:** LiquidCrystal_I2C class
-* **Usage Parameter:** LiquidCrystal_I2C / lcd.print() / setCursor
+* **Key Device:** Bluetooth Controlled Light/Appliance
+* **Usage Parameter:** Bluetooth App / Smart Light / Relay Control
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `LiquidCrystal_I2C`?
+**Q2.** What is the purpose of `Bluetooth App`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

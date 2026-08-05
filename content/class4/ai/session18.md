@@ -1,9 +1,9 @@
-# Session 18: Hand Gesture mappings
+# Session 18: mBlock Game: The AI Shield Catcher
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Hand Gesture mappings](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![mBlock Game: The AI Shield Catcher](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 18** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Left, Right hand states mapping serial commands.... |
+| **0-20 min** | Theory | Create a game where player catches falling space rocks using... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Hand Gestures` | `Serial Maps` | `Classification`
+**Keywords:** `AI Game` | `Webcam Shield` | `Head Tracker`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Left, Right hand states mapping serial commands.
+Create a game where player catches falling space rocks using head movements!
 
 ### Component Specifications
-* **Key Device:** Hand Gesture mappings
-* **Usage Parameter:** Hand Gestures / Serial Maps / Classification
+* **Key Device:** mBlock Game: The AI Shield Catcher
+* **Usage Parameter:** AI Game / Webcam Shield / Head Tracker
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Hand Gestures`?
+**Q2.** What is the purpose of `AI Game`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

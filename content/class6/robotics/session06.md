@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | WiFi.localIP() output print to Serial Monitor screen.... |
+| **0-20 min** | Theory | Retrieve the local IP address on serial monitor after connec... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `localIP()` | `IP Address` | `Serial Print`
+**Keywords:** `IP Address` | `Local IP` | `Serial Print`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-WiFi.localIP() output print to Serial Monitor screen.
+Retrieve the local IP address on serial monitor after connection.
 
 ### Component Specifications
 * **Key Device:** Printing IP Address
-* **Usage Parameter:** localIP() / IP Address / Serial Print
+* **Usage Parameter:** IP Address / Local IP / Serial Print
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `localIP()`?
+**Q2.** What is the purpose of `IP Address`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

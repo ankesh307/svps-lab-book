@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | 0.5mm clearance gap modeling for moving 3D parts.... |
+| **0-20 min** | Theory | Design mechanical moving joints with standard clearance marg... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `3D Hinge` | `Clearance` | `Moving Parts`
+**Keywords:** `Clearance` | `Hinge Joint` | `3D CAD`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-0.5mm clearance gap modeling for moving 3D parts.
+Design mechanical moving joints with standard clearance margins.
 
 ### Component Specifications
 * **Key Device:** 3D Hinge design logic
-* **Usage Parameter:** 3D Hinge / Clearance / Moving Parts
+* **Usage Parameter:** Clearance / Hinge Joint / 3D CAD
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `3D Hinge`?
+**Q2.** What is the purpose of `Clearance`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

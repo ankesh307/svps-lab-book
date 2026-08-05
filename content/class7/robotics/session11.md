@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | MPU6050 feedback filters loops for drone stability.... |
+| **0-20 min** | Theory | Reading yaw, pitch, roll angles using internal gyroscopes.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Stabilization` | `MPU6050 feedback` | `IMU`
+**Keywords:** `IMU Sensor` | `Gyro Pitch` | `Stabilization`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-MPU6050 feedback filters loops for drone stability.
+Reading yaw, pitch, roll angles using internal gyroscopes.
 
 ### Component Specifications
 * **Key Device:** Flight stabilization IMU
-* **Usage Parameter:** Stabilization / MPU6050 feedback / IMU
+* **Usage Parameter:** IMU Sensor / Gyro Pitch / Stabilization
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Stabilization`?
+**Q2.** What is the purpose of `IMU Sensor`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

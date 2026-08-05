@@ -1,9 +1,9 @@
-# Session 15: Hand gestures API map
+# Session 15: Speech Recognition in Python (Voice Commands)
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Hand gestures API map](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![Speech Recognition in Python (Voice Commands)](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 15** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Webcam gesture class string sent to serial COM.... |
+| **0-20 min** | Theory | Use Python speech-to-text to recognize voice commands.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Webcam gestures` | `String COM` | `Serial output`
+**Keywords:** `SpeechToText` | `Python Voice` | `Voice Parser`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Webcam gesture class string sent to serial COM.
+Use Python speech-to-text to recognize voice commands.
 
 ### Component Specifications
-* **Key Device:** Hand gestures API map
-* **Usage Parameter:** Webcam gestures / String COM / Serial output
+* **Key Device:** Speech Recognition in Python (Voice Commands)
+* **Usage Parameter:** SpeechToText / Python Voice / Voice Parser
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Webcam gestures`?
+**Q2.** What is the purpose of `SpeechToText`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

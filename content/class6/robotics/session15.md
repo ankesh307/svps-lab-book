@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Python reading serial input data stream dynamically.... |
+| **0-20 min** | Theory | Continuously poll and read incoming data on PC COM ports.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `serial.readline()` | `Python Serial` | `Stream`
+**Keywords:** `COM Read` | `Python Serial` | `COM monitor`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Python reading serial input data stream dynamically.
+Continuously poll and read incoming data on PC COM ports.
 
 ### Component Specifications
 * **Key Device:** Read Serial with Python
-* **Usage Parameter:** serial.readline() / Python Serial / Stream
+* **Usage Parameter:** COM Read / Python Serial / COM monitor
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `serial.readline()`?
+**Q2.** What is the purpose of `COM Read`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

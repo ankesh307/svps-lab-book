@@ -3,7 +3,7 @@
 **Class 4 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Variable Delay Speeds](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
+![Variable Delay Speeds](https://images.unsplash.com/photo-1565814636199-ae8133055c1c?w=800&auto=format&fit=crop&q=80)
 
 > **Session 07** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Delay block values modify karke state frequency change karo.... |
+| **0-20 min** | Theory | Modifying delay parameters to change blink frequencies.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Delay Block` | `Frequency` | `Timing`
+**Keywords:** `Delay Speeds` | `Blink frequency` | `Sketches`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Delay block values modify karke state frequency change karo.
+Modifying delay parameters to change blink frequencies.
 
 ### Component Specifications
 * **Key Device:** Variable Delay Speeds
-* **Usage Parameter:** Delay Block / Frequency / Timing
+* **Usage Parameter:** Delay Speeds / Blink frequency / Sketches
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Delay Block`?
+**Q2.** What is the purpose of `Delay Speeds`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

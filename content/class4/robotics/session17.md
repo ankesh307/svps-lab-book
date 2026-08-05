@@ -1,9 +1,9 @@
-# Session 17: Buzzer Frequency Vary
+# Session 17: SG90 Servo Wire Map
 
 **Class 4 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Buzzer Frequency Vary](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![SG90 Servo Wire Map](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 17** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Potentiometer values se tone frequency changes observe karo.... |
+| **0-20 min** | Theory | Signal (PWM), power (5V), and ground connection layouts.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Vary pitch` | `Buzzer pitch` | `Tone`
+**Keywords:** `Servo Wiring` | `SG90` | `PWM Pin`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Potentiometer values se tone frequency changes observe karo.
+Signal (PWM), power (5V), and ground connection layouts.
 
 ### Component Specifications
-* **Key Device:** Buzzer Frequency Vary
-* **Usage Parameter:** Vary pitch / Buzzer pitch / Tone
+* **Key Device:** SG90 Servo Wire Map
+* **Usage Parameter:** Servo Wiring / SG90 / PWM Pin
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Vary pitch`?
+**Q2.** What is the purpose of `Servo Wiring`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

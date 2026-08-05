@@ -13,7 +13,7 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Create channel fields, retrieve Write API key.... |
+| **0-20 min** | Theory | Create cloud channel fields and retrieve Write API Keys.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
@@ -25,7 +25,7 @@ Tier Curriculum | Connect Shiksha
 ## Theory (20 Minutes)
 
 ### Core Concept
-Create channel fields, retrieve Write API key.
+Create cloud channel fields and retrieve Write API Keys.
 
 ### Component Specifications
 * **Key Device:** ThingSpeak Channel API

@@ -1,9 +1,9 @@
-# Session 13: Teachable Machine model
+# Session 13: Webcam Gesture Controller
 
 **Class 5 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Teachable Machine model](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
+![Webcam Gesture Controller](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
 
 > **Session 13** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Exporting model file metadata JSON load process.... |
+| **0-20 min** | Theory | Map webcam gesture classifications in Python to control spri... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Teachable Machine` | `JSON load` | `Metadata`
+**Keywords:** `Webcam Gestures` | `Python OpenCV` | `Sprite Control`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Exporting model file metadata JSON load process.
+Map webcam gesture classifications in Python to control sprites or media.
 
 ### Component Specifications
-* **Key Device:** Teachable Machine model
-* **Usage Parameter:** Teachable Machine / JSON load / Metadata
+* **Key Device:** Webcam Gesture Controller
+* **Usage Parameter:** Webcam Gestures / Python OpenCV / Sprite Control
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Teachable Machine`?
+**Q2.** What is the purpose of `Webcam Gestures`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

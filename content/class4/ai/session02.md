@@ -1,9 +1,9 @@
-# Session 02: Speed control variables
+# Session 02: Sprite Movement & Loops in mBlock
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Speed control variables](https://images.unsplash.com/photo-1553406830-ef2513677491?w=800&auto=format&fit=crop&q=80)
+![Sprite Movement & Loops in mBlock](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 02** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Delay variable mapping logic parameter changes Uno.... |
+| **0-20 min** | Theory | Make sprites move, bounce, and run in loops using mBlock cod... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Delay Variable` | `Speed control` | `Uno`
+**Keywords:** `Sprite Motion` | `Loops` | `mBlock Coding`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Delay variable mapping logic parameter changes Uno.
+Make sprites move, bounce, and run in loops using mBlock coding blocks.
 
 ### Component Specifications
-* **Key Device:** Speed control variables
-* **Usage Parameter:** Delay Variable / Speed control / Uno
+* **Key Device:** Sprite Movement & Loops in mBlock
+* **Usage Parameter:** Sprite Motion / Loops / mBlock Coding
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Delay Variable`?
+**Q2.** What is the purpose of `Sprite Motion`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

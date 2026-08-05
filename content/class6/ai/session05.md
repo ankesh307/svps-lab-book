@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Serial port initialization python loop read.... |
+| **0-20 min** | Theory | Establishing communication links from Python scripts to COM ... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `PySerial` | `Port initialize` | `Read loop`
+**Keywords:** `PySerial` | `Serial Connect` | `Port Config`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Serial port initialization python loop read.
+Establishing communication links from Python scripts to COM ports.
 
 ### Component Specifications
 * **Key Device:** PySerial COM connection
-* **Usage Parameter:** PySerial / Port initialize / Read loop
+* **Usage Parameter:** PySerial / Serial Connect / Port Config
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

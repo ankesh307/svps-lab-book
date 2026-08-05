@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Python compiler setup path settings, VS Code integration.... |
+| **0-20 min** | Theory | Download, install, and setup environment variables for Pytho... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Python Install` | `VS Code` | `REPL`
+**Keywords:** `Python Setup` | `Path Config` | `Installation`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Python compiler setup path settings, VS Code integration.
+Download, install, and setup environment variables for Python.
 
 ### Component Specifications
 * **Key Device:** Python Installation
-* **Usage Parameter:** Python Install / VS Code / REPL
+* **Usage Parameter:** Python Setup / Path Config / Installation
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Python Install`?
+**Q2.** What is the purpose of `Python Setup`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

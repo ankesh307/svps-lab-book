@@ -1,9 +1,9 @@
-# Session 14: Keypad character matrix
+# Session 14: Cognitive Services (Emotion Detection)
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Keypad character matrix](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![Cognitive Services (Emotion Detection)](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 14** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Mapping matrix intersections to ASCII char outputs.... |
+| **0-20 min** | Theory | Change sprite costumes based on student's detected emotion (... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Keypad matrix` | `ASCII char` | `Intersections`
+**Keywords:** `Emotion Detection` | `Sprite Costumes` | `Interactive AI`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Mapping matrix intersections to ASCII char outputs.
+Change sprite costumes based on student's detected emotion (Happy/Sad).
 
 ### Component Specifications
-* **Key Device:** Keypad character matrix
-* **Usage Parameter:** Keypad matrix / ASCII char / Intersections
+* **Key Device:** Cognitive Services (Emotion Detection)
+* **Usage Parameter:** Emotion Detection / Sprite Costumes / Interactive AI
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Keypad matrix`?
+**Q2.** What is the purpose of `Emotion Detection`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

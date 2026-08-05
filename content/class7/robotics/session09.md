@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Lift, weight, thrust and drag forces physics.... |
+| **0-20 min** | Theory | Understand Lift, Thrust, Weight, and Drag flight aerodynamic... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Drone Lift` | `Forces of flight` | `Physics`
+**Keywords:** `Aerodynamics` | `Drone flight` | `Forces`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Lift, weight, thrust and drag forces physics.
+Understand Lift, Thrust, Weight, and Drag flight aerodynamics.
 
 ### Component Specifications
 * **Key Device:** Drone Lift & Aerodynamics
-* **Usage Parameter:** Drone Lift / Forces of flight / Physics
+* **Usage Parameter:** Aerodynamics / Drone flight / Forces
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Drone Lift`?
+**Q2.** What is the purpose of `Aerodynamics`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

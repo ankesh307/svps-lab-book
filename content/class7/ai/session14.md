@@ -3,7 +3,7 @@
 **Class 7 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Basic Auth verification](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
+![Basic Auth verification](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 14** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Basic Authentication header check web server.... |
+| **0-20 min** | Theory | Checking client base64 auth headers to allow server access.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Basic Auth` | `Security Header` | `Web Server`
+**Keywords:** `Basic Auth` | `Base64 login` | `HTTP security`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Basic Authentication header check web server.
+Checking client base64 auth headers to allow server access.
 
 ### Component Specifications
 * **Key Device:** Basic Auth verification
-* **Usage Parameter:** Basic Auth / Security Header / Web Server
+* **Usage Parameter:** Basic Auth / Base64 login / HTTP security
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

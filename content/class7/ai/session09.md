@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Quadcopter motors placement stability loops.... |
+| **0-20 min** | Theory | Map clockwise and counter-clockwise propeller forces.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Quadcopter stability` | `Torque cancel` | `Motor layout`
+**Keywords:** `Torque cancellation` | `CW/CCW map` | `Drone rotor`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Quadcopter motors placement stability loops.
+Map clockwise and counter-clockwise propeller forces.
 
 ### Component Specifications
 * **Key Device:** Drone torque cancellation
-* **Usage Parameter:** Quadcopter stability / Torque cancel / Motor layout
+* **Usage Parameter:** Torque cancellation / CW/CCW map / Drone rotor
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Quadcopter stability`?
+**Q2.** What is the purpose of `Torque cancellation`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

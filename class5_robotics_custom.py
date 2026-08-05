@@ -1,4 +1,35 @@
-# Session 01: Arduino Uno & Breadboard Prototyping 🔌
+import os
+import base64
+
+def get_base64_image(image_filename):
+    image_path = os.path.join("C:/Users/ankes/.gemini/antigravity/scratch/curriculum_app/images", image_filename)
+    if os.path.exists(image_path):
+        with open(image_path, "rb") as image_file:
+            encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
+            return f"data:image/png;base64,{encoded_string}"
+    return ""
+
+def get_hand_svg(x, y, label="Press/Connect"):
+    return f"""
+  <g transform="translate({x}, {y})">
+    <!-- Click Ripple Animation -->
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#ef4444" stroke-width="2">
+      <animate attributeName="r" values="6;22" dur="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#ef4444"/>
+    <!-- Pointing Hand Vector -->
+    <g transform="rotate(-30) translate(-10, -5)">
+      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+    </g>
+    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
+    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">{label}</text>
+  </g>
+"""
+
+def get_custom_session(num):
+    if num == 1:
+        return f"""# Session 01: Arduino Uno & Breadboard Prototyping 🔌
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
@@ -213,22 +244,7 @@ Power bridge connect karne ka tarika:
   <line x1="200" y1="115" x2="210" y2="115" stroke="#f59e0b" stroke-width="1.5"/>
   <line x1="180" y1="95" x2="180" y2="85" stroke="#f59e0b" stroke-width="1.5"/>
 
-  
-  <g transform="translate(150, 35)">
-    <!-- Click Ripple Animation -->
-    <circle cx="0" cy="0" r="12" fill="none" stroke="#ef4444" stroke-width="2">
-      <animate attributeName="r" values="6;22" dur="1.2s" repeatCount="indefinite"/>
-      <animate attributeName="stroke-opacity" values="1;0" dur="1.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="5" fill="#ef4444"/>
-    <!-- Pointing Hand Vector -->
-    <g transform="rotate(-30) translate(-10, -5)">
-      <path d="M 0 10 L 0 25 C 0 28, 4 30, 8 30 C 12 30, 14 28, 14 25 L 14 12 C 14 10, 16 9, 17 9 C 19 9, 20 11, 20 12 L 20 18 C 20 19, 22 18, 23 18 C 24 18, 25 19, 25 20 L 25 25 C 25 32, 17 35, 10 35 L 6 35 C 0 35, -5 30, -5 24 L -5 10 C -5 7, -2 5, 0 5 C 2 5, 5 7, 5 10 L 5 18 L 0 18 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
-    </g>
-    <rect x="-35" y="32" width="70" height="15" rx="3" fill="#ef4444"/>
-    <text x="0" y="42" font-size="8" font-weight="bold" fill="#ffffff" text-anchor="middle">Bridge +</text>
-  </g>
-
+  {get_hand_svg(150, 35, "Bridge +")}
 </svg>
 
 Live LED loop connection guidelines:
@@ -260,3 +276,5 @@ Live LED loop connection guidelines:
   *Answer:* Current limit control function. Resistor electricity flow voltage reduce karta hai taaki digital actuators safely operate ho sakein.
 * **Q3: Long leg check value cathode or anode parameters state?**  
   *Answer:* Long leg humesha Anode (+) positive direction link indicate karti hai aur short leg Cathode (-) ground connection indicate karti hai.
+"""
+    return ""

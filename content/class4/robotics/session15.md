@@ -13,7 +13,7 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Potentiometer rotary wiper se 0-1023 analog range read A0.... |
+| **0-20 min** | Theory | Read analog voltage from 10K Potentiometer (0-1023).... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
@@ -25,7 +25,7 @@ Tier Curriculum | Connect Shiksha
 ## Theory (20 Minutes)
 
 ### Core Concept
-Potentiometer rotary wiper se 0-1023 analog range read A0.
+Read analog voltage from 10K Potentiometer (0-1023).
 
 ### Component Specifications
 * **Key Device:** Potentiometer Dial A0

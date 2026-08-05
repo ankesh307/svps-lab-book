@@ -3,7 +3,7 @@
 **Class 7 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Multi-color Bambu Print](https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=800&auto=format&fit=crop&q=80)
+![Multi-color Bambu Print](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | AMS filament loading color settings inside slicer.... |
+| **0-20 min** | Theory | Slicing multi-color models and setting up filament changes.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `AMS Color` | `Bambu slicer` | `Filament change`
+**Keywords:** `Bambu Studio` | `Multi-color` | `AMS Setup`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-AMS filament loading color settings inside slicer.
+Slicing multi-color models and setting up filament changes.
 
 ### Component Specifications
 * **Key Device:** Multi-color Bambu Print
-* **Usage Parameter:** AMS Color / Bambu slicer / Filament change
+* **Usage Parameter:** Bambu Studio / Multi-color / AMS Setup
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `AMS Color`?
+**Q2.** What is the purpose of `Bambu Studio`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

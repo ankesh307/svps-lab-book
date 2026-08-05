@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Moments parsing center coordinates X/Y math.... |
+| **0-20 min** | Theory | Finding outline coordinate loops and drawing bounding shapes... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Contour center` | `cv2.moments` | `X/Y coordinates`
+**Keywords:** `Contours` | `cv2.findContours` | `Center coordinate`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Moments parsing center coordinates X/Y math.
+Finding outline coordinate loops and drawing bounding shapes.
 
 ### Component Specifications
 * **Key Device:** Contour tracking math
-* **Usage Parameter:** Contour center / cv2.moments / X/Y coordinates
+* **Usage Parameter:** Contours / cv2.findContours / Center coordinate
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Contour center`?
+**Q2.** What is the purpose of `Contours`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

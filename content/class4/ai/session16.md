@@ -1,9 +1,9 @@
-# Session 16: Teachable machine dataset
+# Session 16: mBlock IoT (Internet of Things) basics
 
 **Class 4 – AI TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Teachable machine dataset](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
+![mBlock IoT (Internet of Things) basics](https://images.unsplash.com/photo-1516116211223-5c359a36298a?w=800&auto=format&fit=crop&q=80)
 
 > **Session 16** | 80 Minutes | AI Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Webcam dataset loading categories labels.... |
+| **0-20 min** | Theory | Send messages to a local digital cloud board dashboard.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Teachable Machine` | `Dataset` | `Webcam Labels`
+**Keywords:** `IoT Basics` | `Cloud Message` | `Digital Dashboard`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Webcam dataset loading categories labels.
+Send messages to a local digital cloud board dashboard.
 
 ### Component Specifications
-* **Key Device:** Teachable machine dataset
-* **Usage Parameter:** Teachable Machine / Dataset / Webcam Labels
+* **Key Device:** mBlock IoT (Internet of Things) basics
+* **Usage Parameter:** IoT Basics / Cloud Message / Digital Dashboard
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -79,7 +79,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Teachable Machine`?
+**Q2.** What is the purpose of `IoT Basics`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

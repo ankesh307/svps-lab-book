@@ -1,9 +1,9 @@
-# Session 13: Serial Monitor begin()
+# Session 13: Keypad 4x4 Matrix Interface
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![Serial Monitor begin()](https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80)
+![Keypad 4x4 Matrix Interface](https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80)
 
 > **Session 13** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Serial.begin(9600) baud rate settings and print logs.... |
+| **0-20 min** | Theory | Read keystrokes from a membrane keypad and display them on t... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Serial.begin()` | `9600 Baud` | `print()`
+**Keywords:** `4x4 Keypad` | `Matrix Scanner` | `Keypad Library`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Serial.begin(9600) baud rate settings and print logs.
+Read keystrokes from a membrane keypad and display them on the serial monitor.
 
 ### Component Specifications
-* **Key Device:** Serial Monitor begin()
-* **Usage Parameter:** Serial.begin() / 9600 Baud / print()
+* **Key Device:** Keypad 4x4 Matrix Interface
+* **Usage Parameter:** 4x4 Keypad / Matrix Scanner / Keypad Library
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Serial.begin()`?
+**Q2.** What is the purpose of `4x4 Keypad`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

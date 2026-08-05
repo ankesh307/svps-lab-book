@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Button press detect karne par LED status toggle function cod... |
+| **0-20 min** | Theory | Toggle LED state with a button press using variables.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Toggle Light` | `Button Press` | `Logic`
+**Keywords:** `Button Toggle` | `LED State` | `State Variable`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Button press detect karne par LED status toggle function code.
+Toggle LED state with a button press using variables.
 
 ### Component Specifications
 * **Key Device:** Button Toggle Light
-* **Usage Parameter:** Toggle Light / Button Press / Logic
+* **Usage Parameter:** Button Toggle / LED State / State Variable
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -77,7 +77,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Toggle Light`?
+**Q2.** What is the purpose of `Button Toggle`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

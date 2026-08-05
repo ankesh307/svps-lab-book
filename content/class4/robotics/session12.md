@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | LDR analog readings ko plotter tool par graphical waves me t... |
+| **0-20 min** | Theory | Plot incoming sensor values visually in real time.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Serial Plotter` | `LDR sensor` | `Graph`
+**Keywords:** `Serial Plotter` | `Sensor Waves` | `Graph`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-LDR analog readings ko plotter tool par graphical waves me trace karo.
+Plot incoming sensor values visually in real time.
 
 ### Component Specifications
 * **Key Device:** Serial Plotter Readings
-* **Usage Parameter:** Serial Plotter / LDR sensor / Graph
+* **Usage Parameter:** Serial Plotter / Sensor Waves / Graph
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

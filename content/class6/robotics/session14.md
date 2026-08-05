@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | pip install pyserial installation command terminal.... |
+| **0-20 min** | Theory | Configure Python script serial bridge links to PC ports.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `PySerial` | `pip install` | `COM interface`
+**Keywords:** `PySerial` | `Serial Connect` | `Python port`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-pip install pyserial installation command terminal.
+Configure Python script serial bridge links to PC ports.
 
 ### Component Specifications
 * **Key Device:** PySerial Library Setup
-* **Usage Parameter:** PySerial / pip install / COM interface
+* **Usage Parameter:** PySerial / Serial Connect / Python port
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.

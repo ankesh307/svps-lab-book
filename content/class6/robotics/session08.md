@@ -3,7 +3,7 @@
 **Class 6 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![HTML response inside C++](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![HTML response inside C++](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80)
 
 > **Session 08** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | Serving basic HTML text files as HTTP responses.... |
+| **0-20 min** | Theory | Send complete HTML page templates dynamically from ESP8266.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `HTML inside C++` | `HTTP GET` | `Response`
+**Keywords:** `HTML Response` | `C++ Strings` | `Webpage template`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-Serving basic HTML text files as HTTP responses.
+Send complete HTML page templates dynamically from ESP8266.
 
 ### Component Specifications
 * **Key Device:** HTML response inside C++
-* **Usage Parameter:** HTML inside C++ / HTTP GET / Response
+* **Usage Parameter:** HTML Response / C++ Strings / Webpage template
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -85,7 +85,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `HTML inside C++`?
+**Q2.** What is the purpose of `HTML Response`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

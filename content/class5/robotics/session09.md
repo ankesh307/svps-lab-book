@@ -1,9 +1,9 @@
-# Session 09: analogRead C++ Syntax
+# Session 09: SG90 Servo Motor (Gate Control)
 
 **Class 5 – ROBOTICS TRACK**  
 Tier Curriculum | Connect Shiksha
 
-![analogRead C++ Syntax](https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80)
+![SG90 Servo Motor (Gate Control)](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80)
 
 > **Session 09** | 80 Minutes | ROBOTICS Track
 
@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | analogRead() function calibration, variables calculation.... |
+| **0-20 min** | Theory | Sweep the servo motor and use a button to open/close a garag... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `analogRead()` | `Calibration` | `Resolution`
+**Keywords:** `SG90 Servo` | `Sweep` | `Gate Control`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-analogRead() function calibration, variables calculation.
+Sweep the servo motor and use a button to open/close a garage gate.
 
 ### Component Specifications
-* **Key Device:** analogRead C++ Syntax
-* **Usage Parameter:** analogRead() / Calibration / Resolution
+* **Key Device:** SG90 Servo Motor (Gate Control)
+* **Usage Parameter:** SG90 Servo / Sweep / Gate Control
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ void loop() {
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `analogRead()`?
+**Q2.** What is the purpose of `SG90 Servo`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.

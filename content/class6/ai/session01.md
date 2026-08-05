@@ -13,23 +13,23 @@ Tier Curriculum | Connect Shiksha
 
 | Time | Activity | Focus |
 |:---|:---|:---|
-| **0-20 min** | Theory | pip packages managers, environment variables config.... |
+| **0-20 min** | Theory | Download and install Python, configuring PATH variables.... |
 | **20-65 min** | Practical Lab | Hands-on building and testing |
 | **65-75 min** | Debug & Fix | Troubleshoot and improve |
 | **75-80 min** | Quick Quiz | 3-question knowledge check |
 
-**Keywords:** `Python setup` | `pip packages` | `Variables config`
+**Keywords:** `Python Setup` | `Path Config` | `Environment`
 
 ---
 
 ## Theory (20 Minutes)
 
 ### Core Concept
-pip packages managers, environment variables config.
+Download and install Python, configuring PATH variables.
 
 ### Component Specifications
 * **Key Device:** Python installation setup
-* **Usage Parameter:** Python setup / pip packages / Variables config
+* **Usage Parameter:** Python Setup / Path Config / Environment
 
 ### Why it matters
 Understanding this technology helps build systems that make a real difference in automation, industrial control, smart homes, and autonomous robotics.
@@ -81,7 +81,7 @@ while True:
 
 **Q1.** Explain what you built today in your own words.
 
-**Q2.** What is the purpose of `Python setup`?
+**Q2.** What is the purpose of `Python Setup`?
 > Answer: It acts as the key parameter for control and calibration in today's setup.
 
 **Q3.** Name a real-world application of this session's project.
